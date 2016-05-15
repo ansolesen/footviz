@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chart</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<style>
+    path{
+        fill:none;
+        stroke:black;
+        stroke-width: 0.2em;
+    }
+</style>
+</head>
+<body>
+<script>
+    var outerWidth = 500;
+    var outerHeight = 250;
+    var margin = {left: 30, right: 30, top: 30, bottom: 30};
+    var innerWidth = outerWidth - margin.left - margin.right;
+    var innerHeight = outerHeight - margin.top - margin.bottom;
+
+
+    var circleRadius = 3;
+    var xColumn = "timestamp";
+    var yColumn = "temperature";
+
+    var xScale = d3.time.scale().range([0, innerWidth]);
+    var yScale = d3.scale.linear().range([innerHeight, 0]);
+
+    var svg = d3.select("body").append("svg")
+            .attr("height",outerHeight)
+            .attr("width",outerWidth);
+    var g = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    var path = g.append("path");
+
+    var line = d3.svg.line()
+            .x(function (d) {return xScale(d[xColumn]);})
+            .y(function (d) {return yScale(d[yColumn]);});
+
+
+    var xAxisG = g.append("g")
+            .attr("transform","translate(0,"+innerHeight+")");
+    var yAxisG = g.append("g");
+    var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+    var yAxis = d3.svg.axis().scale(yScale).orient("left");
+    xAxisG.call(xAxis);
+    yAxisG.call(yAxis);
+
+    function render(data) {
+        //calculate the domain
+        xScale.domain(d3.extent(data,function (d) {return d[xColumn];}));
+        yScale.domain(d3.extent(data,function (d) {return d[yColumn];}));
+        path.attr("d", line(data));
+
+    }
+
+    function type(d){
+        d.timestamp = new Date(d.timestamp);
+        d.temperature = +d.temperature;
+        return d;
+    }
+
+    d3.csv("tempData.csv",type,render);
+</script>
+</body>
+</html>

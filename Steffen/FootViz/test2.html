@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<!--<svg width="1000" height="1000">-->
+    <!--<g transform="translate(100,100)">-->
+        <!--<rect height="500" width="500" x="100" y="200" fill="green" stroke="blue" stroke-width="20"/>-->
+        <!--<circle r="100" cx="100" cy="200" fill="pink" stroke="green" stroke-width="10"/>-->
+        <!--<text x="0" y="0" fill="green">hej med jer</text>-->
+    <!--</g>-->
+    <!--<line x1="200" y1="200" x2="400" y2="500" stroke="black" stroke-width="5"/>-->
+    <!--<line x1="400" y1="500" stroke="black"x2="450"y2="300" stroke-width="5"/>-->
+    <!--<path d="M50 50 L100 100 L200 50" fill="none" stroke="black" stroke-width="2"/>-->
+<!--</svg>-->
+<script>
+var outerY = 1500;
+var outerX = 1000;
+var values = [{x:200,y:220}];
+
+
+function type(d) {
+    d.x = +d.x;
+    d.y = +d.y;
+    return d;
+}
+//var values = [
+//    {x:30,y:40},
+//    {x:30,y:50},
+//    {x:80,y:60},
+//    {x:30,y:70},
+//    {x:40,y:80},
+//    {x:60,y:90},
+//    {x:30,y:100}
+//
+//];
+var scaleX = d3.scale.linear()
+        .domain([-5250, 5250])
+        .range([0, 1500]);
+var scaleY =d3.scale.linear()
+        .domain([3400, -3400])
+        .range([0, 1000]);
+var scaleR = d3.scale.linear()
+        .domain([0, 20])
+        .range([0,10]);
+
+var scaleColor = d3.scale.category10();
+
+var svg = d3.select("body").append("svg")
+        .attr("height", outerX)
+        .attr("width", outerY);
+
+var field = d3.select("svg").append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", outerX)
+        .attr("width", outerY)
+        .attr("fill", "lightgreen");
+
+var player = d3.select("svg").append("circle");
+player
+        .attr("r", function () {
+            return scaleR(Math.floor(Math.random() * 40));
+        });
+
+d3.csv("Mappe1", function(error, data) {
+    data.forEach(function(d) {
+        d.x = parseInt(d.x);
+        d.y = parseInt(d.y);
+    });
+
+
+trans(player,values);
+function trans(player,values) {
+    for (var i=0;i<values.length;i++) {
+        player
+                .transition()
+                .delay(300*i)
+                .duration(200)
+                .attr("cx", function () {
+                    return scaleX(values[i].x);
+                })
+                .attr("cy", function () {
+                    return scaleY(values[i].y);
+                });
+    }
+
+}
+
+
+
+//function getColor(d) {
+//    if (d.shot==="Shot on target") {
+//        return "blue";
+//    }else if (d.shot=="Goal") {
+//        return "pink";
+//    }
+//    else {
+//        return "green";
+//    }
+//}
+
+function type(d){
+    d.x1 = +d.x1;
+    d.y1 = +d.y1;
+    d.x2 = +d.x2;
+    d.y2 = +d.y2;
+    d.x3 = +d.x3;
+    d.y3 = +d.y3;
+    d.x4 = +d.x4;
+    d.y4 = +d.y4;
+    d.x5 = +d.x5;
+    d.y5 = +d.y5;
+    d.x6 = +d.x6;
+    d.y6 = +d.y6;
+    return d;
+}
+//d3.csv("Mappe2.csv", type, render);
+</script>
+</body>
+</html>

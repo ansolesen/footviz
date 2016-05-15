@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<!--<svg width="1000" height="1000">-->
+    <!--<g transform="translate(100,100)">-->
+        <!--<rect height="500" width="500" x="100" y="200" fill="green" stroke="blue" stroke-width="20"/>-->
+        <!--<circle r="100" cx="100" cy="200" fill="pink" stroke="green" stroke-width="10"/>-->
+        <!--<text x="0" y="0" fill="green">hej med jer</text>-->
+    <!--</g>-->
+    <!--<line x1="200" y1="200" x2="400" y2="500" stroke="black" stroke-width="5"/>-->
+    <!--<line x1="400" y1="500" stroke="black"x2="450"y2="300" stroke-width="5"/>-->
+    <!--<path d="M50 50 L100 100 L200 50" fill="none" stroke="black" stroke-width="2"/>-->
+<!--</svg>-->
+<script>
+//    var xyValues = [
+//        {x:100 , y:200},
+//        {x:200, y:300},
+//        {x:300, y:400}
+//    ];
+//    xyValues.forEach(function (d) {
+//        console.log(d.x + "," + d.y);
+//    });
+
+
+//    d3.csv("Mappe1.csv",type, function (xyValues) {
+//        xyValues.forEach(function (d) {
+//            console.log(d.x + "," + d.y);
+//            console.log(d.x + d.y);
+//        });
+//    });
+//    function type(d) {
+//        d.x = +d.x;
+//        d.y = +d.y;
+//        return d;
+//    }
+
+//var scale = d3.scale.linear()
+//        .domain([0, 1])
+//        .range([0, 100]);
+//
+//console.log(scale(0));
+//console.log(scale(0.5));
+//console.log(scale(1));
+
+//var scale = d3.scale.ordinal()
+//        .domain(["A", "B", "C", "D"])
+//        .rangeRoundPoints([0, 100]);
+//console.log(scale("A"));
+//console.log(scale("B"));
+//console.log(scale("C"));
+//console.log(scale("D"));
+
+
+//var svg = d3.select("body").append("svg")
+//        .attr("width", 250)
+//        .attr("height", 250);
+//var rect = svg.append("rect")
+//        .attr("x", 50)
+//        .attr("y", 50)
+//        .attr("height", 50)
+//        .attr("width", 50)
+//        .attr("fill", "yellow")
+//        .attr("stroke", "green");
+//
+//var scale = d3.scale.linear()
+//        .domain([1, 8])
+//        .range([0, 200]);
+//
+//var svg = d3.select("body").append("svg")
+//        .attr("height", 500)
+//        .attr("width", 500);
+//
+//function render(data, color) {
+//    //bind data
+//    var rects = svg.selectAll("rect").data(data);
+//
+//    //enter face
+//    rects.enter().append("rect")
+//
+//    //update face
+//    rects
+//            .attr("x", scale)
+//            .attr("y", 50)
+//            .attr("width", 20)
+//            .attr("height", scale)
+//            .attr("fill", color);
+//    //exit face
+//    rects.exit().remove();
+//}
+
+
+//var scale = d3.scale.linear()
+//        .domain([-5000, 5000])
+//        .range([0, 200]);
+//
+//var svg = d3.select("body").append("svg")
+//        .attr("height", 1000)
+//        .attr("width", 1000);
+//
+//function render(data, color) {
+//    //bind data
+//    var rects = svg.selectAll("circle").data(data);
+//
+//    //enter face
+//    rects.enter().append("circle")
+//            .attr("r",10);
+//
+//    //update face
+//    rects
+//            .attr("cx", function(d) {
+//                return d.x;
+//            })
+//            .attr("cy", function(d) {
+//                return d.y;
+//            })
+//            .attr("fill", color);
+//    //exit face
+//    rects.exit().remove();
+//}
+//var data = [
+//    {x: 100, y: 200},
+//    {x: 120, y: 210},
+//    {x: 130, y: 220},
+//    {x: 140, y: 230},
+//    {x: 150, y: 240},
+//];
+//
+//function type(d){
+//    d.x = +d.x;
+//    d.y = +d.y;
+//    return d;
+//}
+//d3.csv("Mappe1.csv",type,function(data) {
+//    render(data, "green");
+//})
+
+//var scaleX = d3.scale.linear()
+//        .domain([-5250, 5250])
+//        .range([0, 1500]);
+//var scaleY =d3.scale.linear()
+//        .domain([3400, -3400])
+//        .range([0, 1000]);
+//
+//var svg = d3.select("body").append("svg")
+//        .attr("height", 1000)
+//        .attr("width", 1500);
+//
+//var field = d3.select("svg").append("rect")
+//        .attr("x", 0)
+//        .attr("y", 0)
+//        .attr("height", 1000)
+//        .attr("width", 1500)
+//        .attr("fill", "lightgreen");
+//
+//
+//
+//function render(data) {
+//    //bind data
+//    var player = svg.selectAll("circle").data(data);
+//
+//    //enter face
+//    player.enter().append("circle")
+//            .attr("r", 10)
+//            .attr("stroke", "black");
+//
+//    //update face
+//    player
+//            .attr("cx", 0)
+//            .attr("cy", 0)
+//            .transition()
+//            .delay(1000)
+//            .duration(2000)
+//            .attr("cx", function (d) {
+//                return scaleX(d.x);
+//            })
+//            .attr("cy", function (d) {
+//                return scaleY(d.y);
+//            })
+//            .attr("fill", getColor);
+//
+//    //exit face
+//    player.exit().remove();
+//}
+//function getColor(d) {
+//    if (d.shot==="Shot on target") {
+//        return "blue";
+//    }else if (d.shot=="Goal") {
+//        return "pink";
+//    }
+//    else {
+//        return "green";
+//    }
+//}
+//
+//function type(d){
+//    d.x = +d.x;
+//    d.y = +d.y;
+//    return d;
+//}
+//d3.csv("Mappe1.csv", type, render);
+
+var outerY = 1500;
+var outerX = 1000;
+
+var scaleX = d3.scale.linear()
+        .domain([-5250, 5250])
+        .range([0, 1500]);
+var scaleY =d3.scale.linear()
+        .domain([3400, -3400])
+        .range([0, 1000]);
+var scaleR = d3.scale.linear()
+        .domain([0, 20])
+        .range([0,10]);
+
+var scaleColor = d3.scale.category10();
+
+var svg = d3.select("body").append("svg")
+        .attr("height", outerX)
+        .attr("width", outerY);
+
+var field = d3.select("svg").append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", outerX)
+        .attr("width", outerY)
+        .attr("fill", "lightgreen");
+
+
+
+function render(data) {
+    //bind data
+    var player = svg.selectAll("circle").data(data);
+
+    //enter face
+    player.enter().append("circle")
+            .attr("stroke", "black");
+
+    //update face
+    player
+            .attr("r", function () {
+                return scaleR(Math.floor(Math.random() * 40));
+            })
+            .attr("cx", function () {
+                return scaleX(Math.floor(Math.random() * 5200));
+            })
+            .attr("cy", function () {
+                return scaleY(Math.floor(Math.random() * 3400));
+            })
+            .transition()
+            .delay(1000)
+            .duration(2000)
+            .attr("cx", function (d) {
+                return scaleX(d.x);
+            })
+            .attr("cy", function (d) {
+                return scaleY(d.y);
+            })
+            .attr("fill", function(d) {
+                return scaleColor(d.shot);
+            });
+
+    //exit face
+    player.exit().remove();
+
+}
+//function getColor(d) {
+//    if (d.shot==="Shot on target") {
+//        return "blue";
+//    }else if (d.shot=="Goal") {
+//        return "pink";
+//    }
+//    else {
+//        return "green";
+//    }
+//}
+
+function type(d){
+    d.x = +d.x;
+    d.y = +d.y;
+    return d;
+}
+d3.csv("Mappe1.csv", type, render);
+</script>
+</body>
+</html>
