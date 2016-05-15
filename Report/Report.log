@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  13 MAY 2016 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  15 MAY 2016 13:09
 entering extended mode
 **Report.tex
 (Report.tex
@@ -878,29 +878,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count170
- (Report.toc)
+ [1
+
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Report.toc)
 \tf@toc=\write5
-
-[1
-
-{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+ [2] [3]
 (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 14882 strings out of 493673
- 285833 string characters out of 3143966
- 418101 words of memory out of 3000000
- 18102 multiletter control sequences out of 15000+200000
- 14325 words of font info for 44 fonts, out of 3000000 for 9000
+ 14907 strings out of 493673
+ 286162 string characters out of 3143966
+ 419101 words of memory out of 3000000
+ 18124 multiletter control sequences out of 15000+200000
+ 19113 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,5n,42p,10375b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,42p,10375b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (2 pages, 70620 bytes).
+eX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfrm2074.pfb>
+Output written on Report.pdf (3 pages, 101751 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
