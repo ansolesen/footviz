@@ -24,30 +24,15 @@ function test() {
         d3.csv("data.csv", type, function (d) {
             dataWrapper(d);
         });
-
 }
-
-
-
-/*
-var LegendOptions=[];
-d3.csv("teams.csv", type, function (t) {
-    for (var i=0;i<teams.length;i++) {
-        LegendOptions.push(t[teams[i]].x);
-    }
-    d3.csv("data.csv", type, function (d) {
-        dataWrapper(d);
-    });
-});
-*/
-
 
 
 function Selecters() {
     var selectors = d3.select("body").append("selector")
+        .attr("id","selec")
         .attr("height","200px")
         .attr("width","200px")
-        .attr("z-index",1);
+        .attr("top","100px");
 
     var select = d3.select('selector')
         .append('select')
@@ -74,8 +59,6 @@ function Selecters() {
     function onchange() {
         chosenTeamsNames[0] = d3.select('.select').property('value');
         chosenTeamsIndex[0] = this.selectedIndex;
-        console.log(chosenTeamsIndex);
-        console.log(chosenTeamsNames);
         if (chosenTeamsIndex[0]!=null&&chosenTeamsIndex[1]!=null) {
             test();
         }
@@ -89,9 +72,6 @@ function Selecters() {
     }
 }
 
-
-
-
 function type(d){
     d.value = parseFloat(d.value);
     return d;
@@ -102,83 +82,13 @@ function dataWrapper(array) {
     for (var i=0; i<chosenTeamsIndex.length; i++) {
         var current = [];
         for (var k=chosenTeamsIndex[i]*NoVar; k<=(chosenTeamsIndex[i]*NoVar)+NoVar-1; k++) {
-            // console.log(array[k]);
-            // console.log("k:"+k);
-            // console.log("i"+i);
-            // console.log("teamstoshow max"+(teams[i]*NoVar+NoVar-1));
-            // console.log("teamstoshow"+teams[i]);
             current.push(array[k]);
         }
         data.push(current);
     }
-    // console.log(data);
-
-
-    console.log("whaaat");
     RadarChart.draw("#chart", data, mycfg);
     legdend();
-    // Selecters();
-
-    // console.log(LegendOptions);
 }
-
-
-
-
-
-// function dataWrapper(array) {
-//     var data = [];
-//     for (var i=0;i<array.length;i++) {
-//         var current = [];
-//         for (var k=i;k<NoVar+i;k++) {
-//             current.push(array[k]);
-//         }
-//         data.push(current);
-//         i += 4;
-//     }
-//
-//     RadarChart.draw("#chart", data, mycfg);
-//     legdend();
-//     console.log(LegendOptions);
-// }
-
-
-
-// function type(d){
-//     d.value = parseFloat(d.value);
-//     return d;
-// }
-// var dataArray = [];
-//
-// function load (files) {
-//     for (var i=0;i<files.length;i++) {
-//         d3.csv(files[i], type, function (d) {
-//
-//         });
-//     }
-//     d3.csv(name, type, function (d) {
-//         dataArray.push(d);
-//         load();
-//     });
-//
-// }
-//
-// d3.csv("data2.csv",type,function (d) {
-//     dataArray.push(d);
-//     d3.csv("data1.csv",type,function (t) {
-//         dataArray.push(t);
-//         RadarChart.draw("#chart", dataArray, mycfg);
-//         legdend();
-//     });
-// });
-
-
-
-
-//Legend titles
-
-//var LegendOptions = ['Bronby IF','AGF'];
-
 
 //Options for the Radar chart, other than default
 var mycfg = {
@@ -263,6 +173,7 @@ var yScale = d3.scale.linear().range([innerHeight, 0]);
 var svg2 = d3.select("body").append("svg")
     .attr("height", outerHeight)
     .attr("width", outerWidth);
+svg2.style.cssFloat = "right";
 var g2 = svg2.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 var xAxisG = g2.append("g")

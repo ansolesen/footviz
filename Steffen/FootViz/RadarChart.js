@@ -222,14 +222,6 @@ var RadarChart = {
                 .on('mouseover', function (d) {
                     newX = parseFloat(d3.select(this).attr('cx')) - 10;
                     newY = parseFloat(d3.select(this).attr('cy')) - 5;
-
-                    // tooltip
-                    //     .attr('x', newX)
-                    //     .attr('y', newY)
-                    //     .text(Format(d.value))
-                    //     .transition(200)
-                    //     .style('opacity', 1);
-
                     z = "polygon." + d3.select(this).attr("class");
                     g.selectAll("polygon")
                         .transition(200)
@@ -239,9 +231,6 @@ var RadarChart = {
                         .style("fill-opacity", .7);
                 })
                 .on('mouseout', function () {
-                    // tooltip
-                    //     .transition(200)
-                    //     .style('opacity', 0);
                     g.selectAll("polygon")
                         .transition(200)
                         .style("fill-opacity", cfg.opacityArea);
@@ -250,24 +239,13 @@ var RadarChart = {
                 .text(function (j) {
                     return Math.max(j.value, 0)
                 });
-
-
             series++;
         });
-        //Tooltip
-        // tooltip = g.append('text')
-        //     .style('opacity', 0)
-        //     .style('font-family', 'sans-serif')
-        //     .style('font-size', '13px');
-
-
 
         function drawBar(axis, team, LegendOptions) {
             var yColumn = axis;
             var teamNo = parseInt(team.slice(-1));
-            console.log(teamNo);
             team = LegendOptions[teamNo];
-            console.log(team);
 
             function render(data) {
                 data = data.sort(function (a, b) {
@@ -285,8 +263,7 @@ var RadarChart = {
                     .attr("dx", "-.8em")
                     .attr("dy", ".15em")
                     .attr("transform", "rotate(-65)");
-
-                yAxisLabel
+                    yAxisLabel
                     .attr("class", "label")
                     .text(axis+" in %");
                 yAxisG.call(yAxis);
@@ -322,8 +299,6 @@ var RadarChart = {
                 d.population = +d.population;
                 return d;
             }
-
-
             d3.csv("data2.csv", type, render)
         }
     }
