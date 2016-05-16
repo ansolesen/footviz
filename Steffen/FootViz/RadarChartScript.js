@@ -246,3 +246,27 @@ function legdend() {
         .text(function(d) { return d; })
     ;
 }
+var outerWidth = 1600;
+var outerHeight = 600;
+var margin = {left: 1000, right: 30, top: 200, bottom: 120};
+var innerWidth = outerWidth - margin.left - margin.right;
+var innerHeight = outerHeight - margin.top - margin.bottom;
+var barPadding = 0.2;
+
+
+var xColumn = "Teams";
+
+var xScale = d3.scale.ordinal().rangeBands([0, innerWidth], barPadding);
+var yScale = d3.scale.linear().range([innerHeight, 0]);
+
+var svg2 = d3.select("body").append("svg")
+    .attr("height", outerHeight)
+    .attr("width", outerWidth);
+var g2 = svg2.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var xAxisG = g2.append("g")
+    .attr("transform", "translate(0," + innerHeight + ")");
+var yAxisG = g2.append("g");
+
+var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+var yAxis = d3.svg.axis().scale(yScale).orient("left");

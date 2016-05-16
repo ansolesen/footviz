@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  16 MAY 2016 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  16 MAY 2016 15:20
 entering extended mode
 **Report.tex
 (Report.tex
@@ -891,26 +891,27 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
- [4] [5] (Report.aux) ) 
+ [4] (Report.bbl)
+[5] [6] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 14924 strings out of 493673
- 286449 string characters out of 3143966
+ 14928 strings out of 493673
+ 286478 string characters out of 3143966
  419101 words of memory out of 3000000
- 18138 multiletter control sequences out of 15000+200000
+ 18139 multiletter control sequences out of 15000+200000
  19113 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,7n,42p,10375b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm
--super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/cm-super/sfrm2074.pfb>
-Output written on Report.pdf (5 pages, 120339 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-
+super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfrm2074.pfb>
+Output written on Report.pdf (6 pages, 122539 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
