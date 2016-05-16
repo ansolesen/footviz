@@ -25,9 +25,10 @@ var RadarChart = {
             TranslateY: 30,
             ExtraWidthX: 100,
             ExtraWidthY: 100,
-            color: d3.scale.category10()
+            color: d3.scale.category10(),
+            chosenTeams:null
         };
-        d3.select(id).selectAll("svg").remove();
+        // d3.select(id).selectAll("svg").remove();
         if ('undefined' !== typeof options) {
             for (var i in options) {
                 if ('undefined' !== typeof options[i]) {
@@ -54,7 +55,7 @@ var RadarChart = {
             .attr("height", cfg.h + cfg.ExtraWidthY)
             .append("g")
             .attr("transform", "translate(" + cfg.TranslateX + "," + cfg.TranslateY + ")")
-        ;
+            ;
 
         var tooltip;
 
@@ -217,7 +218,7 @@ var RadarChart = {
                 })
                 .style("fill", cfg.color(series)).style("fill-opacity", .9)
                 .on('click', function (t) {
-                    drawBar(t.axis,d3.select(this).attr("class"),LegendOptions);
+                    drawBar(t.axis, d3.select(this).attr("class"), cfg.chosenTeams);
                 })
                 .on('mouseover', function (d) {
                     newX = parseFloat(d3.select(this).attr('cx')) - 10;
@@ -274,7 +275,7 @@ var RadarChart = {
 
         var svg2 = d3.select("body").append("svg")
             .attr("height", outerHeight)
-            .attr("width", outerWidth)
+            .attr("width", outerWidth);
         var g2 = svg2.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         var xAxisG = g2.append("g")
@@ -283,14 +284,17 @@ var RadarChart = {
 
         var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
         var yAxis = d3.svg.axis().scale(yScale).orient("left");
-        function drawBar(axis,team,LegendOptions) {
+
+        function drawBar(axis, team, LegendOptions) {
+            console.log(team);
             var yColumn = axis;
             var teamNo = parseInt(team.slice(-1));
+            console.log(teamNo);
             team = LegendOptions[teamNo];
-            console.log(team.x);
+            console.log(team);
 
             function render(data) {
-                data = data.sort(function(a,b) {
+                data = data.sort(function (a, b) {
                     return d3.descending(a[axis], b[axis]);
                 });
                 //calculate the domain
@@ -304,7 +308,7 @@ var RadarChart = {
                     .style("text-anchor", "end")
                     .attr("dx", "-.8em")
                     .attr("dy", ".15em")
-                    .attr("transform", "rotate(-65)" );
+                    .attr("transform", "rotate(-65)");
                 yAxisG.call(yAxis);
                 //bind
                 var bars = g2.selectAll("rect").data(data);
@@ -316,14 +320,14 @@ var RadarChart = {
                         return xScale(d[xColumn])
                     })
                     .attr("y", function (d) {
-                        return yScale(d[yColumn]*100)
+                        return yScale(d[yColumn] * 100)
                     })
                     .attr("width", xScale.rangeBand())
                     .attr("height", function (d) {
-                        return innerHeight - yScale(d[yColumn]*100)
+                        return innerHeight - yScale(d[yColumn] * 100)
                     })
-                    .attr("fill",function (d) {
-                        if (d.Teams==team) {
+                    .attr("fill", function (d) {
+                        if (d.Teams == team) {
                             return colorscale(teamNo);
                         }
                         else {
@@ -344,4 +348,4 @@ var RadarChart = {
         }
     }
 
-}
+};

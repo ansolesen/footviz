@@ -24,18 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RadarChart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5368">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="barChart.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/barChart.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RadarChart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="220" column="84" selection-start-line="220" selection-start-column="84" selection-end-line="220" selection-end-column="84" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="-571">
+              <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -118,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
@@ -161,6 +161,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/RadarChart.js" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js" />
+        <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js" />
       </list>
     </option>
   </component>
@@ -244,7 +246,7 @@
       <recent name="C:\Users\SBK\WebstormProjects\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.RadarChart.html">
+  <component name="RunManager" selected="Node.js.script.js">
     <configuration default="false" name="barChart.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/test/barChart.html">
       <method />
     </configuration>
@@ -326,8 +328,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.script.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Blocks.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.barChart.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
@@ -353,12 +355,12 @@
       <workItem from="1462277175666" duration="20106000" />
       <workItem from="1462878149591" duration="19304000" />
       <workItem from="1463036236966" duration="25842000" />
-      <workItem from="1463309119237" duration="1168000" />
+      <workItem from="1463309119237" duration="6555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81306000" />
+    <option name="totallyTimeSpent" value="86693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,14 +372,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.49788582" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20296465" sideWeight="0.50422835" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30777904" sideWeight="0.49577168" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30699775" sideWeight="0.49577168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -387,7 +390,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -795,6 +797,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/Field.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -803,31 +813,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5368">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="601">
+          <caret line="220" column="84" selection-start-line="220" selection-start-column="84" selection-end-line="220" selection-end-column="84" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-571">
+          <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

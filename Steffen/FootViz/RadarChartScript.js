@@ -5,21 +5,44 @@ var w = 700,
     h = 500;
 var NoVar = 5;
 var colorscale = d3.scale.category10();
-var teamsToshow = [0,1,2,3,4,5,6,7,8,9,10,11];
+var teams = [0,1,2,3,4,5,6,7,8,9,10,11];
+var chosenTeamsIndex = [];
+var chosenTeamsNames = [];
+
 
 
 var LegendOptions=[];
 d3.csv("teams.csv", type, function (t) {
-    for (var i=0;i<teamsToshow.length;i++) {
-        LegendOptions.push(t[teamsToshow[i]].x);
+    for (var i = 0; i < teams.length; i++) {
+        LegendOptions.push(t[teams[i]].x);
+    }
+    Selecters();
+});
+
+function test() {
+    console.log(chosenTeamsIndex);
+        d3.csv("data.csv", type, function (d) {
+            dataWrapper(d);
+        });
+
+}
+
+
+
+/*
+var LegendOptions=[];
+d3.csv("teams.csv", type, function (t) {
+    for (var i=0;i<teams.length;i++) {
+        LegendOptions.push(t[teams[i]].x);
     }
     d3.csv("data.csv", type, function (d) {
         dataWrapper(d);
     });
 });
+*/
 
 
-var chosenTeams = [2];
+
 function Selecters() {
     var selectors = d3.select("body").append("selector")
         .attr("height","200px")
@@ -29,12 +52,12 @@ function Selecters() {
     var select = d3.select('selector')
         .append('select')
         .attr('class', 'select')
-        .on('change', onchange());
+        .on('change', onchange);
 
     var select2 = d3.select('selector')
         .append('select')
         .attr('class', 'select2')
-        .on('change', onchange2());
+        .on('change', onchange2);
 
     var options2 = select2
         .selectAll('option')
@@ -49,21 +72,21 @@ function Selecters() {
         .text(function (d) { return d; });
 
     function onchange() {
-        console.log("hej med jer");
-        // chosenTeams[0] = this.selectedIndex;
-        // if (chosenTeams[0]!=null&&chosenTeams[1]!=null) {
-        //     RadarChart.draw("#chart", chosenTeams, mycfg);
-        // }
+        chosenTeamsNames[0] = d3.select('.select').property('value');
+        chosenTeamsIndex[0] = this.selectedIndex;
+        console.log(chosenTeamsIndex);
+        console.log(chosenTeamsNames);
+        if (chosenTeamsIndex[0]!=null&&chosenTeamsIndex[1]!=null) {
+            test();
+        }
     }
     function onchange2() {
-        console.log("hej");
-        // chosenTeams[1] = this.selectedIndex;
-        // if (chosenTeams[0]!=null&&chosenTeams[1]!=null) {
-        //     RadarChart.draw("#chart", chosenTeams, mycfg);
-        // }
+        chosenTeamsNames[1] = d3.select('.select2').property('value');
+        chosenTeamsIndex[1] = this.selectedIndex;
+        if (chosenTeamsIndex[0]!=null&&chosenTeamsIndex[1]!=null) {
+            test();
+        }
     }
-
-
 }
 
 
@@ -76,27 +99,27 @@ function type(d){
 
 function dataWrapper(array) {
     var data = [];
-    for (var i=0;i<teamsToshow.length;i++) {
+    for (var i=0; i<chosenTeamsIndex.length; i++) {
         var current = [];
-        for (var k=teamsToshow[i]*NoVar;k<=(teamsToshow[i]*NoVar)+NoVar-1;k++) {
-            console.log(array[k]);
-            console.log("k:"+k);
-            console.log("i"+i);
-            console.log("teamstoshow max"+(teamsToshow[i]*NoVar+NoVar-1));
-            console.log("teamstoshow"+teamsToshow[i]);
+        for (var k=chosenTeamsIndex[i]*NoVar; k<=(chosenTeamsIndex[i]*NoVar)+NoVar-1; k++) {
+            // console.log(array[k]);
+            // console.log("k:"+k);
+            // console.log("i"+i);
+            // console.log("teamstoshow max"+(teams[i]*NoVar+NoVar-1));
+            // console.log("teamstoshow"+teams[i]);
             current.push(array[k]);
         }
         data.push(current);
     }
-    console.log(data);
+    // console.log(data);
 
 
-
+    console.log("whaaat");
     RadarChart.draw("#chart", data, mycfg);
     legdend();
-    Selecters();
+    // Selecters();
 
-    console.log(LegendOptions);
+    // console.log(LegendOptions);
 }
 
 
@@ -166,7 +189,7 @@ var mycfg = {
     ExtraWidthX: 300,
     color: colorscale,
     radius: 7,
-    LegendOptions: LegendOptions
+    chosenTeams:chosenTeamsNames
 };
 
 //Call function to draw the Radar chart
@@ -202,7 +225,7 @@ function legdend() {
         ;
 //Create colour squares
     legend.selectAll('rect')
-        .data(LegendOptions)
+        .data(chosenTeamsNames)
         .enter()
         .append("rect")
         .attr("x", w - 65)
@@ -213,7 +236,7 @@ function legdend() {
     ;
 //Create text next to squares
     legend.selectAll('text')
-        .data(LegendOptions)
+        .data(chosenTeamsNames)
         .enter()
         .append("text")
         .attr("x", w - 52)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  15 MAY 2016 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  16 MAY 2016 12:26
 entering extended mode
 **Report.tex
 (Report.tex
@@ -880,9 +880,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c__siunitx_mathtt_int=\count170
  [1
 
-{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Report.toc)
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (Report.t
+oc)
 \tf@toc=\write5
- [2]
+ [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -890,7 +891,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
- [3] [4] (Report.aux) ) 
+ [4] [5] (Report.aux) ) 
 Here is how much of TeX's memory you used:
  14924 strings out of 493673
  286449 string characters out of 3143966
@@ -907,9 +908,9 @@ Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/cm-super/sfrm2074.pfb>
-Output written on Report.pdf (4 pages, 116647 bytes).
+Output written on Report.pdf (5 pages, 120339 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
