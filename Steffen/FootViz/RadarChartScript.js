@@ -252,6 +252,7 @@ var margin = {left: 1000, right: 30, top: 200, bottom: 120};
 var innerWidth = outerWidth - margin.left - margin.right;
 var innerHeight = outerHeight - margin.top - margin.bottom;
 var barPadding = 0.2;
+var yAxisLabelOffset = 50;
 
 
 var xColumn = "Teams";
@@ -270,3 +271,7 @@ var yAxisG = g2.append("g");
 
 var xAxis = d3.svg.axis().scale(xScale).orient("bottom");
 var yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+var yAxisLabel = yAxisG.append("text")
+    .style("text-anchor", "middle")
+    .attr("transform", "translate(-" + yAxisLabelOffset + "," + (innerHeight / 2) + ") rotate(-90)");

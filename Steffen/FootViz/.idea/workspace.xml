@@ -37,8 +37,8 @@
       <file leaf-file-name="RadarChart.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+            <state relative-caret-position="749">
+              <caret line="281" column="22" selection-start-line="281" selection-start-column="16" selection-end-line="281" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="271" column="55" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
+            <state relative-caret-position="721">
+              <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -63,6 +63,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
               <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -88,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/data.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1320">
@@ -113,16 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="25" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +161,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/RadarChart.js" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html" />
         <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js" />
         <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js" />
       </list>
@@ -355,12 +356,12 @@
       <workItem from="1462277175666" duration="20106000" />
       <workItem from="1462878149591" duration="19304000" />
       <workItem from="1463036236966" duration="25842000" />
-      <workItem from="1463309119237" duration="7562000" />
+      <workItem from="1463309119237" duration="10491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87700000" />
+    <option name="totallyTimeSpent" value="90629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/teams.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/data1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -773,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -789,10 +774,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="748">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/teams.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -805,31 +814,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="271" column="55" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+        <state relative-caret-position="749">
+          <caret line="281" column="22" selection-start-line="281" selection-start-column="16" selection-end-line="281" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/data.csv">
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="721">
+          <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

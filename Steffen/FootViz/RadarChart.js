@@ -263,7 +263,6 @@ var RadarChart = {
 
 
         function drawBar(axis, team, LegendOptions) {
-            console.log(team);
             var yColumn = axis;
             var teamNo = parseInt(team.slice(-1));
             console.log(teamNo);
@@ -286,6 +285,10 @@ var RadarChart = {
                     .attr("dx", "-.8em")
                     .attr("dy", ".15em")
                     .attr("transform", "rotate(-65)");
+
+                yAxisLabel
+                    .attr("class", "label")
+                    .text(axis+" in %");
                 yAxisG.call(yAxis);
                 //bind
                 var bars = g2.selectAll("rect").data(data);
