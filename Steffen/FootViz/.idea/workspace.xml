@@ -37,8 +37,8 @@
       <file leaf-file-name="RadarChart.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="247" column="41" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
+            <state relative-caret-position="-2552">
+              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RadarChartScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RadarChart.html" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="110">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -161,9 +161,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/RadarChart.js" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html" />
         <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js" />
         <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js" />
+        <option value="$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html" />
       </list>
     </option>
   </component>
@@ -247,7 +247,7 @@
       <recent name="C:\Users\SBK\WebstormProjects\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
+  <component name="RunManager">
     <configuration default="false" name="barChart.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/test/barChart.html">
       <method />
     </configuration>
@@ -329,8 +329,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.script.js" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Blocks.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.barChart.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
@@ -356,12 +356,12 @@
       <workItem from="1462277175666" duration="20106000" />
       <workItem from="1462878149591" duration="19304000" />
       <workItem from="1463036236966" duration="25842000" />
-      <workItem from="1463309119237" duration="12094000" />
+      <workItem from="1463309119237" duration="13346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92232000" />
+    <option name="totallyTimeSpent" value="93484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +373,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -381,7 +381,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20296465" sideWeight="0.50422835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30699775" sideWeight="0.49577168" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30699775" sideWeight="0.49577168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -798,6 +798,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2552">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
@@ -808,29 +828,9 @@
     </entry>
     <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="247" column="41" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/SkyDrive/Dokumenter/GitHub/footviz/Steffen/FootViz/RadarChartScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
