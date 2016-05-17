@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  17 MAY 2016 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  17 MAY 2016 13:18
 entering extended mode
 **DesignProces.tex
 (DesignProces.tex
@@ -879,24 +879,51 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count168
- [1
+ <./Figures/Iterative.png, id=1, 927.465pt x 575.90157pt>
+File: ./Figures/Iterative.png Graphic file (type png)
 
-{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(DesignProces.aux) ) 
+<use ./Figures/Iterative.png>
+Package pdftex.def Info: ./Figures/Iterative.png used on input line 9.
+(pdftex.def)             Requested size: 370.97943pt x 230.35654pt.
+
+
+LaTeX Warning: Citation `Guo' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Guo' on page 1 undefined on input line 10.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+
+
+LaTeX Warning: Citation `Guo' on page 1 undefined on input line 24.
+
+[1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <./Figures/Iterative.png>] (DesignProces.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14862 strings out of 493673
- 286022 string characters out of 3143966
- 417042 words of memory out of 3000000
- 18105 multiletter control sequences out of 15000+200000
- 4702 words of font info for 16 fonts, out of 3000000 for 9000
+ 14896 strings out of 493673
+ 286574 string characters out of 3143966
+ 420058 words of memory out of 3000000
+ 18132 multiletter control sequences out of 15000+200000
+ 5735 words of font info for 18 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,5n,44p,10421b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-su
-per-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pf
-b>
-Output written on DesignProces.pdf (1 page, 14832 bytes).
+ 47i,7n,44p,10421b,559s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on DesignProces.pdf (1 page, 137345 bytes).
 PDF statistics:
- 11 PDF objects out of 1000 (max. 8388607)
+ 22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

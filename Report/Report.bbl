@@ -1,8 +1,8 @@
-\begin{thebibliography}{MM15}
+\begin{thebibliography}{Guo12}
 
-\bibitem[MM15]{Tamara}
-Tamara Munzner and Eamonn Maguire.
-\newblock {\em Visualization analysis and design}.
-\newblock CRC Press, Boca Raton, FL, 2015.
+\bibitem[Guo12]{Guo}
+Philip~Jia Guo.
+\newblock {\em Data Science Workflow: Overview and Challenges}.
+\newblock PhD thesis, Stanford University, 2012.
 
 \end{thebibliography}
