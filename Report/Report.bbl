@@ -1,3 +1,8 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{MM15}
+
+\bibitem[MM15]{Tamara}
+Tamara Munzner and Eamonn Maguire.
+\newblock {\em Visualization analysis and design}.
+\newblock CRC Press, Boca Raton, FL, 2015.
 
 \end{thebibliography}
