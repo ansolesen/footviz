@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  17 MAY 2016 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  18 MAY 2016 12:25
 entering extended mode
 **"Facets and View Manipulation.tex"
 ("Facets and View Manipulation.tex"
@@ -880,24 +880,53 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count168
+
+
+LaTeX Warning: Citation `Tamara' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Tamara' on page 1 undefined on input line 8.
+
+<./Figures/Highlighted.png, id=1, 815.045pt x 527.9725pt>
+File: ./Figures/Highlighted.png Graphic file (type png)
+
+<use ./Figures/Highlighted.png>
+Package pdftex.def Info: ./Figures/Highlighted.png used on input line 11.
+(pdftex.def)             Requested size: 326.01222pt x 211.18526pt.
  [1
 
 {C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("Facets and View Manipulation.aux") ) 
+<./Figures/"Small multiples".png, id=9, 1042.64531pt x 680.5425pt>
+File: ./Figures/"Small multiples".png Graphic file (type png)
+
+<use ./Figures/"Small multiples".png>
+Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
+
+(pdftex.def)             Requested size: 312.796pt x 204.16432pt.
+
+
+LaTeX Warning: Citation `Tamara' on page 2 undefined on input line 29.
+
+[2 <./Figures/Highlighted.png>] [3 <./Figures/Small multiples.png>]
+("Facets and View Manipulation.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14862 strings out of 493673
- 286186 string characters out of 3143966
- 417076 words of memory out of 3000000
- 18105 multiletter control sequences out of 15000+200000
- 4702 words of font info for 16 fonts, out of 3000000 for 9000
+ 14884 strings out of 493673
+ 286635 string characters out of 3143966
+ 422076 words of memory out of 3000000
+ 18122 multiletter control sequences out of 15000+200000
+ 5478 words of font info for 17 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,5n,44p,10439b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
-ips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
--super/sfrm1200.pfb>
-Output written on "Facets and View Manipulation.pdf" (1 page, 13060 bytes).
+ 47i,8n,44p,10439b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "Facets and View Manipulation.pdf" (3 pages, 91822 bytes).
 PDF statistics:
- 11 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

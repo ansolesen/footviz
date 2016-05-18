@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  17 MAY 2016 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  18 MAY 2016 12:26
 entering extended mode
 **Report.tex
 (Report.tex
@@ -893,42 +893,56 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 oc)
 \tf@toc=\write5
  [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(Introduction.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
- (DesignProces.tex
-<./Figures/Iterative.png, id=16, 927.465pt x 575.90157pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+)
+(DesignProces.tex <./Figures/Iterative.png, id=16, 927.465pt x 575.90157pt>
 File: ./Figures/Iterative.png Graphic file (type png)
 
 <use ./Figures/Iterative.png>
 Package pdftex.def Info: ./Figures/Iterative.png used on input line 9.
 (pdftex.def)             Requested size: 370.97943pt x 230.35654pt.
- [4]) ("Facets and View Manipulation.tex")
-[5 <./Figures/Iterative.png>] (Report.bbl) [6] (Report.aux) ) 
+ [4]) ("Facets and View Manipulation.tex" [5 <./Figures/Iterative.png>]
+<./Figures/Highlighted.png, id=27, 815.045pt x 527.9725pt>
+File: ./Figures/Highlighted.png Graphic file (type png)
+
+<use ./Figures/Highlighted.png>
+Package pdftex.def Info: ./Figures/Highlighted.png used on input line 11.
+(pdftex.def)             Requested size: 326.01222pt x 211.18526pt.
+ [6] [7 <./Figures/Highlighted.png>]
+<./Figures/"Small multiples".png, id=36, 1042.64531pt x 680.5425pt>
+File: ./Figures/"Small multiples".png Graphic file (type png)
+
+<use ./Figures/"Small multiples".png>
+Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
+
+(pdftex.def)             Requested size: 312.796pt x 204.16432pt.
+) (Report.bbl [8 <./Figures/Small multiples.png>]) [9] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 14985 strings out of 493673
- 287585 string characters out of 3143966
- 420787 words of memory out of 3000000
- 18180 multiletter control sequences out of 15000+200000
+ 15001 strings out of 493673
+ 287972 string characters out of 3143966
+ 421787 words of memory out of 3000000
+ 18191 multiletter control sequences out of 15000+200000
  19797 words of font info for 63 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,7n,42p,10375b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1
-200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Report.pdf (6 pages, 254273 bytes).
+ 38i,8n,42p,10375b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Progra
+m Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm14
+40.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Report.pdf (9 pages, 318875 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
