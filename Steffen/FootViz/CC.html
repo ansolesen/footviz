@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>SANKEY Experiment</title>
+<title>Nationality of the Players</title>
 <style>
 
     .node rect {
@@ -26,6 +26,7 @@
 
 </style>
 <body>
+<h1>Nationality of the players</h1>
 
 <p id="chart">
 
@@ -37,7 +38,7 @@
 
         var margin = {top: 10, right: 10, bottom: 10, left: 10},
                 width = 1500 - margin.left - margin.right,
-                height = 900 - margin.top - margin.bottom;
+                height = 850 - margin.top - margin.bottom;
 
         var formatNumber = d3.format(",.0f"),    // zero decimal places
                 format = function(d) { return formatNumber(d) + " " + units; },
