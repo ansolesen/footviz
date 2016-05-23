@@ -4,8 +4,7 @@
 <style>
 
     .node rect {
-        cursor: move;
-        fill-opacity: .9;
+        fill-opacity: .5;
         shape-rendering: crispEdges;
     }
 
@@ -16,7 +15,7 @@
 
     .link {
         fill: none;
-        stroke: #000;
+        /*stroke: #000;*/
         stroke-opacity: .2;
     }
 
@@ -99,12 +98,21 @@
 
 
 // add in the links
+//            console.log(graph.links);
             var link = svg.append("g").selectAll(".link")
                     .data(graph.links)
                     .enter().append("path")
                     .attr("class", "link")
                     .attr("d", path)
                     .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+                    .style("stroke", function(d) {
+                        if (d.target.name=="Denmark") {
+                            return "Black";
+                        }
+                        else {
+                            return "Green";
+                        }
+                    })
                     .sort(function(a, b) { return b.dy - a.dy; });
 
 // add the link titles
@@ -118,8 +126,9 @@
                     .data(graph.nodes)
                     .enter().append("g")
                     .attr("class", "node")
-                    .attr("transform", function(d) {
-                        return "translate(" + d.x + "," + d.y + ")"; })
+                    .attr("transform", function (d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    });
 
 
 // add the rectangles for the nodes
@@ -127,7 +136,17 @@
                     .attr("height", function(d) { return d.dy; })
                     .attr("width", sankey.nodeWidth())
                     .style("fill", function(d) {
-                        return d.color = color(d.name.replace(/ .*/, "")); })
+                        if (d.name == "Foreign") {
+                            return "Green";
+                        }
+                        else if (d.name == "Denmark") {
+                            return "Black";
+                        }
+                        else {
+                            return "Red";
+                        }
+                    })
+//                        return d.color = color(d.name.replace(/ .*/, "")); })
                     .style("stroke", function(d) {
                         return d3.rgb(d.color).darker(2); })
                     .append("title")
