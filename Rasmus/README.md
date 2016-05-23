@@ -1,0 +1,1 @@
+R scripts are found in R folder
