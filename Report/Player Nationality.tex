@@ -4,7 +4,7 @@
 
 \begin{figure}
 \center
-\includegraphics[scale=0.5]{"Nationality of the Players".pdf}
+\includegraphics[width=\textwidth]{"Nationality of the Players".pdf}
 \caption{Sankey-Chart showing the distribution of danish vs. foreign players on the different teams}
 \label{Fig:Nationality}
 \end{figure}
@@ -15,12 +15,11 @@ This visualisation shows the nationality of the players on the different teams i
 
 The actions of this idiom is to summarise the players nationality, to explore and compare the different teams to find similarities/differences between the teams in comparison to the standing in the table. 
 
-This is done by an interactive sankey chart. The view is manipulated by highlighting when hovering over a link, where we also get the percentage of players in this connection. The raw data is reduced by only focusing on the nationality of the players. We use lines as connections between the 
+This is done by an interactive sankey chart. The view is manipulated by highlighting when hovering over a link, where we also get the percentage of players in this connection. The raw data is reduced by only focusing on the nationality of the players. The players are categorised into the different bins by using hue and region.
 
 \subsubsection{Code}
+We load in the data file, whcih now is a json file. We then find the data we want to look in the json file, and convert it into a dataframe. We then sum the nationalities of each club. We then create a copy of the frame. In the original frame we all the sources to be foreign where the target is not Denmark. In the second frame we set the target to be Foreign where the target is not Denmark, and then remove all rows where the target is Denmark. In both frames we sum the values for each source-target pair. We then combine the two frames and exchange the value being the number of players to now being the percentage of players. Finally we write the data to a .csv file.
 
-
-
-We can clearly see some difference between the teams, some teams like 
+The sankey chart itself is based on \cite{Sankey} and modified to our use. We modify the placement of the nodes to have multiple levels, and clearer color scheme with clear differences between the links.
 
 \end{document}

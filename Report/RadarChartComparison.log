@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  24 MAY 2016 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  24 MAY 2016 17:24
 entering extended mode
-**"Player Nationality.tex"
-("Player Nationality.tex"
+**RadarChartComparison.tex
+(RadarChartComparison.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
@@ -767,7 +767,7 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )))
-("Player Nationality.aux")
+(RadarChartComparison.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -880,25 +880,25 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count168
- <./Figures/"Nationality of the Players".pdf, id=1, 846.16125pt x 598.235pt>
-File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
+ <./Figures/"Succes Rates Comparison".pdf, id=1, 846.16125pt x 598.235pt>
+File: ./Figures/"Succes Rates Comparison".pdf Graphic file (type pdf)
 
-<use ./Figures/"Nationality of the Players".pdf>
-Package pdftex.def Info: ./Figures/"Nationality of the Players".pdf used on inp
-ut line 7.
-(pdftex.def)             Requested size: 390.0pt x 275.73001pt.
+<use ./Figures/"Succes Rates Comparison".pdf>
+Package pdftex.def Info: ./Figures/"Succes Rates Comparison".pdf used on input 
+line 7.
+(pdftex.def)             Requested size: 390.0pt x 206.3347pt.
  [1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./Figures/Nationality of the Players.pdf
+ <./Figures/Succes Rates Comparison.pdf
 
-pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
-nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
-); ignored.
+pdfTeX warning: pdflatex (file ./Figures/Succes Rates Comparison.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
 >]
 
-LaTeX Warning: Citation `Sankey' on page 2 undefined on input line 23.
+LaTeX Warning: Citation `Radar' on page 2 undefined on input line 24.
 
-[2] ("Player Nationality.aux")
+[2] (RadarChartComparison.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -914,9 +914,9 @@ Here is how much of TeX's memory you used:
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "Player Nationality.pdf" (2 pages, 121956 bytes).
+Output written on RadarChartComparison.pdf (2 pages, 114892 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

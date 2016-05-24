@@ -1,5 +1,14 @@
 \begin{thebibliography}{Guo12}
 
+\bibitem[Bre16]{Sankey}
+Nadia Bremer.
+\newblock D3.js - radar chart or spider chart - adjusted from radar-chart-d3,
+  2016.
+
+\bibitem[d3n13]{Radar}
+d3noob.
+\newblock Sankey diagram with horizontal and vertical node movement, 2013.
+
 \bibitem[Guo12]{Guo}
 Philip~Jia Guo.
 \newblock {\em Data Science Workflow: Overview and Challenges}.

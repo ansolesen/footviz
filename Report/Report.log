@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  18 MAY 2016 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  24 MAY 2016 20:31
 entering extended mode
 **Report.tex
 (Report.tex
@@ -922,27 +922,134 @@ File: ./Figures/"Small multiples".png Graphic file (type png)
 Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
 
 (pdftex.def)             Requested size: 312.796pt x 204.16432pt.
-) (Report.bbl [8 <./Figures/Small multiples.png>]) [9] (Report.aux) ) 
+) (PCA.tex [8 <./Figures/Small multiples.png>] <./Figures/"scree plot".pdf, id=
+40, 794.97pt x 614.295pt>
+File: ./Figures/"scree plot".pdf Graphic file (type pdf)
+
+<use ./Figures/"scree plot".pdf>
+Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+
+Overfull \hbox (7.48402pt too wide) in paragraph at lines 8--9
+ [] 
+ []
+
+[9 <./Figures/scree plot.pdf>]
+<./Figures/"PC1 Loadings".pdf, id=50, 614.295pt x 794.97pt>
+File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
+
+<use ./Figures/"PC1 Loadings".pdf>
+Package pdftex.def Info: ./Figures/"PC1 Loadings".pdf used on input line 16.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+
+Overfull \hbox (40.00356pt too wide) in paragraph at lines 16--17
+ [] 
+ []
+
+
+Overfull \hbox (0.69038pt too wide) in paragraph at lines 20--21
+\T1/cmr/m/n/12 "Sum.of.Fouls.Received.In.Second.Third.Part", "Sum.of.Assist.To.
+Goal" and
+ []
+
+<./Figures/"PC2 Loadings".pdf, id=51, 614.295pt x 794.97pt>
+File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
+
+<use ./Figures/"PC2 Loadings".pdf>
+Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 24.
+(pdftex.def)             Requested size: 184.28992pt x 238.49284pt.
+
+<./Figures/"PC3 Loadings".pdf, id=52, 614.295pt x 794.97pt>
+File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
+
+<use ./Figures/"PC3 Loadings".pdf>
+Package pdftex.def Info: ./Figures/"PC3 Loadings".pdf used on input line 25.
+(pdftex.def)             Requested size: 184.28992pt x 238.49284pt.
+
+Overfull \hbox (22.24635pt too wide) in paragraph at lines 30--32
+\T1/cmr/m/n/12 ables are the "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.C
+hallenges.Won",
+ []
+
+
+Overfull \hbox (66.56729pt too wide) in paragraph at lines 30--32
+\T1/cmr/m/n/12 "Sum.of.Crosses.On.Restart.Of.Play", "Sum.of.Successful.Crosses"
+ and "Sum.of.Crosses".
+ []
+
+
+Overfull \hbox (89.91872pt too wide) in paragraph at lines 30--32
+\T1/cmr/m/n/12 For PC3 the five most im-port-ant vari-ables are the "Sum.of.Fou
+ls.Received.In.First.Third.Part",
+ []
+
+
+Overfull \hbox (72.09364pt too wide) in paragraph at lines 30--32
+\T1/cmr/m/n/12 "Sum.of.Goals.With.Right.Foot", "Sum.of.Tackles.Made.Won", "Sum.
+of.Goals.With.Foot"
+ []
+
+<./Figures/PC12.pdf, id=53, 794.97pt x 614.295pt>
+File: ./Figures/PC12.pdf Graphic file (type pdf)
+ <use ./Figures/PC12.pdf>
+Package pdftex.def Info: ./Figures/PC12.pdf used on input line 38.
+(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
+
+<./Figures/PC23.pdf, id=54, 794.97pt x 614.295pt>
+File: ./Figures/PC23.pdf Graphic file (type pdf)
+ <use ./Figures/PC23.pdf>
+Package pdftex.def Info: ./Figures/PC23.pdf used on input line 48.
+(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
+)
+(RadarChartComparison.tex
+<./Figures/"Succes Rates Comparison".pdf, id=55, 846.16125pt x 598.235pt>
+File: ./Figures/"Succes Rates Comparison".pdf Graphic file (type pdf)
+
+<use ./Figures/"Succes Rates Comparison".pdf>
+Package pdftex.def Info: ./Figures/"Succes Rates Comparison".pdf used on input 
+line 7.
+(pdftex.def)             Requested size: 390.0pt x 206.3347pt.
+ [10] [11 <./Figures/PC1 Loadings.pdf>] [12 <./Figures/PC2 Loadings.pdf> <./Fig
+ures/PC3 Loadings.pdf> <./Figures/PC12.pdf>] [13 <./Figures/PC23.pdf> <./Figure
+s/Succes Rates Comparison.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Succes Rates Comparison.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]) ("Player Nationality.tex"
+<./Figures/"Nationality of the Players".pdf, id=119, 846.16125pt x 598.235pt>
+File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
+
+<use ./Figures/"Nationality of the Players".pdf>
+Package pdftex.def Info: ./Figures/"Nationality of the Players".pdf used on inp
+ut line 7.
+(pdftex.def)             Requested size: 390.0pt x 275.73001pt.
+ [14] [15 <./Figures/Nationality of the Players.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
+nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
+); ignored.
+>]) (Report.bbl [16]) [17] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 15001 strings out of 493673
- 287972 string characters out of 3143966
+ 15059 strings out of 493673
+ 289443 string characters out of 3143966
  421787 words of memory out of 3000000
- 18191 multiletter control sequences out of 15000+200000
+ 18232 multiletter control sequences out of 15000+200000
  19797 words of font info for 63 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  38i,8n,42p,10375b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Progra
-m Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-sup
-er/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm14
-40.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Report.pdf (9 pages, 318875 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx144
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/cm-super/sfti1200.pfb>
+Output written on Report.pdf (17 pages, 544087 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 206 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

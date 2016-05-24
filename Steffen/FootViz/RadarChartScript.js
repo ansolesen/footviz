@@ -19,8 +19,7 @@ d3.csv("teams.csv", type, function (t) {
     Selecters();
 });
 
-function test() {
-    console.log(chosenTeamsIndex);
+function drawChart() {
         d3.csv("data.csv", type, function (d) {
             dataWrapper(d);
         });
@@ -60,14 +59,14 @@ function Selecters() {
         chosenTeamsNames[0] = d3.select('.select').property('value');
         chosenTeamsIndex[0] = this.selectedIndex;
         if (chosenTeamsIndex[0]!=null&&chosenTeamsIndex[1]!=null) {
-            test();
+            drawChart();
         }
     }
     function onchange2() {
         chosenTeamsNames[1] = d3.select('.select2').property('value');
         chosenTeamsIndex[1] = this.selectedIndex;
         if (chosenTeamsIndex[0]!=null&&chosenTeamsIndex[1]!=null) {
-            test();
+            drawChart();
         }
     }
 }
