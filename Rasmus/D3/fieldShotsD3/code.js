@@ -32,13 +32,14 @@ function update(period) {
   d3.json(filename, function(error, json) {
 
     var circle = svg.selectAll("circle").data(json, function(d,i) {
-      return d.x + "," + d.y;
+      return i + "," + d.x + "," + d.y;
     });
 
     var newCircles = circle.enter().append("circle");
 
     circle.attr("r", 2)
       .attr("fill", "black")
+      .attr("opacity", 0.3)
       .attr("stroke", "black")
       .attr("cx", function(d) {return x(+d.x);})
       .attr("cy", function(d) {return y(+d.y);});
@@ -47,7 +48,7 @@ function update(period) {
   });
 }
 
-var data = ["Goal Attempt",
+var options = ["Goal Attempt",
             "50-50 Ball Lost",
             "Aerial Duel Lost",
             "Aerial Duel Won",
@@ -75,7 +76,7 @@ var select = d3.select('body')
 
 var options = select
   .selectAll('option')
-  .data(data).enter()
+  .data(options).enter()
   .append('option')
     .text(function (d) { return d; });
 
