@@ -19,4 +19,8 @@ Tamara Munzner and Eamonn Maguire.
 \newblock {\em Visualization analysis and design}.
 \newblock CRC Press, Boca Raton, FL, 2015.
 
+\bibitem[Smi02]{PCAtheory}
+Lindsay Smith.
+\newblock A tutorial on principal components analysis, 2002.
+
 \end{thebibliography}

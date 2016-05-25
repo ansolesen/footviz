@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  25 MAY 2016 08:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  25 MAY 2016 09:32
 entering extended mode
-**PCA.tex
-(PCA.tex
+**PCA-theory.tex
+(PCA-theory.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
@@ -766,7 +766,8 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-))) (PCA.aux)
+)))
+(PCA-theory.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
@@ -781,8 +782,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -879,93 +879,32 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count168
- <./Figures/"scree plot".pdf, id=1, 794.97pt x 614.295pt>
-File: ./Figures/"scree plot".pdf Graphic file (type pdf)
-
-<use ./Figures/"scree plot".pdf>
-Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
-(pdftex.def)             Requested size: 390.0pt x 301.37274pt.
-
-<./Figures/"PC1 Loadings".pdf, id=2, 614.295pt x 794.97pt>
-File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC1 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC1 Loadings".pdf used on input line 16.
-(pdftex.def)             Requested size: 390.0pt x 504.71544pt.
-
-Overfull \hbox (0.69038pt too wide) in paragraph at lines 20--21
-\T1/cmr/m/n/12 "Sum.of.Fouls.Received.In.Second.Third.Part", "Sum.of.Assist.To.
-Goal" and
- []
-
-[1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <./Figures/scree plot.pdf>] [2 <./Figures/PC1 Loadings.pdf>]
-<./Figures/"PC2 Loadings".pdf, id=23, 614.295pt x 794.97pt>
-File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC2 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 24.
-(pdftex.def)             Requested size: 191.10214pt x 247.31152pt.
-
-<./Figures/"PC3 Loadings".pdf, id=24, 614.295pt x 794.97pt>
-File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC3 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC3 Loadings".pdf used on input line 25.
-(pdftex.def)             Requested size: 191.10214pt x 247.31152pt.
-
-Overfull \hbox (22.24635pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/12 ables are the "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.C
-hallenges.Won",
- []
 
 
-Overfull \hbox (66.56729pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/12 "Sum.of.Crosses.On.Restart.Of.Play", "Sum.of.Successful.Crosses"
- and "Sum.of.Crosses".
- []
+LaTeX Warning: Citation `PCAtheory' on page 1 undefined on input line 3.
 
+[1
 
-Overfull \hbox (89.91872pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/12 For PC3 the five most im-port-ant vari-ables are the "Sum.of.Fou
-ls.Received.In.First.Third.Part",
- []
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(PCA-theory.aux)
 
+LaTeX Warning: There were undefined references.
 
-Overfull \hbox (72.09364pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/12 "Sum.of.Goals.With.Right.Foot", "Sum.of.Tackles.Made.Won", "Sum.
-of.Goals.With.Foot"
- []
-
-<./Figures/PC12.pdf, id=25, 794.97pt x 614.295pt>
-File: ./Figures/PC12.pdf Graphic file (type pdf)
- <use ./Figures/PC12.pdf>
-Package pdftex.def Info: ./Figures/PC12.pdf used on input line 38.
-(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
-
-<./Figures/PC23.pdf, id=26, 794.97pt x 614.295pt>
-File: ./Figures/PC23.pdf Graphic file (type pdf)
- <use ./Figures/PC23.pdf>
-Package pdftex.def Info: ./Figures/PC23.pdf used on input line 48.
-(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
-
-[3 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>] [4 <./Figures/PC1
-2.pdf> <./Figures/PC23.pdf>] (PCA.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 14903 strings out of 493673
- 286862 string characters out of 3143966
- 420049 words of memory out of 3000000
- 18139 multiletter control sequences out of 15000+200000
- 4702 words of font info for 16 fonts, out of 3000000 for 9000
+ 14865 strings out of 493673
+ 286035 string characters out of 3143966
+ 420056 words of memory out of 3000000
+ 18107 multiletter control sequences out of 15000+200000
+ 5478 words of font info for 17 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,7n,44p,10412b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm1200.pfb>
-Output written on PCA.pdf (4 pages, 74447 bytes).
+ 47i,5n,44p,10419b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on PCA-theory.pdf (1 page, 21728 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 15 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
