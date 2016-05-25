@@ -1,0 +1,37 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bremer(2016)]{Sankey}
+Nadia Bremer.
+\newblock D3.js - radar chart or spider chart - adjusted from radar-chart-d3,
+  2016.
+\newblock URL \url{https://gist.github.com/d3noob/5028304}.
+
+\bibitem[d3noob(2013)]{Radar}
+d3noob.
+\newblock Sankey diagram with horizontal and vertical node movement, 2013.
+\newblock URL \url{http://bl.ocks.org/nbremer/6506614}.
+
+\bibitem[Guo(2012)]{Guo}
+Philip~Jia Guo.
+\newblock \emph{Data Science Workflow: Overview and Challenges}.
+\newblock PhD thesis, Stanford University, 2012.
+\newblock URL \url{http://purl.stanford.edu/mb510fs4943}.
+
+\bibitem[Munzner and Maguire(2015)]{Tamara}
+Tamara Munzner and Eamonn Maguire.
+\newblock \emph{Visualization analysis and design}.
+\newblock CRC Press, Boca Raton, FL, 2015.
+\newblock ISBN 9781466508910;1466508914;.
+
+\bibitem[Smith(2002)]{PCAtheory}
+Lindsay Smith.
+\newblock A tutorial on principal components analysis, 2002.
+\newblock URL
+  \url{http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf}.
+
+\end{thebibliography}

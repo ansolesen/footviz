@@ -1,19 +1,10 @@
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  25 MAY 2016 17:56
 entering extended mode
-**PCA.tex
-(PCA.tex
+**Report.tex
+(Report.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
-Document Class: subfiles 2012/05/23 Federico Garcia
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks14
-\verbatim@line=\toks15
-\verbatim@in@stream=\read1
-)
-Preamble taken from file `Report.tex'
-(Report.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -35,7 +26,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks14
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -59,13 +50,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen108
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
@@ -439,14 +430,14 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks20
+\@emptytoks=\toks18
 \ex@=\dimen143
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen144
 \extrarowheight=\dimen145
-\NC@list=\toks21
+\NC@list=\toks19
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
@@ -614,7 +605,7 @@ Variant \prop_get:NVNTF already defined; not changing it on line 382
 . 
 . Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7367.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\translator.sty"
 Package: translator 2010/06/12 ver 1.10
@@ -642,9 +633,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count137
-\float@exts=\toks22
+\float@exts=\toks20
 \float@box=\box48
-\@float@everytoks=\toks23
+\@float@everytoks=\toks21
 \@floatcapt=\box49
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
@@ -675,7 +666,7 @@ Package: fancyvrb 2008/02/07
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
 \FV@CodeLineNo=\count141
-\FV@InFile=\read3
+\FV@InFile=\read2
 \FV@TabBox=\box50
 \c@FancyVerbLine=\count142
 \FV@StepNumber=\count143
@@ -721,28 +712,28 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip16
 \c@parentequation=\count151
 \dspbrk@lvl=\count152
-\tag@help=\toks24
+\tag@help=\toks22
 \row@=\count153
 \column@=\count154
 \maxfields@=\count155
-\andhelp@=\toks25
+\andhelp@=\toks23
 \eqnshift@=\dimen167
 \alignsep@=\dimen168
 \tagshift@=\dimen169
 \tagwidth@=\dimen170
 \totwidth@=\dimen171
 \lineht@=\dimen172
-\@envbody=\toks26
+\@envbody=\toks24
 \multlinegap=\skip56
 \multlinetaggap=\skip57
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count156
 \lst@gtempboxa=\box53
-\lst@token=\toks28
+\lst@token=\toks26
 \lst@length=\count157
 \lst@currlwidth=\dimen173
 \lst@column=\count158
@@ -774,7 +765,13 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
 Package: subfiles 2012/05/23 Federico Garcia
-)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read3
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -798,25 +795,25 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-))) (PCA.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+) (Report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -945,14 +942,69 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count171
- <./Figures/"scree plot".pdf, id=1, 794.97pt x 614.295pt>
+\c__siunitx_mathsf_int=\count172
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\c__siunitx_mathtt_int=\count173
+ [1
+
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (Report.t
+oc)
+\tf@toc=\write5
+ [3]
+(Introduction.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+)
+(DesignProces.tex <./Figures/Iterative.png, id=16, 927.465pt x 575.90157pt>
+File: ./Figures/Iterative.png Graphic file (type png)
+
+<use ./Figures/Iterative.png>
+Package pdftex.def Info: ./Figures/Iterative.png used on input line 9.
+(pdftex.def)             Requested size: 370.97943pt x 230.35654pt.
+) ("Facets and View Manipulation.tex" [4]
+<./Figures/Highlighted.png, id=23, 815.045pt x 527.9725pt>
+File: ./Figures/Highlighted.png Graphic file (type png)
+
+<use ./Figures/Highlighted.png>
+Package pdftex.def Info: ./Figures/Highlighted.png used on input line 11.
+(pdftex.def)             Requested size: 326.01222pt x 211.18526pt.
+ [5 <./Figures/Iterative.png>] [6 <./Figures/Highlighted.png>]
+<./Figures/"Small multiples".png, id=32, 1042.64531pt x 680.5425pt>
+File: ./Figures/"Small multiples".png Graphic file (type png)
+
+<use ./Figures/"Small multiples".png>
+Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
+
+(pdftex.def)             Requested size: 312.796pt x 204.16432pt.
+) (exploratory_data_analysis.tex [7 <./Figures/Small multiples.png>]) (PCA-theo
+ry.tex
+<./Figures/Eigenvector.pdf, id=37, 722.7pt x 722.7pt>
+File: ./Figures/Eigenvector.pdf Graphic file (type pdf)
+
+<use ./Figures/Eigenvector.pdf>
+Package pdftex.def Info: ./Figures/Eigenvector.pdf used on input line 8.
+(pdftex.def)             Requested size: 213.39568pt x 213.39314pt.
+) (PCA.tex [8 <./Figures/Eigenvector.pdf>]
+<./Figures/"scree plot".pdf, id=46, 794.97pt x 614.295pt>
 File: ./Figures/"scree plot".pdf Graphic file (type pdf)
 
 <use ./Figures/"scree plot".pdf>
 Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 329.80219pt.
 
-<./Figures/"PC1 Loadings".pdf, id=2, 614.295pt x 794.97pt>
+<./Figures/"PC1 Loadings".pdf, id=47, 614.295pt x 794.97pt>
 File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC1 Loadings".pdf>
@@ -964,14 +1016,15 @@ Overfull \hbox (65.4675pt too wide) in paragraph at lines 20--21
 To.Goal" and "Sum.of.Shots.On.Target". 
  []
 
-<./Figures/"PC2 Loadings".pdf, id=3, 614.295pt x 794.97pt>
+[9 <./Figures/scree plot.pdf>] [10 <./Figures/PC1 Loadings.pdf>]
+<./Figures/"PC2 Loadings".pdf, id=66, 614.295pt x 794.97pt>
 File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC2 Loadings".pdf>
 Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 24.
 (pdftex.def)             Requested size: 209.1301pt x 270.638pt.
 
-<./Figures/"PC3 Loadings".pdf, id=4, 614.295pt x 794.97pt>
+<./Figures/"PC3 Loadings".pdf, id=67, 614.295pt x 794.97pt>
 File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC3 Loadings".pdf>
@@ -989,37 +1042,78 @@ Overfull \hbox (7.79366pt too wide) in paragraph at lines 30--32
 um.of.Goals.With.Right.Foot",
  []
 
-[1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <./Figures/scree plot.pdf>] [2 <./Figures/PC1 Loadings.pdf>]
-<./Figures/PC12.pdf, id=25, 794.97pt x 614.295pt>
+<./Figures/PC12.pdf, id=68, 794.97pt x 614.295pt>
 File: ./Figures/PC12.pdf Graphic file (type pdf)
  <use ./Figures/PC12.pdf>
 Package pdftex.def Info: ./Figures/PC12.pdf used on input line 38.
 (pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
 
-<./Figures/PC23.pdf, id=26, 794.97pt x 614.295pt>
+<./Figures/PC23.pdf, id=69, 794.97pt x 614.295pt>
 File: ./Figures/PC23.pdf Graphic file (type pdf)
  <use ./Figures/PC23.pdf>
 Package pdftex.def Info: ./Figures/PC23.pdf used on input line 48.
 (pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
+)
+(RadarChartComparison.tex
+<./Figures/"Succes Rates Comparison".pdf, id=70, 846.16125pt x 598.235pt>
+File: ./Figures/"Succes Rates Comparison".pdf Graphic file (type pdf)
 
-[3 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>] [4 <./Figures/PC1
-2.pdf> <./Figures/PC23.pdf>] (PCA.aux) ) 
+<use ./Figures/"Succes Rates Comparison".pdf>
+Package pdftex.def Info: ./Figures/"Succes Rates Comparison".pdf used on input 
+line 7.
+(pdftex.def)             Requested size: 426.79135pt x 225.79599pt.
+ [11 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>] [12 <./Figures/
+PC12.pdf> <./Figures/PC23.pdf>]
+[13 <./Figures/Succes Rates Comparison.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Succes Rates Comparison.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]) ("Player Nationality.tex"
+<./Figures/"Nationality of the Players".pdf, id=125, 846.16125pt x 598.235pt>
+File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
+
+<use ./Figures/"Nationality of the Players".pdf>
+Package pdftex.def Info: ./Figures/"Nationality of the Players".pdf used on inp
+ut line 7.
+(pdftex.def)             Requested size: 426.79135pt x 301.73659pt.
+ [14 <./Figures/Nationality of the Players.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
+nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
+); ignored.
+>]) (Report.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 7168) in paragraph at lines 32--36
+[]\T1/cmr/m/n/10.95 Lindsay Smith.  A tu-torial on prin-cipal com-pon-ents ana-
+lysis,
+ []
+
+) [15] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 15466 strings out of 493673
- 295084 string characters out of 3143966
- 434358 words of memory out of 3000000
- 18683 multiletter control sequences out of 15000+200000
- 4709 words of font info for 16 fonts, out of 3000000 for 9000
+ 15649 strings out of 493673
+ 298451 string characters out of 3143966
+ 435009 words of memory out of 3000000
+ 18791 multiletter control sequences out of 15000+200000
+ 18124 words of font info for 55 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,7n,44p,10412b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm1095.pfb>
-Output written on PCA.pdf (4 pages, 78165 bytes).
+ 38i,8n,42p,10375b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-s
+uper-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/cm-super/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
+-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sf
+tt1095.pfb>
+Output written on Report.pdf (15 pages, 602341 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

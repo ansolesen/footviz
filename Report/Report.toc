@@ -1,7 +1,6 @@
 \select@language {UKenglish}
 \contentsline {section}{\numberline {1}Abstract}{2}
 \contentsline {section}{\numberline {2}Preface}{2}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {3}Introduction}{4}
 \contentsline {section}{\numberline {4}Theory}{4}
 \contentsline {subsection}{\numberline {4.1}Design Process}{4}
@@ -12,14 +11,14 @@
 \contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{5}
 \contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{5}
 \contentsline {subsubsection}{\numberline {4.6.2}Facet}{6}
-\contentsline {subsection}{\numberline {4.7}Exploratory Analysis}{7}
-\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{7}
-\contentsline {subsubsection}{\numberline {4.7.2}Linear Regression}{8}
-\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{8}
-\contentsline {subsubsection}{\numberline {4.8.1}R}{8}
-\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{8}
-\contentsline {section}{\numberline {5}Results}{8}
-\contentsline {subsection}{\numberline {5.1}Principle Component Analysis}{8}
+\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{7}
+\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{8}
+\contentsline {subsubsection}{\numberline {4.7.2}Linear Regression}{9}
+\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{9}
+\contentsline {subsubsection}{\numberline {4.8.1}R}{9}
+\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{9}
+\contentsline {section}{\numberline {5}Results}{9}
+\contentsline {subsection}{\numberline {5.1}Principle Component Analysis}{9}
 \contentsline {subsection}{\numberline {5.2}Success Rates}{11}
 \contentsline {subsubsection}{\numberline {5.2.1}What-why-how}{11}
 \contentsline {subsubsection}{\numberline {5.2.2}Code}{13}
@@ -32,35 +31,3 @@
 \contentsline {section}{\numberline {9}Bibliography}{15}
 \contentsline {section}{\numberline {10}Appendix}{15}
 \contentsline {section}{\numberline {11}Process Evaluation}{15}
-=======
-\contentsline {section}{\numberline {3}Introduction}{5}
-\contentsline {section}{\numberline {4}Theory}{5}
-\contentsline {subsection}{\numberline {4.1}Design Process}{5}
-\contentsline {subsection}{\numberline {4.2}Design}{7}
-\contentsline {subsection}{\numberline {4.3}Data Types and Data Sets}{7}
-\contentsline {subsection}{\numberline {4.4}Idioms}{7}
-\contentsline {subsection}{\numberline {4.5}Analysis and Complexity}{7}
-\contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{7}
-\contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{7}
-\contentsline {subsubsection}{\numberline {4.6.2}Facet}{8}
-\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{10}
-\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{10}
-\contentsline {subsubsection}{\numberline {4.7.2}Linear Regression}{11}
-\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{11}
-\contentsline {subsubsection}{\numberline {4.8.1}R}{11}
-\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{11}
-\contentsline {section}{\numberline {5}Results}{11}
-\contentsline {subsection}{\numberline {5.1}Principle Component Analysis}{11}
-\contentsline {subsection}{\numberline {5.2}Success Rates}{16}
-\contentsline {subsubsection}{\numberline {5.2.1}What-why-how}{16}
-\contentsline {subsubsection}{\numberline {5.2.2}Code}{17}
-\contentsline {subsection}{\numberline {5.3}Nationality of players}{17}
-\contentsline {subsubsection}{\numberline {5.3.1}What-why-how}{17}
-\contentsline {subsubsection}{\numberline {5.3.2}Code}{19}
-\contentsline {section}{\numberline {6}Discussion}{19}
-\contentsline {section}{\numberline {7}Conclusion}{19}
-\contentsline {section}{\numberline {8}Usability}{19}
-\contentsline {section}{\numberline {9}Bibliography}{19}
-\contentsline {section}{\numberline {10}Appendix}{20}
-\contentsline {section}{\numberline {11}Process Evaluation}{20}
->>>>>>> ca6a1a3c21fa06e6b30ef0d32709d035318ecb37
