@@ -1,68 +1,68 @@
 "source","target","value"
-"Foreign","Australia",1.9047619047619
-"Foreign","Austria",1.9047619047619
-"Foreign","Belgium",1.9047619047619
-"Foreign","Brazil",0.952380952380952
-"Foreign","Bulgaria",0.952380952380952
-"Foreign","Burkina Faso",0.952380952380952
-"Foreign","Cameroon",0.952380952380952
-"Foreign","Costa Rica",1.9047619047619
-"Foreign","Croatia",2.85714285714286
-"Foreign","Czechoslovakia",2.85714285714286
-"AGF Aarhus","Denmark",68
-"Brondby","Denmark",74.0740740740741
-"Esbjerg","Denmark",73.3333333333333
-"FC Copenhagen","Denmark",55.5555555555556
-"Hobro IK","Denmark",69.2307692307692
-"Midtjylland","Denmark",38.7096774193548
-"Nordsjaelland","Denmark",67.741935483871
-"Odense BK","Denmark",66.6666666666667
-"Randers","Denmark",59.0909090909091
-"SonderjyskE","Denmark",72
-"Viborg","Denmark",82.6086956521739
-"AaB Aalborg","Denmark",79.1666666666667
-"Foreign","Faroe Islands",2.85714285714286
-"Foreign","Finland",3.80952380952381
-"Foreign","France",0.952380952380952
-"Foreign","Germany",0.952380952380952
-"Foreign","Ghana",3.80952380952381
-"Foreign","Guinea",0.952380952380952
-"Foreign","Iceland",5.71428571428571
-"Foreign","Ivory Coast",1.9047619047619
-"Foreign","Jamaica",0.952380952380952
-"Foreign","Kenya",0.952380952380952
-"Foreign","Lithuania",0.952380952380952
-"Foreign","Netherlands",4.76190476190476
-"Foreign","Niger",0.952380952380952
-"Foreign","Nigeria",2.85714285714286
-"Foreign","Norway",6.66666666666667
-"Foreign","Paraguay",0.952380952380952
-"Foreign","Poland",1.9047619047619
-"Foreign","Portugal",0.952380952380952
-"Foreign","Senegal",0.952380952380952
-"Foreign","Slovakia",0.952380952380952
-"Foreign","Slovenia",0.952380952380952
-"Foreign","South Africa",1.9047619047619
-"Foreign","South Korea",0.952380952380952
-"Foreign","Spain",0.952380952380952
-"Foreign","Sweden",19.047619047619
-"Foreign","Tunisia",0.952380952380952
-"Foreign","Turkmenistan",0.952380952380952
-"Foreign","Uganda",2.85714285714286
-"Foreign","Ukraine",0.952380952380952
-"Foreign","United States",2.85714285714286
-"Foreign","USSR",0.952380952380952
-"Foreign","Yugoslavia",1.9047619047619
-"Foreign","Zimbabwe",2.85714285714286
-"AGF Aarhus","Foreign",32
+"Foreign","Brazil",3.75238095238095
+"Foreign","Bulgaria",3.75238095238095
+"Foreign","Burkina Faso",3.75238095238095
+"Foreign","Cameroon",3.75238095238095
+"Foreign","France",3.75238095238095
+"Foreign","Germany",3.75238095238095
+"Foreign","Guinea",3.75238095238095
+"Foreign","Jamaica",3.75238095238095
+"Foreign","Kenya",3.75238095238095
+"Foreign","Lithuania",3.75238095238095
+"Foreign","Niger",3.75238095238095
+"Foreign","Paraguay",3.75238095238095
+"Foreign","Portugal",3.75238095238095
+"Foreign","Senegal",3.75238095238095
+"Foreign","Slovakia",3.75238095238095
+"Foreign","Slovenia",3.75238095238095
+"Foreign","South Korea",3.75238095238095
+"Foreign","Spain",3.75238095238095
+"Foreign","Tunisia",3.75238095238095
+"Foreign","Turkmenistan",3.75238095238095
+"Foreign","Ukraine",3.75238095238095
+"Foreign","USSR",3.75238095238095
+"Foreign","Australia",7.5047619047619
+"Foreign","Austria",7.5047619047619
+"Foreign","Belgium",7.5047619047619
+"Foreign","Costa Rica",7.5047619047619
+"Foreign","Ivory Coast",7.5047619047619
+"Foreign","Poland",7.5047619047619
+"Foreign","South Africa",7.5047619047619
+"Foreign","Yugoslavia",7.5047619047619
+"Foreign","Croatia",11.2571428571429
+"Foreign","Czechoslovakia",11.2571428571429
+"Foreign","Faroe Islands",11.2571428571429
+"Foreign","Nigeria",11.2571428571429
+"Foreign","Uganda",11.2571428571429
+"Foreign","United States",11.2571428571429
+"Foreign","Zimbabwe",11.2571428571429
+"Foreign","Finland",15.0095238095238
+"Foreign","Ghana",15.0095238095238
+"Viborg","Foreign",17.3913043478261
+"Foreign","Netherlands",18.7619047619048
+"AaB Aalborg","Foreign",20.8333333333333
+"Foreign","Iceland",22.5142857142857
 "Brondby","Foreign",25.9259259259259
+"Foreign","Norway",26.2666666666667
 "Esbjerg","Foreign",26.6666666666667
-"FC Copenhagen","Foreign",44.4444444444444
+"SonderjyskE","Foreign",28
 "Hobro IK","Foreign",30.7692307692308
-"Midtjylland","Foreign",61.2903225806452
+"AGF Aarhus","Foreign",32
 "Nordsjaelland","Foreign",32.258064516129
 "Odense BK","Foreign",33.3333333333333
+"Midtjylland","Denmark",38.7096774193548
 "Randers","Foreign",40.9090909090909
-"SonderjyskE","Foreign",28
-"Viborg","Foreign",17.3913043478261
-"AaB Aalborg","Foreign",20.8333333333333
+"FC Copenhagen","Foreign",44.4444444444444
+"FC Copenhagen","Denmark",55.5555555555556
+"Randers","Denmark",59.0909090909091
+"Midtjylland","Foreign",61.2903225806452
+"Odense BK","Denmark",66.6666666666667
+"Nordsjaelland","Denmark",67.741935483871
+"AGF Aarhus","Denmark",68
+"Hobro IK","Denmark",69.2307692307692
+"SonderjyskE","Denmark",72
+"Esbjerg","Denmark",73.3333333333333
+"Brondby","Denmark",74.0740740740741
+"Foreign","Sweden",75.0476190476191
+"AaB Aalborg","Denmark",79.1666666666667
+"Viborg","Denmark",82.6086956521739

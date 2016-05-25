@@ -86,7 +86,7 @@ function dataWrapper(array) {
 
 
 
-    var chart =RadarChart.draw("#chart", data, mycfg);
+    RadarChart.draw("#chart", data, mycfg);
     legdend();
 }
 
