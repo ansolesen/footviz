@@ -24,73 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarChartScript2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RadarChartScript2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarChart2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RadarChart2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarChart2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RadarChart2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cc.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cc.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataAni.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataAni.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CC.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CC.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="-245">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -99,7 +37,7 @@
       <file leaf-file-name="sankey.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sankey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3097">
+            <state relative-caret-position="3955">
               <caret line="260" column="20" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="20" />
               <folding />
             </state>
@@ -149,11 +87,11 @@
         <option value="$PROJECT_DIR$/cc.csv" />
         <option value="$PROJECT_DIR$/sankey.js" />
         <option value="$PROJECT_DIR$/RadarChart.html" />
-        <option value="$PROJECT_DIR$/CC.html" />
         <option value="$PROJECT_DIR$/RadarChartScript.js" />
         <option value="$PROJECT_DIR$/RadarChart2.js" />
         <option value="$PROJECT_DIR$/RadarChart2.html" />
         <option value="$PROJECT_DIR$/RadarChartScript2.js" />
+        <option value="$PROJECT_DIR$/CC.html" />
       </list>
     </option>
   </component>
@@ -237,7 +175,7 @@
       <recent name="C:\Users\SBK\WebstormProjects\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.RadarChart2.html">
+  <component name="RunManager" selected="JavaScript Debug.CC.html">
     <configuration default="false" name="RadarChart.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FootViz/RadarChart.html">
       <method />
     </configuration>
@@ -319,8 +257,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CC.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CC.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart2.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart.html (1)" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.RadarChart2.js" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.RadarChart - Kopi.html" />
@@ -355,12 +293,12 @@
       <workItem from="1464006808072" duration="2401000" />
       <workItem from="1464069965400" duration="697000" />
       <workItem from="1464078753690" duration="6393000" />
-      <workItem from="1464177527847" duration="17036000" />
+      <workItem from="1464177527847" duration="21243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156557000" />
+    <option name="totallyTimeSpent" value="160764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barChart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -677,14 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="418" column="4" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sankey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3097">
-          <caret line="260" column="20" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -713,26 +635,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc.csv">
+    <entry file="file://$PROJECT_DIR$/RadarChart2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="602">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataAni.csv">
+    <entry file="file://$PROJECT_DIR$/data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="809">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -747,18 +661,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RadarChart2.html">
+    <entry file="file://$PROJECT_DIR$/dataAni.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RadarChartScript2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        <state relative-caret-position="-1276">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sankey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3955">
+          <caret line="260" column="20" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding />
         </state>
       </provider>
