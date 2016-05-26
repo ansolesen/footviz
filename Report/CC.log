@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  26 MAY 2016 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  26 MAY 2016 14:19
 entering extended mode
-**PCA.tex
-(PCA.tex
+**CC.tex
+(CC.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
@@ -798,19 +798,19 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-))) (PCA.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+))) (CC.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -945,81 +945,43 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count171
- <./Figures/"scree plot".pdf, id=1, 794.97pt x 614.295pt>
-File: ./Figures/"scree plot".pdf Graphic file (type pdf)
+ <./Figures/"Succes Rates Season".pdf, id=1, 1690.315pt x 1195.46625pt>
+File: ./Figures/"Succes Rates Season".pdf Graphic file (type pdf)
 
-<use ./Figures/"scree plot".pdf>
-Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
-(pdftex.def)             Requested size: 426.79135pt x 329.80219pt.
-
-<./Figures/"PC1 Loadings".pdf, id=2, 614.295pt x 794.97pt>
-File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC1 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC1 Loadings".pdf used on input line 16.
-(pdftex.def)             Requested size: 426.79135pt x 552.32666pt.
-
-Overfull \hbox (65.4675pt too wide) in paragraph at lines 20--21
-\T1/cmr/m/n/10.95 "Sum.of.Fouls.Received.In.Second.Third.Part", "Sum.of.Assist.
-To.Goal" and "Sum.of.Shots.On.Target". 
- []
-
-<./Figures/"PC2 Loadings".pdf, id=3, 614.295pt x 794.97pt>
-File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC2 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 24.
-(pdftex.def)             Requested size: 209.1301pt x 270.638pt.
-
-<./Figures/"PC3 Loadings".pdf, id=4, 614.295pt x 794.97pt>
-File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
-
-<use ./Figures/"PC3 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC3 Loadings".pdf used on input line 25.
-(pdftex.def)             Requested size: 209.1301pt x 270.638pt.
-
-Overfull \hbox (77.6431pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/10.95 "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.Challenges.W
-on", "Sum.of.Crosses.On.Restart.Of.Play",
- []
+<use ./Figures/"Succes Rates Season".pdf>
+Package pdftex.def Info: ./Figures/"Succes Rates Season".pdf used on input line
+ 7.
+(pdftex.def)             Requested size: 426.79135pt x 149.77876pt.
 
 
-Overfull \hbox (7.79366pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/10.95 ables are the "Sum.of.Fouls.Received.In.First.Third.Part", "S
-um.of.Goals.With.Right.Foot",
- []
+LaTeX Warning: Citation `RadarChart' on page 1 undefined on input line 24.
 
 [1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./Figures/scree plot.pdf>] [2 <./Figures/PC1 Loadings.pdf>]
-<./Figures/PC12.pdf, id=25, 794.97pt x 614.295pt>
-File: ./Figures/PC12.pdf Graphic file (type pdf)
- <use ./Figures/PC12.pdf>
-Package pdftex.def Info: ./Figures/PC12.pdf used on input line 38.
-(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
+ <./Figures/Succes Rates Season.pdf
 
-<./Figures/PC23.pdf, id=26, 794.97pt x 614.295pt>
-File: ./Figures/PC23.pdf Graphic file (type pdf)
- <use ./Figures/PC23.pdf>
-Package pdftex.def Info: ./Figures/PC23.pdf used on input line 48.
-(pdftex.def)             Requested size: 158.99118pt x 122.85681pt.
+pdfTeX warning: pdflatex (file ./Figures/Succes Rates Season.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] (CC.aux)
 
-[3 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>] [4 <./Figures/PC1
-2.pdf> <./Figures/PC23.pdf>] (PCA.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15466 strings out of 493673
- 295084 string characters out of 3143966
- 434358 words of memory out of 3000000
- 18683 multiletter control sequences out of 15000+200000
- 4709 words of font info for 16 fonts, out of 3000000 for 9000
+ 15440 strings out of 493673
+ 294453 string characters out of 3143966
+ 433357 words of memory out of 3000000
+ 18661 multiletter control sequences out of 15000+200000
+ 5492 words of font info for 17 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,7n,44p,10412b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm1095.pfb>
-Output written on PCA.pdf (4 pages, 78178 bytes).
+ 47i,6n,44p,10395b,559s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on CC.pdf (1 page, 114205 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

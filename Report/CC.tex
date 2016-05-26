@@ -1,0 +1,27 @@
+\documentclass[Report.tex]{subfiles}
+
+\begin{document}
+
+\begin{figure}
+\center
+\includegraphics[width=\textwidth, trim=0 600 0 0]{"Succes Rates Season".pdf}
+\caption{Comparison of a Teams success rates throughout the season, split in wins, draws and losses}
+\label{Fig:CC}
+\end{figure}
+
+
+\subsubsection{What-why-how}
+Figure \ref{Fig:CC} shows the multi view Radar Chart comparing a teams success Rates. Concerning the marks and channels we use position on a common scale in teams of the different axis for measure together with area, as the combined area of all the scores on each axis. The result of the match is categorised by color hue, in easy separable colours.  
+
+The action of the idiom is to compare a teams success rates through out the season in wins, losses and draws. It summarises the teams success throughout the season. One other action is enjoyment being able to look at the teams rates changing from match to match.
+The target is to find similarities between the different matches in each of the match results, and maybe find some common shapes for the different teams.
+
+This is done by a idiom facet into three views. The views are linked on having the same data variables shown, but on different data. The view is manipulated by animation, looping over the different matches for the selected team. It is a smooth transaction between the matches, to create context. The raw data is reduced through aggregation by calculating new attributes.
+
+\subsubsection{Code}
+In R we load the data file, convert columns to be numerics, aggregate by team, calculate the success rates, transforming the data to a format suited for the radar chart, select the columns we are interested in, and write it to csv.
+
+The D3 radar chart is based on \cite{RadarChart}, and modified to become animated. We create an update function which is called continuously with different data matches to be drawn. 
+
+
+\end{document}
