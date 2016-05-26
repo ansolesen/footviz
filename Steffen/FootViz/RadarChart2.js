@@ -26,8 +26,14 @@ var RadarChart = {
             ExtraWidthX: 100,
             ExtraWidthY: 100,
             color: d3.scale.category10(),
-            chosenTeams:null
+            chosenTeams:null,
+            Result:null
         };
+
+        d=d.filter(function (d) {
+            return d[0].Result == options.Result;
+        });
+        var length = d.length;
         var data =d;
         var temp = [];
         temp.push(d[0]);
@@ -216,14 +222,14 @@ var RadarChart = {
         var counter = 1;
         setInterval(function () {
             var toDraw = [];
-            console.log(counter);
+            // console.log(options.Result+counter);
             toDraw.push(data[counter]);
             counter++;
-            if (counter>26) {
+            if (counter>length-1) {
                 counter = 0;
             }
             update(toDraw);
-        },500);
+        },600);
         // for (var e=0;e<2;e++) {
         //     update(findData(e));
         // }
@@ -247,7 +253,7 @@ var RadarChart = {
                 dataValues2.push(dataValues2[0]);
                 var group = g.selectAll("polygon")
                     .data([dataValues2]);
-                group.transition().duration(200)
+                group.transition().duration(400)
                     .attr("points", function (d) {
                         var str = "";
                         for (var pti = 0; pti < d.length; pti++) {

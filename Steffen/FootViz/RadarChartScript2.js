@@ -85,41 +85,70 @@ function dataWrapper(array) {
     // console.log(data);
 
 
-
-    RadarChart.draw("#chart", data, mycfg);
     legdend();
+    RadarChart.draw("#chart", data, mycfg);
+    RadarChart.draw("#chart2", data, mycfg2);
+    RadarChart.draw("#chart3", data, mycfg3);
+
 }
 
 //Options for the Radar chart, other than default
 var mycfg = {
-    w: 600,
-    h: 600,
+    w: 340,
+    h: 340,
     maxValue: 1,
     opacityArea: 0.5,
     levels: 5,
     ExtraWidthX: 300,
     color: colorscale,
     radius: 7,
-    chosenTeams:chosenTeamsNames
+    chosenTeams:chosenTeamsNames,
+    Result:"Win"
 };
+
+var mycfg2 = {
+    w: 340,
+    h: 340,
+    maxValue: 1,
+    opacityArea: 0.5,
+    levels: 5,
+    ExtraWidthX: 300,
+    color: colorscale,
+    radius: 7,
+    chosenTeams:chosenTeamsNames,
+    Result:"Draw"
+};
+
+var mycfg3 = {
+    w: 340,
+    h: 340,
+    maxValue: 1,
+    opacityArea: 0.5,
+    levels: 5,
+    ExtraWidthX: 300,
+    color: colorscale,
+    radius: 7,
+    chosenTeams:chosenTeamsNames,
+    Result:"Loss"
+};
+
 ////////////////////////////////////////////
 /////////// Initiate legend ////////////////
 ////////////////////////////////////////////
 function legdend() {
-    var svg = d3.select('#body')
-        .selectAll('svg')
+    var svg = d3.select("#legend")
         .append('svg')
-        .attr("width", w + 300)
+        .attr("width", w + 500)
         .attr("height", h);
 
 //Create the title for the legend
     var text = svg.append("text")
         .attr("class", "title")
-        .attr('transform', 'translate(90,0)')
-        .attr("x", w - 70)
-        .attr("y", 10)
-        .attr("font-size", "12px")
-        .attr("fill", "#404040")
+        // .attr('transform', 'translate(90,0)')
+        .attr("x", w)
+        .attr("y", 40)
+        .attr("font-size", "30px")
+        .attr("fill", "#000000")
         .text("Results in Match");
 
 //Initiate Legend
@@ -127,17 +156,18 @@ function legdend() {
         .attr("class", "legend")
         .attr("height", 200)
         .attr("width", 400)
-        .attr('transform', 'translate(90,20)')
+        .attr('transform', 'translate(2,2)')
         ;
 //Create colour squares
+
     legend.selectAll('rect')
         .data(["Win","Draw","Loss"])
         .enter()
         .append("rect")
-        .attr("x", w - 65)
-        .attr("y", function(d, i){ return i * 20;})
-        .attr("width", 20)
-        .attr("height", 20)
+        .attr("x", function(d, i){ return i * 60+w;})
+        .attr("y", 60)
+        .attr("width", 60)
+        .attr("height", 60)
         .style("fill", function(d, i){
             if (d=="Win") {
                 return "Green";
@@ -158,10 +188,10 @@ function legdend() {
         .data(["Win","Draw","Loss"])
         .enter()
         .append("text")
-        .attr("x", w -40)
-        .attr("y", function(d, i){ return i * 20 + 9;})
-        .attr("font-size", "11px")
-        .attr("fill", "#737373")
+        .attr("x", function(d, i){ return i * 60 + 9+w;})
+        .attr("y", 55)
+        .attr("font-size", "20px")
+        .attr("fill", "#00000")
         .text(function(d) { return d; })
     ;
 }
