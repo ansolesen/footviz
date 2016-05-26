@@ -4,7 +4,7 @@
 
 \begin{figure}
 \center
-\includegraphics[width=\textwidth, trim=0 600 0 0]{"Succes Rates Season".pdf}
+\includegraphics[width=\textwidth, trim=0 600 250 0]{"Succes Rates Season".pdf}
 \caption{Comparison of a Teams success rates throughout the season, split in wins, draws and losses}
 \label{Fig:CC}
 \end{figure}
@@ -21,7 +21,7 @@ This is done by a idiom facet into three views. The views are linked on having t
 \subsubsection{Code}
 In R we load the data file, convert columns to be numerics, aggregate by team, calculate the success rates, transforming the data to a format suited for the radar chart, select the columns we are interested in, and write it to csv.
 
-The D3 radar chart is based on \cite{RadarChart}, and modified to become animated. We create an update function which is called continuously with different data matches to be drawn. 
+The D3 radar chart is based on \cite{Radar}, and modified to become animated. We create an update function which is called continuously with different data matches to be drawn. 
 
 
 \end{document}

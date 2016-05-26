@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  26 MAY 2016 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  26 MAY 2016 15:21
 entering extended mode
 **PCA.tex
 (PCA.tex
@@ -950,7 +950,7 @@ File: ./Figures/"scree plot".pdf Graphic file (type pdf)
 
 <use ./Figures/"scree plot".pdf>
 Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
-(pdftex.def)             Requested size: 426.79135pt x 329.80219pt.
+(pdftex.def)             Requested size: 341.43437pt x 263.84175pt.
 
 <./Figures/"PC1 Loadings".pdf, id=2, 614.295pt x 794.97pt>
 File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
@@ -959,7 +959,7 @@ File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Figures/"PC1 Loadings".pdf used on input line 16.
 (pdftex.def)             Requested size: 426.79135pt x 552.32666pt.
 
-Overfull \hbox (65.4675pt too wide) in paragraph at lines 20--21
+Overfull \hbox (65.4675pt too wide) in paragraph at lines 21--22
 \T1/cmr/m/n/10.95 "Sum.of.Fouls.Received.In.Second.Third.Part", "Sum.of.Assist.
 To.Goal" and "Sum.of.Shots.On.Target". 
  []
@@ -968,58 +968,59 @@ To.Goal" and "Sum.of.Shots.On.Target".
 File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC2 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 24.
+Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 25.
 (pdftex.def)             Requested size: 209.1301pt x 270.638pt.
 
 <./Figures/"PC3 Loadings".pdf, id=4, 614.295pt x 794.97pt>
 File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC3 Loadings".pdf>
-Package pdftex.def Info: ./Figures/"PC3 Loadings".pdf used on input line 25.
+Package pdftex.def Info: ./Figures/"PC3 Loadings".pdf used on input line 26.
 (pdftex.def)             Requested size: 209.1301pt x 270.638pt.
 
-Overfull \hbox (77.6431pt too wide) in paragraph at lines 30--32
+Overfull \hbox (77.6431pt too wide) in paragraph at lines 31--33
 \T1/cmr/m/n/10.95 "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.Challenges.W
 on", "Sum.of.Crosses.On.Restart.Of.Play",
  []
 
 
-Overfull \hbox (7.79366pt too wide) in paragraph at lines 30--32
+Overfull \hbox (7.79366pt too wide) in paragraph at lines 31--33
 \T1/cmr/m/n/10.95 ables are the "Sum.of.Fouls.Received.In.First.Third.Part", "S
 um.of.Goals.With.Right.Foot",
  []
 
+<./Figures/"PC12".pdf, id=5, 722.7pt x 722.7pt>
+File: ./Figures/"PC12".pdf Graphic file (type pdf)
+ <use ./Figures/"PC12".pdf>
+Package pdftex.def Info: ./Figures/"PC12".pdf used on input line 40.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+
+<./Figures/"PC23".pdf, id=6, 722.7pt x 722.7pt>
+File: ./Figures/"PC23".pdf Graphic file (type pdf)
+ <use ./Figures/"PC23".pdf>
+Package pdftex.def Info: ./Figures/"PC23".pdf used on input line 45.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+
 [1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./Figures/scree plot.pdf>] [2 <./Figures/PC1 Loadings.pdf>]
-<./Figures/PC12.pdf, id=25, 794.97pt x 614.295pt>
-File: ./Figures/PC12.pdf Graphic file (type pdf)
- <use ./Figures/PC12.pdf>
-Package pdftex.def Info: ./Figures/PC12.pdf used on input line 38.
-(pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
-
-<./Figures/PC23.pdf, id=26, 794.97pt x 614.295pt>
-File: ./Figures/PC23.pdf Graphic file (type pdf)
- <use ./Figures/PC23.pdf>
-Package pdftex.def Info: ./Figures/PC23.pdf used on input line 48.
-(pdftex.def)             Requested size: 158.99118pt x 122.85681pt.
-
-[3 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>] [4 <./Figures/PC1
-2.pdf> <./Figures/PC23.pdf>] (PCA.aux) ) 
+ <./Figures/scree plot.pdf>] [2 <./Figures/PC1 Loadings.pdf>] [3 <./Figures/PC2
+ Loadings.pdf> <./Figures/PC3 Loadings.pdf> <./Figures/PC12.pdf> <./Figures/PC2
+3.pdf>]
+[4] (PCA.aux) ) 
 Here is how much of TeX's memory you used:
- 15466 strings out of 493673
- 295084 string characters out of 3143966
- 434358 words of memory out of 3000000
- 18683 multiletter control sequences out of 15000+200000
- 4709 words of font info for 16 fonts, out of 3000000 for 9000
+ 15476 strings out of 493673
+ 295270 string characters out of 3143966
+ 435358 words of memory out of 3000000
+ 18692 multiletter control sequences out of 15000+200000
+ 5472 words of font info for 17 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 47i,7n,44p,10412b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm1095.pfb>
-Output written on PCA.pdf (4 pages, 78178 bytes).
+ 47i,8n,44p,10412b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t
+1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on PCA.pdf (4 pages, 92563 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
