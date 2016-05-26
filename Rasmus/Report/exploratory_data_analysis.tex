@@ -1,0 +1,40 @@
+\documentclass[Report.tex]{subfiles}
+\begin{document}
+Exploratory data analysis, EDA, is a philosophy about how one can approach the analysis of a data set.
+It is not a fixed collection of tools that one can use to analyze a data set, but it is a general
+approach which promotes looking at data in different ways without having any assumptions. It is usually
+used when one receives a new data set, and wishes to learn something about the underlying structure of the
+data set, or wishes to discover outliers or trends in the data. In general, EDA is about looking at
+the data that is presented to one, in many different ways. Both visual and non-visual methods are used
+in EDA. Examples of non-visual methods are simply to calculate the mean, median, variance, quartiles etc. of
+the data, while visual methods could be a boxplot, scatterplot, which quickly allows one to discover outliers and trends, or even a simple
+bar chart. The boxplot is a quick way to present some of the calculated properties mentioned above, such as the median and the 
+quartiles. The boxplot was developed by John Tukey\cite{Weimer}, who is widely regarded as one of the big promoters of EDA, and
+it was presented in his book ``Exploratory Data Analysis'', as a method one could use while doing EDA.
+
+In specifics a boxplot\cite{Seltman} presents the following to the viewer, see figure \ref{fig:boxplot}.
+
+\begin{figure}
+\center
+\includegraphics[]{"Figures/boxplot"}
+\caption{A boxplot\cite{Seltman}}
+\label{fig:boxplot}
+\end{figure}
+
+Where a quarter of the data lies below Q1, a quarter is above Q3, and a half is between Q1 and Q3, where the median is centered between
+the Q1 and Q3. The area between Q1 and Q3 is often referred to as the interquartile range, IQR, which is calculated as Q3 minus Q1. The strength in this visualization is that one can quickly see the spread of the data. The bigger the IQR the more the data is spread, and the smaller the IQR, the less the data is spread. The boxplot also shows us the extremes and minimums of the data set, and the outliers. The lower whisker encodes the minimum value that is within 1.5 times the IQR subtracted from the Q1. Any values that is smaller than this will be represented as an outlier, which is a mark that is placed below the whisker. The same goes for the upper whisker. Boxplots are especially useful when you have multiple data sets that you want to compare, as you can place multiple boxplots next to eachother, and very quickly be able to recognize the differences between the data sets, as we have now encoded the data into something visual which is easier for the human cognitive system to process subconsciously.
+
+Another approach one can use within EDA is principal component analysis, PCA, which is described in another section.
+
+When doing EDA, one will often be able to use the acquired knowledge to formulate new hypotheses about the data, which can then
+be used to make more specific visualizations or calculate more specific properties of the data set, but it
+is not a guaranteed outcome. EDA will not always produce new knowledge, which is not a flaw in the approach,
+but rather a natural consequence of the approach.
+
+When doing EDA, one is not limited to the ``known'' idioms/methods to visualize or look at the data. One can easily
+produce new kinds of visualizations which can be used to learn about the data.
+
+%Experimental Design for Behavioral and Social Sciences, Howard Seltman, Chapter 4, online version: http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf, visited 26-05-2016
+
+%University of Minnesota Morris, http://mnstats.morris.umn.edu/introstat/history/w98/Tukey.html, visited 26-05-2016
+\end{document}
