@@ -1,4 +1,11 @@
 \documentclass[Report.tex]{subfiles}
+\begin{document}
+
+\documentclass[11pt]{article}
+
+
+
+
 \begin{document} 
 
 \section*{Discussion}
