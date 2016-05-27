@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  26 MAY 2016 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 11:21
 entering extended mode
 **CC.tex
 (CC.tex
@@ -1309,14 +1309,15 @@ File: ./Figures/"Succes Rates Season".pdf Graphic file (type pdf)
 <use ./Figures/"Succes Rates Season".pdf>
 Package pdftex.def Info: ./Figures/"Succes Rates Season".pdf used on input line
  7.
-(pdftex.def)             Requested size: 426.79135pt x 175.89296pt.
+(pdftex.def)             Requested size: 426.79135pt x 146.13089pt.
 
 
 LaTeX Warning: Citation `Radar' on page 1 undefined on input line 24.
 
-[1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1
 
- <./Figures/Succes Rates Season.pdf
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/Suc
+ces Rates Season.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/Succes Rates Season.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
@@ -1327,19 +1328,19 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26897 strings out of 493673
- 542739 string characters out of 3143966
- 678341 words of memory out of 3000000
- 29859 multiletter control sequences out of 15000+200000
+ 26898 strings out of 493673
+ 542749 string characters out of 3143966
+ 678339 words of memory out of 3000000
+ 29860 multiletter control sequences out of 15000+200000
  5492 words of font info for 17 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  71i,7n,75p,10395b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on CC.pdf (1 page, 121829 bytes).
+Output written on CC.pdf (1 page, 122156 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

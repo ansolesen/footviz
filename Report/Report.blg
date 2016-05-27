@@ -21,4 +21,6 @@ I was expecting a `,' or a `}'---line 81 of file bib.bib
  : date = {26-05-2016},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "R" isn't style-file defined
+--line 85 of file bib.bib
 (There were 2 error messages)

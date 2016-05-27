@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,6 +31,11 @@ Tamara Munzner and Eamonn Maguire.
 \bibitem[Seltman(2016)]{Seltman}
 Howard Seltman.
 \newblock Experimental design for behavioral and social sciences, 2016.
+
+\bibitem[Simmering(2013)]{R}
+Jacob Simmering.
+\newblock How slow is r really?, 2013.
+\newblock URL \url{http://www.r-bloggers.com/how-slow-is-r-really/}.
 
 \bibitem[Smith(2002)]{PCAtheory}
 Lindsay Smith.

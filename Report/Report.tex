@@ -19,6 +19,7 @@
 \usepackage{subfiles}
 \usepackage{url}
 \usepackage{smartdiagram}
+\floatplacement{figure}{ht!}
 
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
@@ -116,7 +117,9 @@
 \section{Data and API}
 \subfile{"data_and_api"}
 \section{Results}
-\subsection{Principle Component Analysis}
+\subsection{Exploratory Data Analysis}
+\subfile{"goal_attempts_box_plot"}
+\subsubsection{Principle Component Analysis}
 \subfile{"PCA"}
 \label{sec:PCA}
 
