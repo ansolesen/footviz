@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 09:04
 entering extended mode
 **Report.tex
 (Report.tex
@@ -1453,29 +1453,40 @@ PC12.pdf> <./Figures/PC23.pdf> <./Figures/Succes Rates Comparison.pdf
 pdfTeX warning: pdflatex (file ./Figures/Succes Rates Comparison.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
->]) ("Player Nationality.tex"
-<./Figures/"Nationality of the Players".pdf, id=176, 846.16125pt x 598.235pt>
+>]) (viz.tex <test.png, id=176, 671.50874pt x 569.12625pt>
+File: test.png Graphic file (type png)
+ <use test.png>
+Package pdftex.def Info: test.png used on input line 5.
+(pdftex.def)             Requested size: 426.79135pt x 361.72115pt.
+
+[19] [20 <./test.png>]) ("Player Nationality.tex"
+<./Figures/"Nationality of the Players".pdf, id=184, 846.16125pt x 598.235pt>
 File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
 
 <use ./Figures/"Nationality of the Players".pdf>
 Package pdftex.def Info: ./Figures/"Nationality of the Players".pdf used on inp
 ut line 7.
 (pdftex.def)             Requested size: 426.79135pt x 256.17223pt.
- [19]) (CC.tex
-<./Figures/"Succes Rates Season".pdf, id=181, 1690.315pt x 1195.46625pt>
+ [21 <./Figures/Nationality of the Players.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
+nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
+); ignored.
+>]) (CC.tex
+<./Figures/"Succes Rates Season".pdf, id=234, 1690.315pt x 1195.46625pt>
 File: ./Figures/"Succes Rates Season".pdf Graphic file (type pdf)
 
 <use ./Figures/"Succes Rates Season".pdf>
 Package pdftex.def Info: ./Figures/"Succes Rates Season".pdf used on input line
  7.
 (pdftex.def)             Requested size: 426.79135pt x 175.89296pt.
- [20 <./Figures/Nationality of the Players.pdf
+ [22 <./Figures/Succes Rates Season.pdf
 
-pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
-nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
-); ignored.
+pdfTeX warning: pdflatex (file ./Figures/Succes Rates Season.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
 >]) (custom_bubble_chart_viz.tex
-<"Figures/bubble_chart".png, id=231, 395.22656pt x 451.6875pt>
+<"Figures/bubble_chart".png, id=257, 395.22656pt x 451.6875pt>
 File: "Figures/bubble_chart".png Graphic file (type png)
 
 <use "Figures/bubble_chart".png>
@@ -1491,16 +1502,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[21 <./Figures/Succes Rates Season.pdf
-
-pdfTeX warning: pdflatex (file ./Figures/Succes Rates Season.pdf): PDF inclusio
-n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
-red.
->] [22 <./Figures/bubble_chart.png>]
+[23] [24 <./Figures/bubble_chart.png>]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 29.
- [23]) (field_events_viz.tex
-<"Figures/events_1_2".png, id=262, 800.9925pt x 1297.84875pt>
+ [25]) (field_events_viz.tex
+<"Figures/events_1_2".png, id=270, 800.9925pt x 1297.84875pt>
 File: "Figures/events_1_2".png Graphic file (type png)
 
 <use "Figures/events_1_2".png>
@@ -1516,36 +1522,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[24] [25 <./Figures/events_1_2.png>] [26]) (Report.bbl
-Underfull \hbox (badness 7168) in paragraph at lines 37--41
+[26] [27 <./Figures/events_1_2.png>] [28]) (Report.bbl
+Underfull \hbox (badness 7168) in paragraph at lines 36--40
 []\T1/cmr/m/n/10.95 Lindsay Smith.  A tu-torial on prin-cipal com-pon-ents ana-
 lysis,
  []
 
-[27]) [28] (Report.aux) ) 
+) [29] [30] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 27546 strings out of 493673
- 551151 string characters out of 3143966
- 741991 words of memory out of 3000000
- 30400 multiletter control sequences out of 15000+200000
+ 27554 strings out of 493673
+ 551229 string characters out of 3143966
+ 726991 words of memory out of 3000000
+ 30405 multiletter control sequences out of 15000+200000
  19965 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,8n,73p,10375b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti109
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Report.pdf (28 pages, 1695433 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super
+/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti10
+95.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on Report.pdf (30 pages, 1811539 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 325 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

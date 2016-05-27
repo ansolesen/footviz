@@ -22,21 +22,22 @@
 \contentsline {subsection}{\numberline {6.2}Success Rates}{17}
 \contentsline {subsubsection}{\numberline {6.2.1}What-why-how}{17}
 \contentsline {subsubsection}{\numberline {6.2.2}Code}{19}
-\contentsline {subsection}{\numberline {6.3}Nationality of players}{19}
-\contentsline {subsubsection}{\numberline {6.3.1}What-why-how}{19}
-\contentsline {subsubsection}{\numberline {6.3.2}Code}{19}
-\contentsline {subsection}{\numberline {6.4}Success Rates Animated}{20}
-\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{20}
-\contentsline {subsubsection}{\numberline {6.4.2}Code}{21}
-\contentsline {subsection}{\numberline {6.5}Custom Bubble Chart}{21}
-\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{21}
+\contentsline {subsection}{\numberline {6.3}Comparison viz}{19}
+\contentsline {subsection}{\numberline {6.4}Nationality of players}{21}
+\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{21}
+\contentsline {subsubsection}{\numberline {6.4.2}Code}{22}
+\contentsline {subsection}{\numberline {6.5}Success Rates Animated}{22}
+\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{22}
 \contentsline {subsubsection}{\numberline {6.5.2}Code}{23}
-\contentsline {subsection}{\numberline {6.6}Field Events}{24}
-\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{24}
-\contentsline {subsubsection}{\numberline {6.6.2}Code}{26}
-\contentsline {section}{\numberline {7}Discussion}{27}
-\contentsline {section}{\numberline {8}Conclusion}{27}
-\contentsline {section}{\numberline {9}Usability}{27}
-\contentsline {section}{\numberline {10}Bibliography}{27}
-\contentsline {section}{\numberline {11}Appendix}{28}
-\contentsline {section}{\numberline {12}Process Evaluation}{28}
+\contentsline {subsection}{\numberline {6.6}Custom Bubble Chart}{23}
+\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{23}
+\contentsline {subsubsection}{\numberline {6.6.2}Code}{25}
+\contentsline {subsection}{\numberline {6.7}Field Events}{26}
+\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{26}
+\contentsline {subsubsection}{\numberline {6.7.2}Code}{28}
+\contentsline {section}{\numberline {7}Discussion}{29}
+\contentsline {section}{\numberline {8}Conclusion}{29}
+\contentsline {section}{\numberline {9}Usability}{29}
+\contentsline {section}{\numberline {10}Bibliography}{29}
+\contentsline {section}{\numberline {11}Appendix}{30}
+\contentsline {section}{\numberline {12}Process Evaluation}{30}

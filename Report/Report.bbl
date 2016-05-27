@@ -28,10 +28,9 @@ Tamara Munzner and Eamonn Maguire.
 \newblock CRC Press, Boca Raton, FL, 2015.
 \newblock ISBN 9781466508910;1466508914;.
 
-\bibitem[Seltman()]{Seltman}
+\bibitem[Seltman(2016)]{Seltman}
 Howard Seltman.
-\newblock Experimental design for behavioral and social sciences.
-\newblock URL \url{http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf}.
+\newblock Experimental design for behavioral and social sciences, 2016.
 
 \bibitem[Smith(2002)]{PCAtheory}
 Lindsay Smith.
@@ -39,10 +38,8 @@ Lindsay Smith.
 \newblock URL
   \url{http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf}.
 
-\bibitem[Weimer()]{Weimer}
+\bibitem[Weimer(2016)]{Weimer}
 Paula Weimer.
-\newblock History of statistics and probability, john wilder tukey.
-\newblock URL
-  \url{http://mnstats.morris.umn.edu/introstat/history/w98/Tukey.html}.
+\newblock History of statistics and probability, john wilder tukey, 2016.
 
 \end{thebibliography}

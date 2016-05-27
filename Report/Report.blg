@@ -9,8 +9,16 @@ Warning--entry type for "PCAtheory" isn't style-file defined
 --line 61 of file bib.bib
 Warning--entry type for "Seltman" isn't style-file defined
 --line 69 of file bib.bib
+I was expecting a `,' or a `}'---line 73 of file bib.bib
+ : 
+ : date = {26-05-2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "Weimer" isn't style-file defined
---line 76 of file bib.bib
-Warning--empty year in Seltman
-Warning--empty year in Weimer
-(There were 7 warnings)
+--line 77 of file bib.bib
+I was expecting a `,' or a `}'---line 81 of file bib.bib
+ : 
+ : date = {26-05-2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+(There were 2 error messages)
