@@ -12,7 +12,6 @@ var svg = d3.select("svg")
             .attr("width", width)
             .attr("height", height);
 
-
 var sliderDiv = d3.select("body").append("div")
             .style("width", width + "px");
 
@@ -41,6 +40,15 @@ function update(period) {
       .attr("cy", function(d) {return y(+d.y) + (Math.random()*20 - 10);});
 
     circle.exit().remove();
+
+    var text = d3.select("text");
+    text.remove();
+
+    text = d3.select("svg").append("text");
+    text.text("Amount: " + json.length).attr("x", 5).attr("y", 17).attr("fill", "white");
+
+
+    
   });
 }
 
