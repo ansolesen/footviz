@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 14:02
 entering extended mode
 **custom_bubble_chart_viz.tex
 (custom_bubble_chart_viz.tex
@@ -1319,9 +1319,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[1{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1
 
- <./Figures/bubble_chart.png>]
+{C:/Users/SBK/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/bub
+ble_chart.png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1331,19 +1332,19 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 
 [2] [3] (custom_bubble_chart_viz.aux) ) 
 Here is how much of TeX's memory you used:
- 27270 strings out of 493673
- 546446 string characters out of 3143966
- 720361 words of memory out of 3000000
- 30225 multiletter control sequences out of 15000+200000
+ 27271 strings out of 493673
+ 546456 string characters out of 3143966
+ 740362 words of memory out of 3000000
+ 30226 multiletter control sequences out of 15000+200000
  7333 words of font info for 20 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 71i,7n,75p,10416b,1739s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,7n,75p,10416b,1345s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/c
 m-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/s
 frm0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on custom_bubble_chart_viz.pdf (3 pages, 133972 bytes).
+Output written on custom_bubble_chart_viz.pdf (3 pages, 133817 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

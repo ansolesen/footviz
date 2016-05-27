@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  27 MAY 2016 14:10
 entering extended mode
 **Report.tex
 (Report.tex
@@ -1153,18 +1153,18 @@ mmands.code.tex"
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (Report.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1301,12 +1301,12 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count193
  ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count194
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1519,15 +1519,15 @@ red.
 >] [24 <./Figures/bubble_chart.png>]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 29.
- [25]) (field_events_viz.tex
-<./Figures/"GoalAT".pdf, id=317, 1228.59pt x 794.97pt>
+) (field_events_viz.tex
+<./Figures/"GoalAT".pdf, id=311, 1228.59pt x 794.97pt>
 File: ./Figures/"GoalAT".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT".pdf>
 Package pdftex.def Info: ./Figures/"GoalAT".pdf used on input line 8.
 (pdftex.def)             Requested size: 298.75264pt x 273.85251pt.
 
-<./Figures/"GoalAT2".pdf, id=319, 1228.59pt x 794.97pt>
+<./Figures/"GoalAT2".pdf, id=313, 1228.59pt x 794.97pt>
 File: ./Figures/"GoalAT2".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT2".pdf>
@@ -1543,7 +1543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[26] [27 <./Figures/GoalAT.pdf
+[25] [26] [27 <./Figures/GoalAT.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/GoalAT.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
@@ -1551,7 +1551,7 @@ her resource which is no dict (key 'ProcSets', type <array>); ignored.
 
 pdfTeX warning: pdflatex (file ./Figures/GoalAT2.pdf): PDF inclusion: invalid o
 ther resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [28]) (Discussion.tex [29]) (perspectivation.tex) (Report.bbl [30]
+>]) (Discussion.tex [28] [29]) (perspectivation.tex) (Report.bbl [30]
 Underfull \hbox (badness 7168) in paragraph at lines 41--45
 []\T1/cmr/m/n/10.95 Lindsay Smith.  A tu-torial on prin-cipal com-pon-ents ana-
 lysis,
@@ -1561,11 +1561,11 @@ lysis,
 Here is how much of TeX's memory you used:
  27575 strings out of 493673
  551802 string characters out of 3143966
- 735991 words of memory out of 3000000
+ 748991 words of memory out of 3000000
  30415 multiletter control sequences out of 15000+200000
  19965 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,8n,73p,10375b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,8n,73p,10375b,1400s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-s
 uper-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/P
@@ -1578,7 +1578,7 @@ public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
 rm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Report.pdf (31 pages, 1859016 bytes).
+Output written on Report.pdf (31 pages, 1858798 bytes).
 PDF statistics:
  1496 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

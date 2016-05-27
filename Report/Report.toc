@@ -33,10 +33,10 @@
 \contentsline {subsection}{\numberline {6.6}Custom Bubble Chart}{23}
 \contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{23}
 \contentsline {subsubsection}{\numberline {6.6.2}Code}{25}
-\contentsline {subsection}{\numberline {6.7}Field Events}{26}
-\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{26}
+\contentsline {subsection}{\numberline {6.7}Field Events}{25}
+\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{25}
 \contentsline {subsubsection}{\numberline {6.7.2}Code}{28}
-\contentsline {section}{\numberline {7}Discussion}{29}
+\contentsline {section}{\numberline {7}Discussion}{28}
 \contentsline {section}{\numberline {8}Conclusion}{30}
 \contentsline {section}{\numberline {9}Usability}{30}
 \contentsline {section}{\numberline {10}Bibliography}{30}

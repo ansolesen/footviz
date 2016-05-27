@@ -37,7 +37,7 @@ The visualization is made using the D3 library, but the visualization itself is 
 
 The pseudocode for the data processing in R is as follow.
 Where eventID is the id of a match and touch means an event within the game, for example a good pass.
-
+\begin{figure}
 \begin{lstlisting}[language=java]
 getTouchesAndWriteToFiles() {
   teams = getDataFrame(teams)
@@ -65,6 +65,7 @@ getTouchesAndWriteToFiles() {
       write(toWrite, touchDataFrame.name + i + ".json")
 }
 \end{lstlisting}
-
+\caption{some text}
+\end{figure}
 
 \end{document}

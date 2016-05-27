@@ -19,7 +19,7 @@ What. The data being presented in the visualization is the statistics of the tea
 \subsubsection{Code}
 This is the pseudocode for the way that the x, y and size dimensions are calculated for each circle.
 Since we receive the data as a list of objects, we can append/change the x, y and radius of each circle directly on the object as each circle represents an object. The updateDimensions function takes as arguments the list of objects, the parameters that it should encode the circle by and the distance between each circle. Note that when calculating the y coordinate of the circles, we sort the objects in reverse order as coordinates in graphical spaces usually have the origin in the upper left corner, meaning that it is counter intuitive for users compared to how they normally view graphs, meaning that we have to inverse the y-coordinates as to not make it confusing. After the dimensions have been updated, the circles would transition into their new dimensions (i.e. grow or shrink and move along the axes).
-
+\begin{figure}
 \begin{lstlisting}[language=java]
 updateDimensions(objects, sizePar, xPar, yPar, distance) {
   sortByParameter(objects, sizePar)
@@ -51,4 +51,6 @@ updateDimensions(objects, sizePar, xPar, yPar, distance) {
     prevRadius = object.radius
 }
 \end{lstlisting}
+\caption{Some text}
+\end{figure}
 \end{document}
