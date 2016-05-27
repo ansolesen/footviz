@@ -2,9 +2,15 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Report.aux
 The style file: plainnat.bst
 Database file #1: bib.bib
 Warning--entry type for "Radar" isn't style-file defined
---line 48 of file bib.bib
+--line 45 of file bib.bib
 Warning--entry type for "Sankey" isn't style-file defined
---line 55 of file bib.bib
+--line 52 of file bib.bib
 Warning--entry type for "PCAtheory" isn't style-file defined
---line 64 of file bib.bib
-(There were 3 warnings)
+--line 61 of file bib.bib
+Warning--entry type for "Seltman" isn't style-file defined
+--line 69 of file bib.bib
+Warning--entry type for "Weimer" isn't style-file defined
+--line 76 of file bib.bib
+Warning--empty year in Seltman
+Warning--empty year in Weimer
+(There were 7 warnings)

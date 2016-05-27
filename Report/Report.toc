@@ -1,36 +1,42 @@
 \select@language {UKenglish}
 \contentsline {section}{\numberline {1}Abstract}{2}
 \contentsline {section}{\numberline {2}Preface}{2}
-\contentsline {section}{\numberline {3}Introduction}{4}
-\contentsline {section}{\numberline {4}Theory}{4}
-\contentsline {subsection}{\numberline {4.1}Design Process}{4}
-\contentsline {subsection}{\numberline {4.2}Design}{5}
-\contentsline {subsection}{\numberline {4.3}Data Types and Data Sets}{6}
-\contentsline {subsection}{\numberline {4.4}Idioms}{7}
-\contentsline {subsection}{\numberline {4.5}Analysis and Complexity}{7}
-\contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{7}
-\contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{7}
-\contentsline {subsubsection}{\numberline {4.6.2}Facet}{8}
-\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{8}
-\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{9}
-\contentsline {subsubsection}{\numberline {4.7.2}Linear Regression}{10}
-\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{10}
-\contentsline {subsubsection}{\numberline {4.8.1}R}{10}
-\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{12}
-\contentsline {section}{\numberline {5}Results}{12}
-\contentsline {subsection}{\numberline {5.1}Principle Component Analysis}{12}
-\contentsline {subsection}{\numberline {5.2}Success Rates}{13}
-\contentsline {subsubsection}{\numberline {5.2.1}What-why-how}{13}
-\contentsline {subsubsection}{\numberline {5.2.2}Code}{16}
-\contentsline {subsection}{\numberline {5.3}Nationality of players}{16}
-\contentsline {subsubsection}{\numberline {5.3.1}What-why-how}{16}
-\contentsline {subsubsection}{\numberline {5.3.2}Code}{17}
-\contentsline {subsection}{\numberline {5.4}Success Rates Animated}{17}
-\contentsline {subsubsection}{\numberline {5.4.1}What-why-how}{17}
-\contentsline {subsubsection}{\numberline {5.4.2}Code}{18}
-\contentsline {section}{\numberline {6}Discussion}{18}
-\contentsline {section}{\numberline {7}Conclusion}{18}
-\contentsline {section}{\numberline {8}Usability}{18}
-\contentsline {section}{\numberline {9}Bibliography}{18}
-\contentsline {section}{\numberline {10}Appendix}{19}
-\contentsline {section}{\numberline {11}Process Evaluation}{19}
+\contentsline {section}{\numberline {3}Introduction}{5}
+\contentsline {section}{\numberline {4}Theory}{5}
+\contentsline {subsection}{\numberline {4.1}Design Process}{5}
+\contentsline {subsection}{\numberline {4.2}Design}{6}
+\contentsline {subsection}{\numberline {4.3}Data Types and Data Sets}{7}
+\contentsline {subsection}{\numberline {4.4}Idioms}{8}
+\contentsline {subsection}{\numberline {4.5}Analysis and Complexity}{8}
+\contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{8}
+\contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{8}
+\contentsline {subsubsection}{\numberline {4.6.2}Facet}{9}
+\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{9}
+\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{11}
+\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{12}
+\contentsline {subsubsection}{\numberline {4.8.1}R}{12}
+\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{14}
+\contentsline {section}{\numberline {5}Data and API}{14}
+\contentsline {section}{\numberline {6}Results}{15}
+\contentsline {subsection}{\numberline {6.1}Principle Component Analysis}{15}
+\contentsline {subsection}{\numberline {6.2}Success Rates}{17}
+\contentsline {subsubsection}{\numberline {6.2.1}What-why-how}{17}
+\contentsline {subsubsection}{\numberline {6.2.2}Code}{19}
+\contentsline {subsection}{\numberline {6.3}Nationality of players}{19}
+\contentsline {subsubsection}{\numberline {6.3.1}What-why-how}{19}
+\contentsline {subsubsection}{\numberline {6.3.2}Code}{19}
+\contentsline {subsection}{\numberline {6.4}Success Rates Animated}{20}
+\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{20}
+\contentsline {subsubsection}{\numberline {6.4.2}Code}{21}
+\contentsline {subsection}{\numberline {6.5}Custom Bubble Chart}{21}
+\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{21}
+\contentsline {subsubsection}{\numberline {6.5.2}Code}{23}
+\contentsline {subsection}{\numberline {6.6}Field Events}{24}
+\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{24}
+\contentsline {subsubsection}{\numberline {6.6.2}Code}{26}
+\contentsline {section}{\numberline {7}Discussion}{27}
+\contentsline {section}{\numberline {8}Conclusion}{27}
+\contentsline {section}{\numberline {9}Usability}{27}
+\contentsline {section}{\numberline {10}Bibliography}{27}
+\contentsline {section}{\numberline {11}Appendix}{28}
+\contentsline {section}{\numberline {12}Process Evaluation}{28}

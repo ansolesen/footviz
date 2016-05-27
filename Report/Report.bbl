@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -28,10 +28,21 @@ Tamara Munzner and Eamonn Maguire.
 \newblock CRC Press, Boca Raton, FL, 2015.
 \newblock ISBN 9781466508910;1466508914;.
 
+\bibitem[Seltman()]{Seltman}
+Howard Seltman.
+\newblock Experimental design for behavioral and social sciences.
+\newblock URL \url{http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf}.
+
 \bibitem[Smith(2002)]{PCAtheory}
 Lindsay Smith.
 \newblock A tutorial on principal components analysis, 2002.
 \newblock URL
   \url{http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf}.
+
+\bibitem[Weimer()]{Weimer}
+Paula Weimer.
+\newblock History of statistics and probability, john wilder tukey.
+\newblock URL
+  \url{http://mnstats.morris.umn.edu/introstat/history/w98/Tukey.html}.
 
 \end{thebibliography}
