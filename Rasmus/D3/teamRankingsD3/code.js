@@ -1,8 +1,9 @@
-var width = 500;
+var width = 700;
 var height = 1024;
 
 var position = "yellowCards";
 var size = "rank";
+var horizontal = "shots";
 
 var options = [];
 
@@ -15,9 +16,23 @@ d3.json("data/teamData.json", function(error, json) {
     options.push(key);
   }
 
+  //Remove the name option
+  var index = options.indexOf("name");
+  options.splice(index, 1 );
+
   createSelectors();
   createCircles();
+  
+  setSelectValue('position-selector', position);
+  setSelectValue('size-selector', size);
+  setSelectValue('horizontal-selector', horizontal);
+
 });
+
+function setSelectValue (id, val) {
+    document.getElementById(id).value = val;
+}
+
 
 
 function createSelectors() {
@@ -29,6 +44,12 @@ function createSelectors() {
       .append('option')
       .text(function (d) { return d; });
 
+  d3.select("#horizontal-selector").selectAll("option").data(options).enter()
+      .append('option')
+      .text(function (d) { return d; });
+
+  d3.select("#horizontal-selector").on("change", horizontalUpdate);
+
   d3.select("#position-selector").on("change", positionUpdate);
 
   d3.select("#size-selector").on("change", sizeUpdate);
@@ -36,12 +57,17 @@ function createSelectors() {
 
 function positionUpdate() {
     position = this.options[this.selectedIndex].value;
-    update(allData, position, size);
+    update(allData, position, size, horizontal);
 }
 
 function sizeUpdate() {
     size = this.options[this.selectedIndex].value;
-    update(allData, position, size);
+    update(allData, position, size, horizontal);
+}
+
+function horizontalUpdate() {
+    horizontal = this.options[this.selectedIndex].value;
+    update(allData, position, size, horizontal);
 }
 
 function createCircles() {
@@ -59,7 +85,7 @@ function createCircles() {
 
   text.enter().append("text");
 
-  update(allData, position, size);
+  update(allData, position, size, horizontal);
 }
 
 function sortByKey(array, key) {
@@ -76,11 +102,11 @@ function sortByKeyReverse(array, key) {
   });
 }
 
-function update(data, positionAttribute, sizeAttribute) {
+function update(data, positionAttribute, sizeAttribute, horizontalAttribute) {
   var prevRadius = 0;
   var prevY = 10;
+  var prevX = 10;
   var distance = 10;
-  var x = 100;
 
   var radiusMultiplier = 2;
 
@@ -101,6 +127,16 @@ function update(data, positionAttribute, sizeAttribute) {
     prevRadius = entry.radius;
   });
 
+  sortByKey(data, horizontalAttribute);
+
+  prevRadius = 0;
+
+  data.forEach(function(entry) {
+    entry.x = prevX + prevRadius + distance + entry.radius;
+    prevX = entry.x;
+    prevRadius = entry.radius;
+  });
+
   var svg = d3.select("svg");
 
   var circles = svg.selectAll("circle").data(data, function(d) {
@@ -112,12 +148,12 @@ function update(data, positionAttribute, sizeAttribute) {
   });
 
   text.transition().duration(500)
-      .attr("x", x + 30)
+      .attr("x", function(d) {return d.x + d.radius + 1;})
       .attr("y", function(d) {return d.y;})
       .text(function(d) {return d.name;});
 
   circles.transition().duration(500)
          .attr("r", function(d) {return d.radius})
-         .attr("cx", x)
+         .attr("cx", function(d) {return d.x;})
          .attr("cy", function(d) {return d.y;});
 }

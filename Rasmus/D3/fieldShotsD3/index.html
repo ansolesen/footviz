@@ -9,6 +9,55 @@
 </head>
 
 <body>
+
+	<div>
+		<br>
+		Event type
+		<select id="type-selector">
+		</select>
+		<br><br>
+
+		Drag the slider to view the different periods of the game. The 1 represents the
+		events during the first 10 minutes <br>
+		(0 to 10), the 2 represents the events during
+		the next 10 minutes (10 to 20) and so on. The events are not summed, <br> such
+		that one can easily
+		compare where events take place during what parts of a game. The events from an entire <br>
+		season has been aggregated into one view. Select what kind of event you want to see by using
+		the selector above.
+
+	</div>
+
+	<br>
+
+	<svg>
+		<rect width="1050" height="680" fill="lightgreen"></rect>
+
+		<line x1="525" y1="0" x2="525" y2="680" style="stroke:rgb(255,255,255);stroke-width:3" />
+
+
+		<line x1="1050" y1="138.4" x2="885" y2="138.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="1050" y1="541.6" x2="885" y2="541.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="885" y1="138.4" x2="885" y2="541.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+
+		<line x1="1050" y1="248.4" x2="995" y2="248.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="1050" y1="431.6" x2="995" y2="431.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="995" y1="431.6" x2="995" y2="248.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+		
+
+		<line x1="0" y1="138.4" x2="165" y2="138.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="0" y1="541.6" x2="165" y2="541.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="165" y1="138.4" x2="165" y2="541.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+
+		<line x1="0" y1="248.4" x2="55" y2="248.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="0" y1="431.6" x2="55" y2="431.6" style="stroke:rgb(255,255,255);stroke-width:3" />
+		<line x1="55" y1="431.6" x2="55" y2="248.4" style="stroke:rgb(255,255,255);stroke-width:3" />
+
+	</svg>
+
+
+
+
 	<script src="code.js"></script>
 </body>
 

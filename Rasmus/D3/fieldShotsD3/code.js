@@ -1,5 +1,5 @@
-var width = 1050/1.5;
-var height = 680/1.5;
+var width = 1050;
+var height = 680;
 
 var touchType = "Goal Attempt";
 var period = 1;
@@ -8,14 +8,10 @@ var x = d3.scale.linear().domain([0,105]).range([0,width]);
 var y = d3.scale.linear().domain([0,68]).range([0,height]);
 
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("svg")
             .attr("width", width)
             .attr("height", height);
 
-svg.append("rect")
-  .attr("width", width)
-  .attr("height", height)
-  .attr("fill", "lightgreen");
 
 var sliderDiv = d3.select("body").append("div")
             .style("width", width + "px");
@@ -37,12 +33,12 @@ function update(period) {
 
     var newCircles = circle.enter().append("circle");
 
-    circle.attr("r", 2)
+    circle.attr("r", 1.5)
       .attr("fill", "black")
-      .attr("opacity", 0.3)
+      .attr("opacity", 0.75)
       .attr("stroke", "black")
-      .attr("cx", function(d) {return x(+d.x);})
-      .attr("cy", function(d) {return y(+d.y);});
+      .attr("cx", function(d) {return x(+d.x) + (Math.random()*20 - 10);})
+      .attr("cy", function(d) {return y(+d.y) + (Math.random()*20 - 10);});
 
     circle.exit().remove();
   });
@@ -68,10 +64,7 @@ var options = ["Goal Attempt",
             "Tackles",
             "Throw-In"];
 
-var select = d3.select('body')
-  .append('select')
-    .attr('class','select')
-    .style("float", "right")
+var select = d3.select("#type-selector")
     .on('change',onchange)
 
 var options = select
