@@ -1,0 +1,33 @@
+\documentclass[Report.tex]{subfiles}
+%\documentclass{article}
+\begin{document}
+
+\begin{figure}
+\center
+\includegraphics[scale=0.84]{"Shots_hf".pdf}
+\caption{Grouped bar chart showing the ratio of headers and shots with foot as
+a percentage of total shots, together with the percentage of chances that
+results in goal}
+\label{Fig:Shots_HF} 
+\end{figure}
+
+\subsubsection{What-why-how}
+This idiom shows how many of a team's shots are taken with the players' feet,
+versus their head, as well as the ratio of goals per chance ('successful
+chances'). The groups (teams) are ordered based on their ranking in the league,
+with the highest ranking team as the first group. 
+This visualization was created to see if
+there is a correlation between a team's ranking, and how many shots are headers,
+as well as how many of their chances are successful.
+
+\subsubsection{Code}
+As with the other grouped bar charts, R was used exclusively, with the Excel
+sheet as input data. 
+The variables in question were selected, then split into different tables for
+each team. Then the variables were summed, and shots from head and foot were
+divided by total shots. The successful chances were calculated by dividing the
+total number of goals with the total number of chances. 
+ggplot2 was utilized to create the grouped bar chart, ordering the groups by the
+ranking of the team, with the highest ranked team as the first group.
+
+\end{document}

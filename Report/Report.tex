@@ -19,7 +19,8 @@
 \usepackage{subfiles}
 \usepackage{url}
 \usepackage{smartdiagram}
-\floatplacement{figure}{ht!}
+%\usepackage[section]{placeins}
+\floatplacement{figure}{h!t}
 \usepackage{float}
 
 \usepackage{etoolbox}
@@ -124,6 +125,21 @@
 \subsubsection{Principle Component Analysis}
 \subfile{"PCA"}
 \label{sec:PCA}
+
+\subsection{Source of Goals}
+\subfile{"Goals"}
+
+\subsection{Passes -Direction}
+\subfile{"PassesDirection"}
+
+\subsection{Passes -Length}
+\subfile{"PassesLength"}
+
+\subsection{Shots -Head vs Foot}
+\subfile{"ShotHF"}
+
+\subsection{Shots -Inside box vs Outside box}
+\subfile{"ShotIO"}
 
 \subsection{Success Rates}
 \subfile{"RadarChartComparison"}

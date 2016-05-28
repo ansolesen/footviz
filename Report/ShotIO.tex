@@ -1,0 +1,36 @@
+\documentclass[Report.tex]{subfiles}
+%\documentclass{article}
+\begin{document}
+
+\begin{figure}
+\center
+\includegraphics[scale=0.84]{"Shots_io".pdf}
+\caption{Grouped bar chart showing how many shots were taken from inside the
+boxand outside the box, as percentages of total shots, as well as the
+percentage of chances that result in goal.}
+\label{Fig:Shots_IO} 
+\end{figure}
+
+\subsubsection{What-why-how}
+This visualization shows how many of a team's shots are taken from inside the
+boxand outside the box, and the percentage of chances that are successful.
+It was created to explore possible correlations between a team's ranking, and
+where the shots originate from. 
+The bar charts are grouped, based on a team's ranking, with the highest ranking
+team as the first group (F.C Kobenhavn at the time of writing). 
+
+\subsubsection{Code}
+The bar chart was created in almost the same way as the other grouped bar
+charts, utilizing R for both data processing, and creating the graph (with
+ggplot2.)
+Data was selected from the Excel sheet, and then split into the different teams,
+before summing the variables. The shots from inside/outside the box were then
+divided by total number of shots to get the percentages. Successful chances were
+created by dividing total number of chances with total number of goals.
+As with the other bar charts, the data was processed in a loop, processing one
+team at a time, appending the values to a list, and then creating a data frame
+outside the loop, with data from all the teams. ggplot2 was then used on this
+data frame to create the chart.
+
+
+\end{document}
