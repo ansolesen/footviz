@@ -1,0 +1,35 @@
+\documentclass[Report.tex]{subfiles}
+%\documentclass{article}
+\begin{document}
+
+\begin{figure}
+\center
+\includegraphics[scale=0.84]{"Pass_Length".pdf}
+\caption{Grouped bar chart showing average pass length per team}
+\label{Fig:Pass_Length}
+\end{figure}
+
+
+
+\subsubsection{What-why-how}
+A grouped bar chart that shows the length of passes of a team, on average,
+divided into three categories - less than 17 meters, between 17 and 34 meters,
+and passes greater than 34 meters. These three variables are grouped by teams,
+and the groups are sorted, based on the team's ranking in the league.
+The purpose of this idiom is to see if there is a correlation between the length
+of a team's passes, and their rank in the league.
+Summing the average passing lengths of a team results in 100%. 
+
+\subsubsection{Code}
+This chart was made completely in R, by first selecting the desired variables
+from the Excel sheet, then splitting this data into 12 sets, one per team. 
+The columns were then summed, then divided with the total number of passes, to
+get the different percentages. This was done in a loop, by adding variables and
+values to predefined lists, instead of iteratively adding data to a data frame,
+which is not efficient. By creating a data frame of the lists after iterating,
+a new data frame is not created after every iteration, thus increasing
+efficiency.
+The order of the groups is again decided on the levels of the data frame, and
+thus these are reordered, based on the ranking of the team in question.
+
+\end{document}
