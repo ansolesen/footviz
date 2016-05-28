@@ -23,4 +23,6 @@ I was expecting a `,' or a `}'---line 81 of file bib.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "R" isn't style-file defined
 --line 85 of file bib.bib
+Warning--entry type for "D3" isn't style-file defined
+--line 92 of file bib.bib
 (There were 2 error messages)

@@ -16,29 +16,29 @@
 \contentsline {subsection}{\numberline {4.8}Tools and Technologies}{12}
 \contentsline {subsubsection}{\numberline {4.8.1}R}{12}
 \contentsline {subsubsection}{\numberline {4.8.2}D3.js}{14}
-\contentsline {section}{\numberline {5}Data and API}{14}
-\contentsline {section}{\numberline {6}Results}{15}
-\contentsline {subsection}{\numberline {6.1}Exploratory Data Analysis}{15}
-\contentsline {subsubsection}{\numberline {6.1.1}Principle Component Analysis}{16}
+\contentsline {section}{\numberline {5}Data and API}{15}
+\contentsline {section}{\numberline {6}Results}{16}
+\contentsline {subsection}{\numberline {6.1}Exploratory Data Analysis}{16}
+\contentsline {subsubsection}{\numberline {6.1.1}Principle Component Analysis}{17}
 \contentsline {subsection}{\numberline {6.2}Success Rates}{18}
 \contentsline {subsubsection}{\numberline {6.2.1}What-why-how}{18}
-\contentsline {subsubsection}{\numberline {6.2.2}Code}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}Code}{20}
 \contentsline {subsection}{\numberline {6.3}Comparison viz}{20}
-\contentsline {subsection}{\numberline {6.4}Nationality of players}{21}
-\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{21}
-\contentsline {subsubsection}{\numberline {6.4.2}Code}{22}
-\contentsline {subsection}{\numberline {6.5}Success Rates Animated}{22}
-\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{22}
-\contentsline {subsubsection}{\numberline {6.5.2}Code}{23}
-\contentsline {subsection}{\numberline {6.6}Custom Bubble Chart}{23}
-\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{23}
-\contentsline {subsubsection}{\numberline {6.6.2}Code}{25}
-\contentsline {subsection}{\numberline {6.7}Field Events}{25}
-\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{25}
-\contentsline {subsubsection}{\numberline {6.7.2}Code}{28}
-\contentsline {section}{\numberline {7}Discussion}{28}
-\contentsline {section}{\numberline {8}Conclusion}{30}
-\contentsline {section}{\numberline {9}Usability}{30}
-\contentsline {section}{\numberline {10}Bibliography}{30}
-\contentsline {section}{\numberline {11}Appendix}{31}
-\contentsline {section}{\numberline {12}Process Evaluation}{31}
+\contentsline {subsection}{\numberline {6.4}Nationality of players}{22}
+\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{23}
+\contentsline {subsubsection}{\numberline {6.4.2}Code}{23}
+\contentsline {subsection}{\numberline {6.5}Success Rates Animated}{23}
+\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{23}
+\contentsline {subsubsection}{\numberline {6.5.2}Code}{24}
+\contentsline {subsection}{\numberline {6.6}Custom Bubble Chart}{24}
+\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{24}
+\contentsline {subsubsection}{\numberline {6.6.2}Code}{26}
+\contentsline {subsection}{\numberline {6.7}Field Events}{27}
+\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{27}
+\contentsline {subsubsection}{\numberline {6.7.2}Code}{29}
+\contentsline {section}{\numberline {7}Discussion}{29}
+\contentsline {section}{\numberline {8}Conclusion}{31}
+\contentsline {section}{\numberline {9}Usability}{31}
+\contentsline {section}{\numberline {10}Bibliography}{31}
+\contentsline {section}{\numberline {11}Appendix}{32}
+\contentsline {section}{\numberline {12}Process Evaluation}{32}
