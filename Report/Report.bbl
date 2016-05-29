@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +26,12 @@ Philip~Jia Guo.
 \newblock \emph{Data Science Workflow: Overview and Challenges}.
 \newblock PhD thesis, Stanford University, 2012.
 \newblock URL \url{http://purl.stanford.edu/mb510fs4943}.
+
+\bibitem[Iliinsky and Steele(2011)]{Iliinsky}
+Noah Iliinsky and Julie Steele.
+\newblock \emph{Designing Data Visualizations}.
+\newblock O’Reilly Media, 2011.
+\newblock ISBN 9781449312282;.
 
 \bibitem[Munzner and Maguire(2015)]{Tamara}
 Tamara Munzner and Eamonn Maguire.
