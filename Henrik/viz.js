@@ -96,24 +96,28 @@ datapointH.append("path")
 
 var math = height + margin.top - 25;
 
+svg.append("text")
+    .attr("transform", "translate( "+ (width/2) +", "+ (math+18.88) +" )")
+    .text("Game number");
+
 svg.append("rect")
-    .attr("transform", "translate( 0, "+ math +" )")
+    .attr("transform", "translate( -"+ margin.left +", "+height/3+" )")
     .attr("width", 25)
     .attr("height", 25)
     .attr("class", "legend0")
     .style("fill", "#FFA500");
 
 svg.append("text")
-    .attr("transform", "translate( 30, "+ (math+18.88) +" )")
+    .attr("transform", "rotate(-90) translate( -"+height/3+", -"+ (margin.left-20) +" )")
     .text("Fouls comitted Away");
 
 svg.append("rect")
-    .attr("transform", "translate(" + width/2 + ", "+ math +" )")
+    .attr("transform", "translate( -"+ margin.left +", "+height+" )")
     .attr("width", 25)
     .attr("height", 25)
     .attr("class", "legend1")
     .style("fill", "#1E90FF");
 
 svg.append("text")
-    .attr("transform", "translate( "+ (width/2+30) +", "+ (math+18.88) +" )")
+    .attr("transform", "rotate(-90) translate( -"+height+", -"+ (margin.left-20) +" )")
     .text("Fouls comitted Home");
