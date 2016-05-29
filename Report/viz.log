@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.18)  26 MAY 2016 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.18)  29 MAY 2016 11:09
 entering extended mode
 **./viz.tex
 (viz.tex
@@ -97,18 +97,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ) (viz.aux)
 \openout1 = `viz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -162,30 +162,33 @@ mkii"
 ) <test.png, id=1, 671.50874pt x 569.12625pt>
 File: test.png Graphic file (type png)
  <use test.png>
-Package pdftex.def Info: test.png used on input line 12.
-(pdftex.def)             Requested size: 470.05292pt x 398.38567pt.
+Package pdftex.def Info: test.png used on input line 11.
+(pdftex.def)             Requested size: 443.57848pt x 375.9458pt.
+)
+Runaway argument?
+{The successful passes on the map and the relationship between failed\ETC.
+! File ended while scanning use of \@xdblarg.
+<inserted text> 
+                \par 
+<*> ./viz.tex
+             
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-Overfull \hbox (26.47444pt too wide) in paragraph at lines 12--13
- [] 
- []
+! Emergency stop.
+<*> ./viz.tex
+             
+*** (job aborted, no legal \end found)
 
-[1{C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <./test.png>] [2] (viz.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 1603 strings out of 493634
- 22531 string characters out of 3134423
- 86536 words of memory out of 3000000
- 5023 multiletter control sequences out of 15000+200000
- 4248 words of font info for 16 fonts, out of 3000000 for 9000
+ 1596 strings out of 493634
+ 22471 string characters out of 3134423
+ 81528 words of memory out of 3000000
+ 5020 multiletter control sequences out of 15000+200000
+ 3940 words of font info for 15 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,32p,2484b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Andreas/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andreas/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on viz.pdf (2 pages, 148377 bytes).
-PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 27i,5n,32p,2492b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
