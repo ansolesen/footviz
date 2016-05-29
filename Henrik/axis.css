@@ -1,0 +1,16 @@
+.axis path {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+.axis line {
+    shape-rendering: crispEdges;
+    stroke: #000;
+}
+.axis .minor line {
+    stroke: #777;
+    stroke-dasharray: 2,2;
+}
+
+/* Based on "Axis Styling" blog entry by Mike Bostock: https://bl.ocks.org/mbostock/3771592 */
