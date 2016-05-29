@@ -20,7 +20,7 @@
 \usepackage{url}
 \usepackage{smartdiagram}
 %\usepackage[section]{placeins}
-\floatplacement{figure}{h!t}
+\floatplacement{figure}{H}
 \usepackage{float}
 \usepackage{hyperref}
 
@@ -81,8 +81,7 @@
 \maketitle
 \newpage
 \section{Abstract}
-
-\section{Preface}
+\subfile{"abstract"}
 
 \newpage
 \tableofcontents
@@ -109,7 +108,7 @@
 \subsection{Exploratory Data Analysis} % 3 pages. Rasmus
 \subfile{"exploratory_data_analysis"}
 
-\subsubsection{Principle Components Analysis}
+\subsubsection{Principal Components Analysis}
 \subfile{"PCA-theory"}
 
 \subsection{Tools and Technologies} %approx 4 pages.
@@ -123,8 +122,9 @@
 \subfile{"data_and_api"}
 \section{Results}
 \subsection{Exploratory Data Analysis}
+\subsubsection{Goal Attempts Box Plot}
 \subfile{"goal_attempts_box_plot"}
-\subsubsection{Principle Component Analysis}
+\subsubsection{Principal Component Analysis}
 \subfile{"PCA"}
 \label{sec:PCA}
 
@@ -170,7 +170,7 @@
 \subfile{"Discussion"}
 \section{Conclusion}
 \subfile{"conclusion"}
-\section{Usability}
+\section{Perspectivation}
 \subfile{"perspectivation"}
 
 \newpage

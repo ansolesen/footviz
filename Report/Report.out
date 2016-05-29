@@ -1,68 +1,68 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
-\BOOKMARK [1][-]{section.2}{Preface}{}% 2
-\BOOKMARK [1][-]{section.3}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.4}{Theory}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Design Process}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Design}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Data Types and Data Sets}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.4}{Idioms}{section.4}% 8
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Marks and Channels}{subsection.4.4}% 9
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Graphs}{subsection.4.4}% 10
-\BOOKMARK [2][-]{subsection.4.5}{Visualization validation}{section.4}% 11
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Four levels of visualization design}{subsection.4.5}% 12
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Visualization validation}{subsection.4.5}% 13
-\BOOKMARK [2][-]{subsection.4.6}{Facets and View Manipulation}{section.4}% 14
-\BOOKMARK [3][-]{subsubsection.4.6.1}{View Manipulation}{subsection.4.6}% 15
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Facet}{subsection.4.6}% 16
-\BOOKMARK [2][-]{subsection.4.7}{Exploratory Data Analysis}{section.4}% 17
-\BOOKMARK [3][-]{subsubsection.4.7.1}{Principle Components Analysis}{subsection.4.7}% 18
-\BOOKMARK [2][-]{subsection.4.8}{Tools and Technologies}{section.4}% 19
-\BOOKMARK [3][-]{subsubsection.4.8.1}{R}{subsection.4.8}% 20
-\BOOKMARK [3][-]{subsubsection.4.8.2}{D3.js}{subsection.4.8}% 21
-\BOOKMARK [1][-]{section.5}{Data and API}{}% 22
-\BOOKMARK [1][-]{section.6}{Results}{}% 23
-\BOOKMARK [2][-]{subsection.6.1}{Exploratory Data Analysis}{section.6}% 24
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Principle Component Analysis}{subsection.6.1}% 25
-\BOOKMARK [2][-]{subsection.6.2}{Source of Goals}{section.6}% 26
-\BOOKMARK [3][-]{subsubsection.6.2.1}{What-why-how}{subsection.6.2}% 27
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Code}{subsection.6.2}% 28
-\BOOKMARK [2][-]{subsection.6.3}{Passes -Direction}{section.6}% 29
-\BOOKMARK [3][-]{subsubsection.6.3.1}{What-why-how}{subsection.6.3}% 30
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Code}{subsection.6.3}% 31
-\BOOKMARK [2][-]{subsection.6.4}{Passes -Length}{section.6}% 32
-\BOOKMARK [3][-]{subsubsection.6.4.1}{What-why-how}{subsection.6.4}% 33
-\BOOKMARK [3][-]{subsubsection.6.4.2}{Code}{subsection.6.4}% 34
-\BOOKMARK [2][-]{subsection.6.5}{Shots -Head vs Foot}{section.6}% 35
-\BOOKMARK [3][-]{subsubsection.6.5.1}{What-why-how}{subsection.6.5}% 36
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Code}{subsection.6.5}% 37
-\BOOKMARK [2][-]{subsection.6.6}{Shots -Inside box vs Outside box}{section.6}% 38
-\BOOKMARK [3][-]{subsubsection.6.6.1}{What-why-how}{subsection.6.6}% 39
-\BOOKMARK [3][-]{subsubsection.6.6.2}{Code}{subsection.6.6}% 40
-\BOOKMARK [2][-]{subsection.6.7}{Success Rates}{section.6}% 41
-\BOOKMARK [3][-]{subsubsection.6.7.1}{What-why-how}{subsection.6.7}% 42
-\BOOKMARK [3][-]{subsubsection.6.7.2}{Code}{subsection.6.7}% 43
-\BOOKMARK [2][-]{subsection.6.8}{Season Review FCK}{section.6}% 44
-\BOOKMARK [3][-]{subsubsection.6.8.1}{What-why-how}{subsection.6.8}% 45
-\BOOKMARK [3][-]{subsubsection.6.8.2}{Code}{subsection.6.8}% 46
-\BOOKMARK [2][-]{subsection.6.9}{Fouls Committed over season}{section.6}% 47
-\BOOKMARK [3][-]{subsubsection.6.9.1}{What-why-how}{subsection.6.9}% 48
-\BOOKMARK [3][-]{subsubsection.6.9.2}{Code}{subsection.6.9}% 49
-\BOOKMARK [2][-]{subsection.6.10}{Comparison viz}{section.6}% 50
-\BOOKMARK [3][-]{subsubsection.6.10.1}{What-why-how}{subsection.6.10}% 51
-\BOOKMARK [3][-]{subsubsection.6.10.2}{Code}{subsection.6.10}% 52
-\BOOKMARK [2][-]{subsection.6.11}{Nationality of players}{section.6}% 53
-\BOOKMARK [3][-]{subsubsection.6.11.1}{What-why-how}{subsection.6.11}% 54
-\BOOKMARK [3][-]{subsubsection.6.11.2}{Code}{subsection.6.11}% 55
-\BOOKMARK [2][-]{subsection.6.12}{Success Rates Animated}{section.6}% 56
-\BOOKMARK [3][-]{subsubsection.6.12.1}{What-why-how}{subsection.6.12}% 57
-\BOOKMARK [3][-]{subsubsection.6.12.2}{Code}{subsection.6.12}% 58
-\BOOKMARK [2][-]{subsection.6.13}{Custom bubble chart}{section.6}% 59
-\BOOKMARK [3][-]{subsubsection.6.13.1}{What-why-how}{subsection.6.13}% 60
-\BOOKMARK [3][-]{subsubsection.6.13.2}{Code}{subsection.6.13}% 61
-\BOOKMARK [2][-]{subsection.6.14}{Field events in intervals}{section.6}% 62
-\BOOKMARK [3][-]{subsubsection.6.14.1}{What-why-how}{subsection.6.14}% 63
-\BOOKMARK [3][-]{subsubsection.6.14.2}{Code}{subsection.6.14}% 64
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 65
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 66
-\BOOKMARK [1][-]{section.9}{Usability}{}% 67
-\BOOKMARK [1][-]{section.10}{Bibliography}{}% 68
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Theory}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Design Process}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Design}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Data Types and Data Sets}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Idioms}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Marks and Channels}{subsection.3.4}% 8
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Graphs}{subsection.3.4}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Visualization validation}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Four levels of visualization design}{subsection.3.5}% 11
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Visualization validation}{subsection.3.5}% 12
+\BOOKMARK [2][-]{subsection.3.6}{Facets and View Manipulation}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.6.1}{View Manipulation}{subsection.3.6}% 14
+\BOOKMARK [3][-]{subsubsection.3.6.2}{Facet}{subsection.3.6}% 15
+\BOOKMARK [2][-]{subsection.3.7}{Exploratory Data Analysis}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Principal Components Analysis}{subsection.3.7}% 17
+\BOOKMARK [2][-]{subsection.3.8}{Tools and Technologies}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.8.1}{R}{subsection.3.8}% 19
+\BOOKMARK [3][-]{subsubsection.3.8.2}{D3.js}{subsection.3.8}% 20
+\BOOKMARK [1][-]{section.4}{Data and API}{}% 21
+\BOOKMARK [1][-]{section.5}{Results}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Exploratory Data Analysis}{section.5}% 23
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Goal Attempts Box Plot}{subsection.5.1}% 24
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Principal Component Analysis}{subsection.5.1}% 25
+\BOOKMARK [2][-]{subsection.5.2}{Source of Goals}{section.5}% 26
+\BOOKMARK [3][-]{subsubsection.5.2.1}{What-why-how}{subsection.5.2}% 27
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Code}{subsection.5.2}% 28
+\BOOKMARK [2][-]{subsection.5.3}{Passes -Direction}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.3.1}{What-why-how}{subsection.5.3}% 30
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Code}{subsection.5.3}% 31
+\BOOKMARK [2][-]{subsection.5.4}{Passes -Length}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.4.1}{What-why-how}{subsection.5.4}% 33
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Code}{subsection.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.5}{Shots -Head vs Foot}{section.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.5.1}{What-why-how}{subsection.5.5}% 36
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Code}{subsection.5.5}% 37
+\BOOKMARK [2][-]{subsection.5.6}{Shots -Inside box vs Outside box}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.6.1}{What-why-how}{subsection.5.6}% 39
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Code}{subsection.5.6}% 40
+\BOOKMARK [2][-]{subsection.5.7}{Success Rates}{section.5}% 41
+\BOOKMARK [3][-]{subsubsection.5.7.1}{What-why-how}{subsection.5.7}% 42
+\BOOKMARK [3][-]{subsubsection.5.7.2}{Code}{subsection.5.7}% 43
+\BOOKMARK [2][-]{subsection.5.8}{Season Review FCK}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.8.1}{What-why-how}{subsection.5.8}% 45
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Code}{subsection.5.8}% 46
+\BOOKMARK [2][-]{subsection.5.9}{Fouls Committed over season}{section.5}% 47
+\BOOKMARK [3][-]{subsubsection.5.9.1}{What-why-how}{subsection.5.9}% 48
+\BOOKMARK [3][-]{subsubsection.5.9.2}{Code}{subsection.5.9}% 49
+\BOOKMARK [2][-]{subsection.5.10}{Comparison viz}{section.5}% 50
+\BOOKMARK [3][-]{subsubsection.5.10.1}{What-why-how}{subsection.5.10}% 51
+\BOOKMARK [3][-]{subsubsection.5.10.2}{Code}{subsection.5.10}% 52
+\BOOKMARK [2][-]{subsection.5.11}{Nationality of players}{section.5}% 53
+\BOOKMARK [3][-]{subsubsection.5.11.1}{What-why-how}{subsection.5.11}% 54
+\BOOKMARK [3][-]{subsubsection.5.11.2}{Code}{subsection.5.11}% 55
+\BOOKMARK [2][-]{subsection.5.12}{Success Rates Animated}{section.5}% 56
+\BOOKMARK [3][-]{subsubsection.5.12.1}{What-why-how}{subsection.5.12}% 57
+\BOOKMARK [3][-]{subsubsection.5.12.2}{Code}{subsection.5.12}% 58
+\BOOKMARK [2][-]{subsection.5.13}{Custom bubble chart}{section.5}% 59
+\BOOKMARK [3][-]{subsubsection.5.13.1}{What-why-how}{subsection.5.13}% 60
+\BOOKMARK [3][-]{subsubsection.5.13.2}{Code}{subsection.5.13}% 61
+\BOOKMARK [2][-]{subsection.5.14}{Field events in intervals}{section.5}% 62
+\BOOKMARK [3][-]{subsubsection.5.14.1}{What-why-how}{subsection.5.14}% 63
+\BOOKMARK [3][-]{subsubsection.5.14.2}{Code}{subsection.5.14}% 64
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 65
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 66
+\BOOKMARK [1][-]{section.8}{Perspectivation}{}% 67
+\BOOKMARK [1][-]{section.9}{Bibliography}{}% 68
