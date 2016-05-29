@@ -1,0 +1,89 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass[Report.tex]{subfiles}
+
+\begin{document}
+
+
+In the world of data visualization, there are many different ways of presenting
+data. In fact, there are so many ways, or idioms, that it is impossible to
+comprehend the (dis)advantages of every single one. These idioms range from
+simple static idioms, such as bar charts, scatter plots and line charts, to
+more complex ones, such as static idioms linked together by interaction, such as
+the comparison of success rates, described later. 
+
+When selecting an idiom to represent a dataset, it is important to know the
+strengths and weaknesses associated with that idiom. Different data sets
+require different idioms, and in order to choose the right one, it is paramount
+to know about marks and channels. 
+
+\subsubsection{Marks and Channels}
+Marks are basic graphic elements in a picture, while channels control the
+appearance of the marks \cite[Chapter 5, p. 95-96]{Tamara}. In this respect,
+marks can be anything from small points in a scatter plot, to lines in a line
+chart, or even areas. Channels can be the position of the mark, the shape, tilt,
+length or color of the mark, or anything else that alters the appearance of the
+mark.
+In a bar chart, the mark is typically a line with the channels being the length
+of that line, as well as horizontal categorical information, for example the
+different teams in our grouped bar charts. Color can also be used as a channel,
+making it possible to encode more information in the chart, for example by
+plotting different variables in a group, each variable having its own color. 
+
+Not all channels can be used with all marks. If a two-dimensional mark is used
+(area), it is not practical to use a shape-based visual channel, as it makes it
+harder to compare the different marks with one another (comparing the area of a
+triangle to the area of a rectangle, for instance). Therefore, if one runs out
+of channels to encode information with, it may be wise to contemplate using
+other kinds of marks, or even other visual channels, if the usage of one channel
+means that other channels can't be used. 
+
+The most effective channels should be matched with the most important
+attributes, in order to increase perception of the visualization, and therefore
+efficiency of the idiom. When the most important attributes are the easiest to
+compare, it strengthens the visualization as a whole. 
+The most effective magnitude channel (channels that describe quantity) is
+aligned spatial position, with unaligned spatial position channels being second
+best \cite[Chapter 5, p. 101]{Tamara}. After these comes length, angle and area,
+length being more effective than area to convey quantitative data. 
+The most effective identity channels (channels that describe categories) are
+spatial regions, followed by color hue.
+
+\subsubsection{Graphs}
+\begin{itemize}
+  \item \textbf{Scatter Plots}
+  \\Scatter plots are effective when visualizing few (typically two) variables
+  of a large dataset\cite[Chapter 5, p. 54]{Iliinsky}. Visual channels typically used in
+  scatter plots include horizontal and vertical spatial position, color hue, area, as well as shape. However,
+  if area is used on the marks, one should not use shape as an identity channel,
+  but instead color hue. 
+  Scatter plots can be used to quickly gain an overview of the data set, since
+  it is possible to plot large quantities of observations.
+  In our `Comparison viz` and our `Field Events`, a scatter plot is utilized to
+  show the x and y coordinates of different events, and color hue is in the used
+  in the former, to show if the match was won, tied or lost.
+  
+  \item \textbf{Line charts}
+  \\Line charts are good for displaying continuous data or trends, and they can
+  be much cleaner to look at, than bar charts. They usually have independent
+  data on the x-axis, such as time or matches played, and dependent data on the
+  y-axis, such as points in the league.
+  
+  \item \textbf{Bar charts}
+  Bar charts are widely used for comparing variables, either across, or within
+  categories. Later it is described how we utilize grouped bar charts to compare
+  variables across teams. Groups are better than stacked bars, since stacked
+  bars don't share the same baseline on the top bars.
+  
+  \item \textbf{Radar Chart}
+  Radar charts are useful for comparing independent variables, such as the
+  different success rates between teams. They can be used to show up to seven
+  variables simultaneously and efficiently, quickly creating an overview of the
+  differences in observations. For comparing dependent variables, such as a
+  distribution, a histogram or a pie chart should be considered instead, as well
+  as other idioms.
+
+\end{itemize}
+
+
+\end{document}
