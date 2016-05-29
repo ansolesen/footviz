@@ -5,10 +5,10 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Bostock(2016)]{D3}
-Mike Bostock.
-\newblock D3: Data-driven documents, 2016.
-\newblock URL \url{https://github.com/d3/d3}.
+\bibitem[Bostock et~al.(2016)]{D3W}
+Mike Bostock et~al.
+\newblock D3 - wiki, 2016.
+\newblock URL \url{https://github.com/d3/d3/wiki}.
 
 \bibitem[Bremer(2016)]{Sankey}
 Nadia Bremer.

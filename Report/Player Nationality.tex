@@ -12,14 +12,14 @@
 
 \subsubsection{What-why-how}
 
-This visualisation shows the nationality of the players on the different teams in the league. It also shows the distribution of the foreign players among the other countries. This is done by a sankey chart, where the teams are sources, the targets are either Denmark and Foreign. On the second level the source is Foreign and the target is the other countries. The idiom is shown in Figure \ref{Fig:Nationality}.
+This visualization shows the nationality of the players on the different teams in the league. It also shows the distribution of the foreign players among the other countries. This is done by a sankey chart, where the teams are sources, the target is either Denmark or Foreign. On the second level the source is Foreign and the target is the other countries. The idiom is shown in Figure \ref{Fig:Nationality}.
 
-The actions of this idiom is to summarise the players nationality, to explore and compare the different teams to find similarities/differences between the teams in comparison to the standing in the table. 
+The actions of this idiom is to summarise the players' nationality, to explore and compare the different teams to find similarities/differences between the teams in comparison to the standing in the table. 
 
-This is done by an interactive sankey chart. The view is manipulated by highlighting when hovering over a link, where we also get the percentage of players in this connection in form of a text box. The raw data is reduced by filtering by only focusing on the nationality of the players. The players are categorised into the different bins by using hue and region.
+The view is manipulated by highlighting when hovering over a link, where we also get the percentage of players in this connection in the form of a text box. The raw data is reduced by filtering by only focusing on the nationality of the players. The players are categorised into the different bins by using hue and region.
 
 \subsubsection{Code}
-In R we load in the data file, which now is a .json file. We then find the data we want to look at in the .json file, and convert it into a data frame. We then sum the nationalities of each club. We then create a copy of the frame. In the original frame we set all the sources to be foreign where the target is not Denmark. In the second frame we set the targets to be Foreign where the target is not Denmark, and then remove all rows where the target is Denmark. In both frames we sum the values for each source-target pair. We then combine the two frames and exchange the value being the number of players, to now being the percentage of players. Finally we write the data to a .csv file.
+In R we load in the data file, which now is a .json file. We then find the data we want to look at in the .json file, and convert it into a data frame. The nationalities of each club is summed. A copy of the data frame is created. In the original frame we set all the sources to be foreign where the target is not Denmark. In the second frame we set the targets to be Foreign where the target is not Denmark, and then remove all rows where the target is Denmark. In both frames we sum the values for each source-target pair. We then combine the two frames and exchange the value being the number of players, to now being the percentage of players. Finally we write the data to a .csv file.
 
 The sankey chart itself is based on \cite{Sankey} and modified to our use. We modify the placement of the nodes to have multiple levels, and clearer color scheme with clear differences between the links.
 

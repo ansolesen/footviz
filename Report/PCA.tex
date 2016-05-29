@@ -1,6 +1,6 @@
 \documentclass[Report.tex]{subfiles}
 \begin{document}
-In this section we do Principle Component Analysis on aggregated on one season of football data. The data includes observations like the number of goals, the number of shots, the number of passings and so on. The data is collected for each player, but we have summed it to each team. We would like to find any clusters by using PCA in R.
+In this section we do Principal Component Analysis one season of aggregated football data. The data includes observations like the number of goals, the number of shots, the number of passings and so on. The data is collected for each player, but we have summed it to each team. We would like to find any clusters by using PCA in R.
 
 The resulting scree plot from doing the PCA is seen in Figure \ref{fig:scree}.
 \begin{figure}
@@ -9,7 +9,7 @@ The resulting scree plot from doing the PCA is seen in Figure \ref{fig:scree}.
 \caption{The resulting scree plot}
 \label{fig:scree}
 \end{figure}
-The scree plot tells us which eigenvectors have the highest eigenvalue, meaning which principle components describe the most of the data. In our case we find that the first two components describe a lot of the variance in the data, to some extend also component 3. 
+The scree plot tells us which eigenvectors have the highest eigenvalue, meaning which principal components describe the most of the data. In our case we find that the first two components describe a lot of the variance in the data, to some extend also component 3. 
 
 \begin{figure}
 \center
@@ -18,7 +18,7 @@ The scree plot tells us which eigenvectors have the highest eigenvalue, meaning 
 \label{fig:PC1Loadings}
 
 \end{figure}
-We know look at the loadings each of the components that we choose to keep. The loadings describe the importance of the different variables in relation to the chosen component. In Figure \ref{fig:PC1Loadings} we see the loadings for PC1. Being that PC1 is the component describing most of the variance in the data, the most important variables of PC1 is also the most important variables for the entire data set. The five most important variables in regards to PC1 is the "Sum.of.Chances", "Sum.of.2nd.Assist.To.Shot", "Sum.of.Fouls.Received.In.Second.Third.Part", "Sum.of.Assist.To.Goal" and "Sum.of.Shots.On.Target".
+We now look at the loadings of each of the components that we choose to keep. The loadings describe the importance of the different variables in relation to the chosen component. In Figure \ref{fig:PC1Loadings} we see the loadings for PC1. Being that PC1 is the component describing most of the variance in the data, the most important variables of PC1 is also the most important variables for the entire data set. The thre most important variables in regards to PC1 is the "Sum.of.Chances", "Sum.of.2nd.Assist.To.Shot" and "Sum.of.Fouls.Received.In.Second.Third.Part".
 
 \begin{figure}
 \center
@@ -28,11 +28,11 @@ We know look at the loadings each of the components that we choose to keep. The 
 \label{fig:PC23Loadings}
 \end{figure}
 
-We can do the same with PC2 and PC3. These are seen at Figure \ref{fig:PC23Loadings}. From the loadings in regard to PC2 we conclude that the five most important variables are the "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.Challenges.Won", "Sum.of.Crosses.On.Restart.Of.Play", "Sum.of.Successful.Crosses" and "Sum.of.Crosses".
-For PC3 the five most important variables are the "Sum.of.Fouls.Received.In.First.Third.Part", "Sum.of.Goals.With.Right.Foot", "Sum.of.Tackles.Made.Won", "Sum.of.Goals.With.Foot" and "Sum.of.Crosses.In.Game".
+We can do the same with PC2 and PC3. These are seen at Figure \ref{fig:PC23Loadings}. From the loadings in regard to PC2 we conclude that the three most important variables are the "Sum.of.50.50.Air.Challenges", "Sum.of.50.50.Air.Challenges.Won" and\\ "Sum.of.Crosses.On.Restart.Of.Play".
+For PC3 the three most important variables are the "Sum.of.Fouls.Received.In.First.Third.Part", "Sum.of.Goals.With.Right.Foot" and \\ "Sum.of.Tackles.Made.Won".
 
 
-We can now plot the data points in regards to the principle components to find clusters. The data is sorted in regards to current position of the teams in the table. This means that we easily can find out if the top/bottom teams cluster. In Figure \ref{fig:PC12} the data is plotted in regard to PC1 and PC2. We do not have any clear clusterings, some teams are clustered in the middle but there is no correlation between the standings and the teams clustering.
+We can now plot the data points in regards to the principal components to find clusters. The data is sorted in regards to current position of the teams in the table. This means that we can easily find out if the top/bottom teams cluster. In Figure \ref{fig:PC12} the data is plotted in regard to PC1 and PC2. We do not have any clear clusterings, some teams are clustered in the middle but there is no correlation between the standings and the teams clustering.
 
 \begin{figure}
 \center
@@ -46,7 +46,7 @@ We can now plot the data points in regards to the principle components to find c
 \caption{The data plotted in regard to PC2 and PC3}
 \label{fig:PC23}
 \end{subfigure}
-\caption{Data plotted in regards to principle components 1-3}
+\caption{Data plotted in regards to principal components 1-3}
 
 \end{figure}
 In Figure \ref{fig:PC23} the data is plotted in regard to PC2 and PC3. Once again we have a little cluster, but there is no relation to the standings.
