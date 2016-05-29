@@ -1,67 +1,69 @@
 \select@language {UKenglish}
-\contentsline {section}{\numberline {1}Abstract}{2}
-\contentsline {section}{\numberline {2}Preface}{2}
-\contentsline {section}{\numberline {3}Introduction}{5}
-\contentsline {section}{\numberline {4}Theory}{5}
-\contentsline {subsection}{\numberline {4.1}Design Process}{5}
-\contentsline {subsection}{\numberline {4.2}Design}{6}
-\contentsline {subsection}{\numberline {4.3}Data Types and Data Sets}{7}
-\contentsline {subsection}{\numberline {4.4}Idioms}{8}
-\contentsline {subsubsection}{\numberline {4.4.1}Marks and Channels}{8}
-\contentsline {subsubsection}{\numberline {4.4.2}Graphs}{9}
-\contentsline {subsection}{\numberline {4.5}Visualization validation}{9}
-\contentsline {subsubsection}{\numberline {4.5.1}Four levels of visualization design}{9}
-\contentsline {subsubsection}{\numberline {4.5.2}Visualization validation}{10}
-\contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{10}
-\contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{11}
-\contentsline {subsubsection}{\numberline {4.6.2}Facet}{12}
-\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{13}
-\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{14}
-\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{14}
-\contentsline {subsubsection}{\numberline {4.8.1}R}{14}
-\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{17}
-\contentsline {section}{\numberline {5}Data and API}{18}
-\contentsline {section}{\numberline {6}Results}{18}
-\contentsline {subsection}{\numberline {6.1}Exploratory Data Analysis}{18}
-\contentsline {subsubsection}{\numberline {6.1.1}Principle Component Analysis}{19}
-\contentsline {subsection}{\numberline {6.2}Source of Goals}{21}
-\contentsline {subsubsection}{\numberline {6.2.1}What-why-how}{21}
-\contentsline {subsubsection}{\numberline {6.2.2}Code}{22}
-\contentsline {subsection}{\numberline {6.3}Passes -Direction}{23}
-\contentsline {subsubsection}{\numberline {6.3.1}What-why-how}{23}
-\contentsline {subsubsection}{\numberline {6.3.2}Code}{24}
-\contentsline {subsection}{\numberline {6.4}Passes -Length}{24}
-\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{24}
-\contentsline {subsubsection}{\numberline {6.4.2}Code}{25}
-\contentsline {subsection}{\numberline {6.5}Shots -Head vs Foot}{26}
-\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{26}
-\contentsline {subsubsection}{\numberline {6.5.2}Code}{27}
-\contentsline {subsection}{\numberline {6.6}Shots -Inside box vs Outside box}{27}
-\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{28}
-\contentsline {subsubsection}{\numberline {6.6.2}Code}{28}
-\contentsline {subsection}{\numberline {6.7}Success Rates}{28}
-\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{28}
-\contentsline {subsubsection}{\numberline {6.7.2}Code}{29}
-\contentsline {subsection}{\numberline {6.8}Season Review FCK}{29}
-\contentsline {subsubsection}{\numberline {6.8.1}What-why-how}{29}
-\contentsline {subsubsection}{\numberline {6.8.2}Code}{30}
-\contentsline {subsection}{\numberline {6.9}Fouls Committed over season}{31}
-\contentsline {subsubsection}{\numberline {6.9.1}What-why-how}{31}
-\contentsline {subsubsection}{\numberline {6.9.2}Code}{31}
-\contentsline {subsection}{\numberline {6.10}Comparison viz}{31}
-\contentsline {subsection}{\numberline {6.11}Nationality of players}{33}
-\contentsline {subsubsection}{\numberline {6.11.1}What-why-how}{33}
-\contentsline {subsubsection}{\numberline {6.11.2}Code}{34}
-\contentsline {subsection}{\numberline {6.12}Success Rates Animated}{34}
-\contentsline {subsubsection}{\numberline {6.12.1}What-why-how}{34}
-\contentsline {subsubsection}{\numberline {6.12.2}Code}{35}
-\contentsline {subsection}{\numberline {6.13}Custom Bubble Chart}{35}
-\contentsline {subsubsection}{\numberline {6.13.1}What-why-how}{35}
-\contentsline {subsubsection}{\numberline {6.13.2}Code}{37}
-\contentsline {subsection}{\numberline {6.14}Field Events}{37}
-\contentsline {subsubsection}{\numberline {6.14.1}What-why-how}{37}
-\contentsline {subsubsection}{\numberline {6.14.2}Code}{40}
-\contentsline {section}{\numberline {7}Discussion}{40}
-\contentsline {section}{\numberline {8}Conclusion}{43}
-\contentsline {section}{\numberline {9}Usability}{43}
-\contentsline {section}{\numberline {10}Bibliography}{45}
+\contentsline {section}{\numberline {1}Abstract}{2}{section.1}
+\contentsline {section}{\numberline {2}Preface}{2}{section.2}
+\contentsline {section}{\numberline {3}Introduction}{5}{section.3}
+\contentsline {section}{\numberline {4}Theory}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Design Process}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Design}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Data Types and Data Sets}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Idioms}{8}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Marks and Channels}{8}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Graphs}{9}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Visualization validation}{9}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Four levels of visualization design}{9}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Visualization validation}{10}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Facets and View Manipulation}{10}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}View Manipulation}{11}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Facet}{12}{subsubsection.4.6.2}
+\contentsline {subsection}{\numberline {4.7}Exploratory Data Analysis}{13}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Principle Components Analysis}{14}{subsubsection.4.7.1}
+\contentsline {subsection}{\numberline {4.8}Tools and Technologies}{14}{subsection.4.8}
+\contentsline {subsubsection}{\numberline {4.8.1}R}{14}{subsubsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.2}D3.js}{17}{subsubsection.4.8.2}
+\contentsline {section}{\numberline {5}Data and API}{18}{section.5}
+\contentsline {section}{\numberline {6}Results}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Exploratory Data Analysis}{18}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Principle Component Analysis}{19}{subsubsection.6.1.1}
+\contentsline {subsection}{\numberline {6.2}Source of Goals}{21}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}What-why-how}{21}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Code}{22}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}Passes -Direction}{23}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}What-why-how}{23}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Code}{24}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Passes -Length}{24}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}What-why-how}{24}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Code}{25}{subsubsection.6.4.2}
+\contentsline {subsection}{\numberline {6.5}Shots -Head vs Foot}{26}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}What-why-how}{26}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Code}{27}{subsubsection.6.5.2}
+\contentsline {subsection}{\numberline {6.6}Shots -Inside box vs Outside box}{27}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}What-why-how}{28}{subsubsection.6.6.1}
+\contentsline {subsubsection}{\numberline {6.6.2}Code}{28}{subsubsection.6.6.2}
+\contentsline {subsection}{\numberline {6.7}Success Rates}{28}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.7.1}What-why-how}{28}{subsubsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.2}Code}{29}{subsubsection.6.7.2}
+\contentsline {subsection}{\numberline {6.8}Season Review FCK}{29}{subsection.6.8}
+\contentsline {subsubsection}{\numberline {6.8.1}What-why-how}{29}{subsubsection.6.8.1}
+\contentsline {subsubsection}{\numberline {6.8.2}Code}{30}{subsubsection.6.8.2}
+\contentsline {subsection}{\numberline {6.9}Fouls Committed over season}{31}{subsection.6.9}
+\contentsline {subsubsection}{\numberline {6.9.1}What-why-how}{31}{subsubsection.6.9.1}
+\contentsline {subsubsection}{\numberline {6.9.2}Code}{31}{subsubsection.6.9.2}
+\contentsline {subsection}{\numberline {6.10}Comparison viz}{31}{subsection.6.10}
+\contentsline {subsubsection}{\numberline {6.10.1}What-why-how}{31}{subsubsection.6.10.1}
+\contentsline {subsubsection}{\numberline {6.10.2}Code}{33}{subsubsection.6.10.2}
+\contentsline {subsection}{\numberline {6.11}Nationality of players}{33}{subsection.6.11}
+\contentsline {subsubsection}{\numberline {6.11.1}What-why-how}{33}{subsubsection.6.11.1}
+\contentsline {subsubsection}{\numberline {6.11.2}Code}{34}{subsubsection.6.11.2}
+\contentsline {subsection}{\numberline {6.12}Success Rates Animated}{34}{subsection.6.12}
+\contentsline {subsubsection}{\numberline {6.12.1}What-why-how}{34}{subsubsection.6.12.1}
+\contentsline {subsubsection}{\numberline {6.12.2}Code}{35}{subsubsection.6.12.2}
+\contentsline {subsection}{\numberline {6.13}Custom bubble chart}{35}{subsection.6.13}
+\contentsline {subsubsection}{\numberline {6.13.1}What-why-how}{35}{subsubsection.6.13.1}
+\contentsline {subsubsection}{\numberline {6.13.2}Code}{37}{subsubsection.6.13.2}
+\contentsline {subsection}{\numberline {6.14}Field events in intervals}{37}{subsection.6.14}
+\contentsline {subsubsection}{\numberline {6.14.1}What-why-how}{37}{subsubsection.6.14.1}
+\contentsline {subsubsection}{\numberline {6.14.2}Code}{40}{subsubsection.6.14.2}
+\contentsline {section}{\numberline {7}Discussion}{40}{section.7}
+\contentsline {section}{\numberline {8}Conclusion}{44}{section.8}
+\contentsline {section}{\numberline {9}Usability}{44}{section.9}
+\contentsline {section}{\numberline {10}Bibliography}{46}{section.10}

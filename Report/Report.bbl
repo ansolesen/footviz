@@ -42,6 +42,7 @@ Tamara Munzner and Eamonn Maguire.
 \bibitem[Seltman(2016)]{Seltman}
 Howard Seltman.
 \newblock Experimental design for behavioral and social sciences, 2016.
+\newblock URL \url{http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf}.
 
 \bibitem[Simmering(2013)]{R}
 Jacob Simmering.
@@ -57,5 +58,7 @@ Lindsay Smith.
 \bibitem[Weimer(2016)]{Weimer}
 Paula Weimer.
 \newblock History of statistics and probability, john wilder tukey, 2016.
+\newblock URL
+  \url{http://mnstats.morris.umn.edu/introstat/history/w98/Tukey.html}.
 
 \end{thebibliography}

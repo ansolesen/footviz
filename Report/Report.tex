@@ -22,6 +22,7 @@
 %\usepackage[section]{placeins}
 \floatplacement{figure}{h!t}
 \usepackage{float}
+\usepackage{hyperref}
 
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
@@ -150,20 +151,25 @@
 
 \subsection{Fouls Committed over season}
 \subfile{"fouls"}
+
 \subsection{Comparison viz}
-\subfile{viz}
+\subfile{"viz"}
+
 \subsection{Nationality of players}
 \subfile{"Player Nationality"}
+
 \subsection{Success Rates Animated}
 \subfile{CC}
-\subsection{Custom Bubble Chart}
+
+\subsection{Custom bubble chart}
 \subfile{"custom_bubble_chart_viz"}
-\subsection{Field Events}
+
+\subsection{Field events in intervals}
 \subfile{"field_events_viz"}
 \section{Discussion}
 \subfile{"Discussion"}
 \section{Conclusion}
-
+\subfile{"conclusion"}
 \section{Usability}
 \subfile{"perspectivation"}
 
