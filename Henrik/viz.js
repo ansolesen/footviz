@@ -21,7 +21,7 @@ var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
-var margin = {"left": 40, "right": 40, "top": 40, "bottom": 40};
+var margin = {"left": 60, "right": 60, "top": 60, "bottom": 60};
 
 var width = w * 0.75 - margin.left - margin.right,
     height = h * 0.8 - margin.top - margin.bottom;
@@ -93,3 +93,27 @@ datapointH.append("path")
     .attr("class", "line")
     .attr("d", function(d) { return line(foulsCommittedAway); })
     .style("stroke", function(d) { return color(0); });
+
+var math = height + margin.top - 25;
+
+svg.append("rect")
+    .attr("transform", "translate( 0, "+ math +" )")
+    .attr("width", 25)
+    .attr("height", 25)
+    .attr("class", "legend0")
+    .style("fill", "#FFA500");
+
+svg.append("text")
+    .attr("transform", "translate( 30, "+ (math+18.88) +" )")
+    .text("Fouls comitted Away");
+
+svg.append("rect")
+    .attr("transform", "translate(" + width/2 + ", "+ math +" )")
+    .attr("width", 25)
+    .attr("height", 25)
+    .attr("class", "legend1")
+    .style("fill", "#1E90FF");
+
+svg.append("text")
+    .attr("transform", "translate( "+ (width/2+30) +", "+ (math+18.88) +" )")
+    .text("Fouls comitted Home");
