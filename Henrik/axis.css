@@ -13,4 +13,14 @@
     stroke-dasharray: 2,2;
 }
 
+.legend0 {
+    stroke: 1px black;
+    shape-rendering: crispEdges;
+}
+
+.legend0 {
+    stroke: 1px black;
+    shape-rendering: crispEdges;
+}
+
 /* Based on "Axis Styling" blog entry by Mike Bostock: https://bl.ocks.org/mbostock/3771592 */
