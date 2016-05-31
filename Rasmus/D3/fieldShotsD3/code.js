@@ -15,6 +15,59 @@ var svg = d3.select("svg")
 var sliderDiv = d3.select("body").append("div")
             .style("width", width + "px");
 
+
+var arc = d3.svg.arc()
+          .innerRadius(x(11))
+          .outerRadius(x(11))
+          .startAngle(29 * (Math.PI / 180))
+          .endAngle(151 * Math.PI / 180);
+
+var arcRight = d3.svg.arc()
+          .innerRadius(x(11))
+          .outerRadius(x(11))
+          .startAngle((360-29) * (Math.PI / 180))
+          .endAngle((360-151) * Math.PI / 180);
+
+
+
+
+svg.append("path")
+          .attr("d", arc)
+          .style("stroke", "white")
+          .style("stroke-width", "3")
+          .attr("cx", x(11))
+          .attr("cy", y(34))
+          .attr("transform", "translate(" + x(11) + "," + y(34) + ")");
+
+svg.append("path")
+          .attr("d", arcRight)
+          .style("stroke", "white")
+          .style("stroke-width", "3")
+          .attr("cx", x(105-11))
+          .attr("cy", y(34))
+          .attr("transform", "translate(" + x(105-11) + "," + y(34) + ")");
+
+svg.append("circle")
+          .attr("cx", x(11))
+          .attr("cy", y(34))
+          .style("fill", "white")
+          .attr("r", y(0.3));
+
+svg.append("circle")
+          .attr("cx", x(105-11))
+          .attr("cy", y(34))
+          .style("fill", "white")
+          .attr("r", y(0.3));
+
+svg.append("circle")
+          .style("stroke", "white")
+          .style("stroke-width", "3")
+          .attr("cx", x(52.5))
+          .attr("cy", y(34))
+          .style("fill", "none")
+          .attr("r", y(9.15));
+
+
 var axis = d3.svg.axis().orient("top").ticks(9);
 sliderDiv.call(d3.slider().axis(true).min(1).max(9).step(1).on("slide", function(evt, value) {
   period = value;
@@ -26,11 +79,11 @@ function update(period) {
 
   d3.json(filename, function(error, json) {
 
-    var circle = svg.selectAll("circle").data(json, function(d,i) {
+    var circle = svg.selectAll(".dots").data(json, function(d,i) {
       return i + "," + d.x + "," + d.y;
     });
 
-    var newCircles = circle.enter().append("circle");
+    var newCircles = circle.enter().append("circle").attr("class", "dots");
 
     circle.attr("r", 1.5)
       .attr("fill", "black")
