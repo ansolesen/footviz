@@ -12,19 +12,17 @@
 \end{figure}
 
 \subsubsection{What-why-how}
-The purpose of this idiom is to see if there is a correlation between the
+The purpose of this idiom (Figure \ref{Fig:Pass_Direction}) is to see if there is a correlation between the
 direction of a team's passes on average, and their ranking in the league. 
 This is done by creating a grouped bar chart, with a group per team. The bar
 chart is ordered by the ranking of the team, with the highest ranking team as
 the first group from the left.
 
-
-\subsubsection{Code}
 The bar chart, as well as the data processing for the chart, was created in R.
 This was done by first selecting the variables in question from the Excel sheet,
-then splitting it out into 12 tables (one per team). The variables were then
+then splitting it into 12 tables (one per team). The variables were then
 summed, and each summed variable divided by total number of passes, to get the
-percentages of short, medium and long passes. This was again done by creating
+percentages of short, medium and long passes. This was done by creating
 variable and value lists, adding elements to these lists in a loop, and then
 creating a data frame. 
 ggplot2 was then used to create the bar chart, in much the same was as the other
