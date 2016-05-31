@@ -14,7 +14,7 @@
 \BOOKMARK [3][-]{subsubsection.3.6.1}{View Manipulation}{subsection.3.6}% 14
 \BOOKMARK [3][-]{subsubsection.3.6.2}{Facet}{subsection.3.6}% 15
 \BOOKMARK [2][-]{subsection.3.7}{Exploratory Data Analysis}{section.3}% 16
-\BOOKMARK [3][-]{subsubsection.3.7.1}{Principal Components Analysis}{subsection.3.7}% 17
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Principal Component Analysis}{subsection.3.7}% 17
 \BOOKMARK [2][-]{subsection.3.8}{Tools and Technologies}{section.3}% 18
 \BOOKMARK [3][-]{subsubsection.3.8.1}{R}{subsection.3.8}% 19
 \BOOKMARK [3][-]{subsubsection.3.8.2}{D3.js}{subsection.3.8}% 20
@@ -40,29 +40,26 @@
 \BOOKMARK [3][-]{subsubsection.5.6.2}{Code}{subsection.5.6}% 40
 \BOOKMARK [2][-]{subsection.5.7}{Success Rates}{section.5}% 41
 \BOOKMARK [3][-]{subsubsection.5.7.1}{What-why-how}{subsection.5.7}% 42
-\BOOKMARK [3][-]{subsubsection.5.7.2}{Code}{subsection.5.7}% 43
-\BOOKMARK [2][-]{subsection.5.8}{Season Review FCK}{section.5}% 44
-\BOOKMARK [3][-]{subsubsection.5.8.1}{What-why-how}{subsection.5.8}% 45
-\BOOKMARK [3][-]{subsubsection.5.8.2}{Code}{subsection.5.8}% 46
-\BOOKMARK [2][-]{subsection.5.9}{Fouls Committed over season}{section.5}% 47
-\BOOKMARK [3][-]{subsubsection.5.9.1}{What-why-how}{subsection.5.9}% 48
-\BOOKMARK [3][-]{subsubsection.5.9.2}{Code}{subsection.5.9}% 49
-\BOOKMARK [2][-]{subsection.5.10}{Comparison viz}{section.5}% 50
-\BOOKMARK [3][-]{subsubsection.5.10.1}{What-why-how}{subsection.5.10}% 51
-\BOOKMARK [3][-]{subsubsection.5.10.2}{Code}{subsection.5.10}% 52
-\BOOKMARK [2][-]{subsection.5.11}{Nationality of players}{section.5}% 53
-\BOOKMARK [3][-]{subsubsection.5.11.1}{What-why-how}{subsection.5.11}% 54
-\BOOKMARK [3][-]{subsubsection.5.11.2}{Code}{subsection.5.11}% 55
-\BOOKMARK [2][-]{subsection.5.12}{Success Rates Animated}{section.5}% 56
-\BOOKMARK [3][-]{subsubsection.5.12.1}{What-why-how}{subsection.5.12}% 57
-\BOOKMARK [3][-]{subsubsection.5.12.2}{Code}{subsection.5.12}% 58
-\BOOKMARK [2][-]{subsection.5.13}{Custom bubble chart}{section.5}% 59
-\BOOKMARK [3][-]{subsubsection.5.13.1}{What-why-how}{subsection.5.13}% 60
-\BOOKMARK [3][-]{subsubsection.5.13.2}{Code}{subsection.5.13}% 61
-\BOOKMARK [2][-]{subsection.5.14}{Field events in intervals}{section.5}% 62
-\BOOKMARK [3][-]{subsubsection.5.14.1}{What-why-how}{subsection.5.14}% 63
-\BOOKMARK [3][-]{subsubsection.5.14.2}{Code}{subsection.5.14}% 64
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 65
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 66
-\BOOKMARK [1][-]{section.8}{Perspectivation}{}% 67
-\BOOKMARK [1][-]{section.9}{Bibliography}{}% 68
+\BOOKMARK [2][-]{subsection.5.8}{Season Review FCK}{section.5}% 43
+\BOOKMARK [3][-]{subsubsection.5.8.1}{What-why-how}{subsection.5.8}% 44
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Code}{subsection.5.8}% 45
+\BOOKMARK [2][-]{subsection.5.9}{Fouls Committed over season}{section.5}% 46
+\BOOKMARK [3][-]{subsubsection.5.9.1}{What-why-how}{subsection.5.9}% 47
+\BOOKMARK [3][-]{subsubsection.5.9.2}{Code}{subsection.5.9}% 48
+\BOOKMARK [2][-]{subsection.5.10}{Comparison viz}{section.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.10.1}{What-why-how}{subsection.5.10}% 50
+\BOOKMARK [3][-]{subsubsection.5.10.2}{Code}{subsection.5.10}% 51
+\BOOKMARK [2][-]{subsection.5.11}{Nationality of players}{section.5}% 52
+\BOOKMARK [3][-]{subsubsection.5.11.1}{What-why-how}{subsection.5.11}% 53
+\BOOKMARK [2][-]{subsection.5.12}{Success Rates Animated}{section.5}% 54
+\BOOKMARK [3][-]{subsubsection.5.12.1}{What-why-how}{subsection.5.12}% 55
+\BOOKMARK [2][-]{subsection.5.13}{Custom bubble chart}{section.5}% 56
+\BOOKMARK [3][-]{subsubsection.5.13.1}{What-why-how}{subsection.5.13}% 57
+\BOOKMARK [3][-]{subsubsection.5.13.2}{Code}{subsection.5.13}% 58
+\BOOKMARK [2][-]{subsection.5.14}{Field events in intervals}{section.5}% 59
+\BOOKMARK [3][-]{subsubsection.5.14.1}{What-why-how}{subsection.5.14}% 60
+\BOOKMARK [3][-]{subsubsection.5.14.2}{Code}{subsection.5.14}% 61
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 62
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 63
+\BOOKMARK [1][-]{section.8}{Perspectivation}{}% 64
+\BOOKMARK [1][-]{section.9}{Bibliography}{}% 65

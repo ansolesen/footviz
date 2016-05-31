@@ -18,7 +18,6 @@ The target is to find similarities between the different matches in each of the 
 
 This is done by an idiom faceted into three views. The views are linked by having the same data variables shown, but on different data. The view is manipulated by animation, looping over the different matches for the selected team. It is a smooth transition between the matches, to create context. The raw data is reduced through aggregation by calculating new attributes.
 
-\subsubsection{Code}
 In R we load the data file, convert columns to be numerics, aggregate by team, calculate the success rates, transforming the data to a format suited for the radar chart, select the columns we are interested in, and write it to csv.
 
 The D3 radar chart is based on \cite{Radar}, and modified to become animated. We create an update function which is called continuously with different data matches to be drawn. 
