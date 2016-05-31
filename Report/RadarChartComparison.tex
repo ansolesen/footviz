@@ -9,8 +9,7 @@
 \label{Fig:SuccesRates}
 \end{figure}
 
-
-\subsubsection{What-why-how}
+\paragraph{What-why-how\\}
 The visualisation shows the comparison of two teams' success rates on several points of measure in a radar chart combined with a bar chart. This is shown in Figure \ref{Fig:SuccesRates}. Concerning magnitude channels we position the marks on a common scale and also use the area of the radar chart for comparison. For categorising we use color hue.
 
 The action of the idiom is to compare two teams to find differences/similarities, maybe in relation to the placement in the league table, and to analyse where the teams differ. The target is to find extremes and outliers.
@@ -22,6 +21,7 @@ The radar chart is manipulated first by selecting two teams to compare. If the u
 The R code is quite simple. In broad strokes it does the following: Read the data file, convert columns to be numeric, sum the player data by team, add and calculate the success columns, remove the unnecessary columns, restructure the data to a format that fits the radar chart and write three files, one containing the names of the teams, one containing the data in one format and one containing it in another format. The data is exported in two files to suit both the radar chart and the bar chart.
 
 In JavaScript we create the selectors, where the user chooses the teams. If two teams are chosen the radar chart is drawn. The radar chart is based on \cite{Radar} and modified to our needs. One of the modifications is that we draw a bar chart if the user presses a value, represented by a circle. The function which draws the chart takes the data variable to visualise as an argument together with the selected team. The data is then loaded and drawn making sure that the data is sorted for better comparison, and that the right team is highlighted.
-
+\paragraph{Findings\\}
+There is no clear correlation between the team ranking and the distribution of the success rates. In general, many of the teams do have similar rates in regards to many of the measuring points. This shows similarity between the teams in regards to these points, and might be caused by the fact that the data for all the teams are summed for the entire season.
 
 \end{document}
