@@ -71,17 +71,19 @@ function horizontalUpdate() {
 }
 
 function createCircles() {
-  var svg = d3.select("body").append("svg")
+  var svg = d3.select("svg")
             .attr("width", width)
             .attr("height", height);
+
+
 
   var circles = svg.selectAll("circle").data(allData);
 
   var text = svg.selectAll("text").data(allData);
 
   circles.enter().append("circle")
-              .attr("fill", "none")
-              .attr("stroke", "black");
+              .attr("fill", "steelblue")
+              .attr("stroke", "steelblue");
 
   text.enter().append("text");
 
