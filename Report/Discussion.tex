@@ -14,7 +14,7 @@ Another thing which was found was that winning teams would play more horizontall
 In regards to finding key differences between top-tier and low-tier teams, it turned out rather complicated to find any consistently different attributes. Some of the factors that we focused on, were based on summing some general player stats for all teams and compare them. Possibly counterintuitively, we were not able to find any direct correlation between how the best teams played nor the worse in opposition to each other, which lead to the idea that there may not be a single player attribute which leads to a winning team but rather a combination which is far more complicated. Another thing which was investigated was the distribution of players in terms of their nationality. We were not able to find any correlation between how many foreign players were on a team and their ranking, but we saw small tendencies of teams having more foreigners depending on their establishment, meaning teams that have been in the league for a while and thus have a larger budget, tended to have more foreigners which may simply be due to the fact that they have the money and thus the option to purchase players from other countries. \\
 
 With regards to a team's evolution throughout a season, we were hoping, among other things, to find some correlation between how far in the season a game was, and how many fouls a team committed.
-This was with the mindset that a team would get more aggressive as the end of the season came closer. However, how far into the season a match was, didn't seem to affect how many fouls were committed, instead, it kept jumping up and down throughout the season. This could indicate that the aggressiveness of a team's playing style is more dependent on their opponent, than the position and/or time in the league. There was however a small spike towards the last couple of matches, but nothing bigger than some of the spikes from mid-season. Something else that \ref{Fig:FOULS} did show, was that the spikes in fouls committed in a match was consistently higher when away. This could indicate that a team tend to be more aggressive when away, than home. Another possibility could be that the referees tend to go easier on a home team. However, to validate that even in the slightest, significantly more in-depth analysis would have to take place. \\
+This was with the mindset that a team would get more aggressive as the end of the season came closer. However, how far into the season a match was, didn't seem to affect how many fouls were committed, instead, it kept jumping up and down throughout the season. This could indicate that the aggressiveness of a team's playing style is more dependent on their opponent, than the position and/or time in the league. There was however a small spike towards the last couple of matches, but nothing bigger than some of the spikes from mid-season. Something else that Figure \ref{Fig:FOULS} did show, was that the spikes in fouls committed in a match was consistently higher when away. This could indicate that a team tend to be more aggressive when away, than home. Another possibility could be that the referees tend to go easier on a home team. However, to validate that even in the slightest, significantly more in-depth analysis would have to take place. \\
 
 We dove further into investigating how a team evolves throughout a season by looking at FCK. Here, the biggest takeaway comes when looking at the amount of points FCK has after each round. This visualization helped illustrate the highs and lows of the team’s season, and it showed how the team got off to a relatively slow start, only to get going and never looking back. We assumed that by looking at goal scoring and conceding in the first 10 games and comparing them to the remaining games, we could illustrate the evolution in the team. However, the results are simply far too inconsistent to reach any conclusions of note. 
 
@@ -23,7 +23,7 @@ Despite using PCA and manually testing different variables that would make sense
 
 In order to try and establish which variables determine the differences between
 winning teams and losing teams, a series of grouped bar charts were created, see
-figures 11-15. \ref{Fig:Goal_plot} shows different types of attacks that lead to a goal,
+figures 11-15. Figure\ref{Fig:Goal_plot} shows different types of attacks that lead to a goal,
 in percentages, grouped in teams by ranking order. For instance, Viborg scores
 as often from set plays as on quick attacks.
 On this chart, it is hard to notice any obvious tendencies between the higher
@@ -54,7 +54,7 @@ scoring enough goals, and so penalties account for a larger share of their
 goals. There are of course outliers, again FC Nordsjaelland, who didn't receive
 any goals from penalties, but instead a few goals from non-attacking open play. 
 
-\ref{Fig:Pass_Direction} shows which direction the 12 different teams prefer to pass in,
+Figure \ref{Fig:Pass_Direction} shows which direction the 12 different teams prefer to pass in,
 divided between backward, sideways and forward passes. For the 2nd to the 4th
 team, it seems like there is a local negative linear correlation between forward
 and sideways passes, with forward passes being less for the 4th team, who pass
@@ -62,7 +62,7 @@ sideways much more frequently compared to team 2 and 3. The same is seen for the
 last 4 teams, but in reverse order - teams pass less sideways and somewhat less
 backwards, but more frequently forward. 
 
-\ref{Fig:Pass_Length} shows how far the teams pass on average, divided into three
+Figure \ref{Fig:Pass_Length} shows how far the teams pass on average, divided into three
 categories - <17m, 17-34m, and >34m. 
 On this chart, it is clear that FC Copenhagen less frequently passes the ball
 long than the other top-tier teams, in fact there are only 3 other teams in the
@@ -75,7 +75,7 @@ balls backwards and long balls forward - a long ball backward would cost the
 team momentum. Hobro is the other team that looks like SonderjyskE in respect to
 both length and direction of passes. 
 
-\ref{Fig:Shots_HF} shows how many shots are taken with the foot versus head, as
+Figure \ref{Fig:Shots_HF} shows how many shots are taken with the foot versus head, as
 percentages out of 100, as well as successful chances, which is calculated as
 the total number of goals divided by the total number of chances, and selected
 to indicate how successful a team is when trying to score. 
@@ -95,11 +95,11 @@ general. It also seems as though lower ranked teams shoot more with their feet
 than with their heads, but this is less clear, since the lowest 3 teams head
 about as much as the 2nd and 3rd teams. 
 
-\ref{Fig:Shots_IO} shows where shots are taken from, divided into shots from inside the
+Figure \ref{Fig:Shots_IO} shows where shots are taken from, divided into shots from inside the
 box, and shots from outside the box. Successful chances is based on the same
-data as in \ref{Fig:Shots_HF}, and calculated the same way. 
+data as in Figure \ref{Fig:Shots_HF}, and calculated the same way. 
 
-From \ref{Fig:Shots_IO} it is clear that the highest ranking team is also the team that
+From Figure \ref{Fig:Shots_IO} it is clear that the highest ranking team is also the team that
 shoots from inside the box most frequently. Based on the earlier charts, one can
 speculate that FC Copenhagen concentrates on passing the ball forward with short
 passes, getting it inside the box, and then getting the ball into the goal,

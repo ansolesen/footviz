@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:21
 entering extended mode
 **Report.tex
 (Report.tex
@@ -1681,12 +1681,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 [34 <./Figures/fouls.pdf>]) (viz.tex
-<./Figures/"test".png, id=622, 670.9065pt x 569.12625pt>
-File: ./Figures/"test".png Graphic file (type png)
+<./Figures/"test".pdf, id=622, 1195.46625pt x 846.16125pt>
+File: ./Figures/"test".pdf Graphic file (type pdf)
 
-<use ./Figures/"test".png>
-Package pdftex.def Info: ./Figures/"test".png used on input line 8.
-(pdftex.def)             Requested size: 426.79135pt x 362.05983pt.
+<use ./Figures/"test".pdf>
+Package pdftex.def Info: ./Figures/"test".pdf used on input line 8.
+(pdftex.def)             Requested size: 426.79135pt x 378.31589pt.
  [35]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
@@ -1697,8 +1697,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[36 <./Figures/test.png>]) ("Player Nationality.tex"
-<./Figures/"Nationality of the Players".pdf, id=638, 846.16125pt x 598.235pt>
+[36 <./Figures/test.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/test.pdf): PDF inclusion: invalid othe
+r resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]) ("Player Nationality.tex"
+<./Figures/"Nationality of the Players".pdf, id=686, 846.16125pt x 598.235pt>
 File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
 
 <use ./Figures/"Nationality of the Players".pdf>
@@ -1711,7 +1715,7 @@ pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
 nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
 ); ignored.
 >]) (CC.tex
-<./Figures/"Succes Rates Season".pdf, id=702, 1690.315pt x 1195.46625pt>
+<./Figures/"Succes Rates Season".pdf, id=750, 1690.315pt x 1195.46625pt>
 File: ./Figures/"Succes Rates Season".pdf Graphic file (type pdf)
 
 <use ./Figures/"Succes Rates Season".pdf>
@@ -1719,7 +1723,7 @@ Package pdftex.def Info: ./Figures/"Succes Rates Season".pdf used on input line
  7.
 (pdftex.def)             Requested size: 426.79135pt x 146.13089pt.
 ) (custom_bubble_chart_viz.tex
-<"Figures/parameter_bubbles".pdf, id=708, 794.97pt x 1228.59pt>
+<"Figures/parameter_bubbles".pdf, id=756, 794.97pt x 1228.59pt>
 File: "Figures/parameter_bubbles".pdf Graphic file (type pdf)
 
 <use "Figures/parameter_bubbles".pdf>
@@ -1740,28 +1744,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
 [40 <./Figures/parameter_bubbles.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/parameter_bubbles.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
 d.
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
- [41]) (field_events_viz.tex
-<./Figures/"GoalAT".pdf, id=770, 794.97pt x 1228.59pt>
+[41]) (field_events_viz.tex
+<./Figures/"GoalAT".pdf, id=821, 794.97pt x 1228.59pt>
 File: ./Figures/"GoalAT".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT".pdf>
 Package pdftex.def Info: ./Figures/"GoalAT".pdf used on input line 10.
 (pdftex.def)             Requested size: 298.75264pt x 261.82751pt.
 
-<./Figures/"GoalAT2".pdf, id=772, 794.97pt x 1228.59pt>
+<./Figures/"GoalAT2".pdf, id=823, 794.97pt x 1228.59pt>
 File: ./Figures/"GoalAT2".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT2".pdf>
@@ -1851,7 +1854,7 @@ Package rerunfilecheck Info: File `Report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31379 strings out of 493673
- 610888 string characters out of 3143966
+ 610891 string characters out of 3143966
  826137 words of memory out of 3000000
  33915 multiletter control sequences out of 15000+200000
  20729 words of font info for 59 fonts, out of 3000000 for 9000
@@ -1872,9 +1875,9 @@ s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX
 /type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
 uper/sftt1095.pfb>
-Output written on Report.pdf (54 pages, 2071519 bytes).
+Output written on Report.pdf (54 pages, 2131536 bytes).
 PDF statistics:
- 2127 PDF objects out of 2487 (max. 8388607)
+ 2181 PDF objects out of 2487 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
- 520 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
