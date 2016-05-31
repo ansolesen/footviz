@@ -19,7 +19,7 @@
 \label{Fig:Events}
 \end{figure}
 
-\subsubsection{What-why-how}
+\paragraph{What-why-how\\}
 \textbf{What} The data being presented in this visualization (Figure \ref{Fig:Events}) is event data from a football season split into intervals. Event data is things such as a good pass to another player or a goal attempt. From the API we can request events from a match. The event data include the type of event, the time stamp and the coordinates. What is being shown in the visualization is then all of the event data from an entire football season aggregated such that when a user selects good passes and the time interval 0 to 10 minutes, the user will be presented with all of the good passes that has happened in the season during the first 10 minutes.\\
 
 \noindent \textbf{Why} This visualization could be categorized as being in the exploratory data analysis category, as it allows a user to browse through the data in a very intuitive way, such that the user can get a feeling of how common each event is, and where on the field it often occurs. But the visualization can also be used if the user has a specific hypothesis that they want to test. The visualization was first build because we had a hypothesis about the goal attempts, where the hypothesis was about how football players might take more risky attempts at goals during the late part of a game, as they perhaps are more desperate to score. To test this specific hypothesis, a user can select goal attempts and then use the slider to see how the goal attempts change throughout a match. The result of the hypothesis test is described later in the report in the discussion section.\\
@@ -65,5 +65,8 @@ getTouchesAndWriteToFiles() {
 \end{lstlisting}
 \caption{Processing event data in R for the Field events visualization}
 \end{figure}
+
+\paragraph{Findings\\}
+One of the findings in this visualization supports the finding in the box plot with the goal attempts, as it also looks like goal attempts are more ``concentrated'' near the goal during the last parts of the match, which can also be seen in Figure \ref{Fig:Events}. It is, however, important to note that these two visualizations are based on the same data. To further investigate the hypothesis, one could look at data from other seasons as well as other leagues. Furthermore, it can be seen that the amount of shots taken throughout a match rises, meaning that more shots are taken in the last 10 minutes than in the first 10 minutes. This could be explained by a lot of things, for example that players become more comfortable throughout a match and are more likely to take a shot. In the visualization some patterns can also be noticed, as for example the places on the field where players take shots from are somewhat clustered around the middle of the field, but only few shots are actually taken in the middle.
 
 \end{document}
