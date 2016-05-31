@@ -10,7 +10,7 @@
 \label{Fig:Bubbleviz}
 \end{figure}
 
-\subsubsection{What-why-how}
+\paragraph{What-why-how\\}
 \textbf{What} The data being presented in this visualization (Figure \ref{Fig:Bubbleviz}) is the statistics of the teams from the current season. This includes parameters such as their current ranking in the league and the total shots on goal, number of yellow cards etc.\\
 
 \noindent \textbf{Why}. As a user is able to choose what is encoded in the different dimensions, the user can easily test hypotheses about correlations between different parameters, for example how rank, shots and shots on goal affect each other. The user can also discover new correlations by simply browsing through the different parameters and trying different combinations. The visualization offers a platform where the user can play with the different parameters. The transition when the user has changed the options is animated such that the user can easily follow the circles with their eyes, and in that way see how a change in an option changes the order between the circles.\\
@@ -54,4 +54,8 @@ updateDimensions(objects, sizePar, xPar, yPar, distance) {
 \end{lstlisting}
 \caption{Pseudocode for updating the circles' parameters}
 \end{figure}
+
+\paragraph{Findings\\}
+The findings based on this visualization are that there is not an apparent correlation between the rank a team has in the league and other parameters. There is however some tendencies such as when a team has a lot of shots in a match, they also have a lot of shots on the goal. But there is not an apparent correlation between the number of shots or shots on goal and a team's rank in the league. However, this visualization was mostly developed with exploratory data analysis in mind, meaning that it should function as a tool for discovering new tendencies in the data.
+
 \end{document}
