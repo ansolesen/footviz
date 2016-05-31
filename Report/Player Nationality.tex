@@ -10,7 +10,7 @@
 \end{figure}
 
 
-\subsubsection{What-why-how}
+\paragraph{What-why-how\\}
 
 This visualization shows the nationality of the players on the different teams in the league. It also shows the distribution of the foreign players among the other countries. This is done by a sankey chart, where the teams are sources, the target is either Denmark or Foreign. On the second level the source is Foreign and the target is the other countries. The idiom is shown in Figure \ref{Fig:Nationality}.
 
@@ -21,5 +21,7 @@ The view is manipulated by highlighting when hovering over a link, where we also
 In R we load in the data file, which now is a .json file. We then find the data we want to look at in the .json file, and convert it into a data frame. The nationalities of each club is summed. A copy of the data frame is created. In the original frame we set all the sources to be foreign where the target is not Denmark. In the second frame we set the targets to be Foreign where the target is not Denmark, and then remove all rows where the target is Denmark. In both frames we sum the values for each source-target pair. We then combine the two frames and exchange the value being the number of players, to now being the percentage of players. Finally we write the data to a .csv file.
 
 The sankey chart itself is based on \cite{Sankey} and modified to our use. We modify the placement of the nodes to have multiple levels, and clearer color scheme with clear differences between the links.
+\paragraph{Findings\\}
+There is a no clear correlation between the team ranking and the number of foreign players. However it is clear that the more established teams have more foreign players than the upcoming teams.
 
 \end{document}
