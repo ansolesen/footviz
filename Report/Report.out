@@ -25,41 +25,37 @@
 \BOOKMARK [3][-]{subsubsection.5.1.2}{Principal Component Analysis}{subsection.5.1}% 25
 \BOOKMARK [2][-]{subsection.5.2}{Source of Goals}{section.5}% 26
 \BOOKMARK [3][-]{subsubsection.5.2.1}{What-why-how}{subsection.5.2}% 27
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Code}{subsection.5.2}% 28
-\BOOKMARK [2][-]{subsection.5.3}{Passes -Direction}{section.5}% 29
-\BOOKMARK [3][-]{subsubsection.5.3.1}{What-why-how}{subsection.5.3}% 30
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Code}{subsection.5.3}% 31
-\BOOKMARK [2][-]{subsection.5.4}{Passes -Length}{section.5}% 32
-\BOOKMARK [3][-]{subsubsection.5.4.1}{What-why-how}{subsection.5.4}% 33
-\BOOKMARK [3][-]{subsubsection.5.4.2}{Code}{subsection.5.4}% 34
-\BOOKMARK [2][-]{subsection.5.5}{Shots -Head vs Foot}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.5.1}{What-why-how}{subsection.5.5}% 36
-\BOOKMARK [3][-]{subsubsection.5.5.2}{Code}{subsection.5.5}% 37
-\BOOKMARK [2][-]{subsection.5.6}{Shots -Inside box vs Outside box}{section.5}% 38
-\BOOKMARK [3][-]{subsubsection.5.6.1}{What-why-how}{subsection.5.6}% 39
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Code}{subsection.5.6}% 40
-\BOOKMARK [2][-]{subsection.5.7}{Success Rates}{section.5}% 41
-\BOOKMARK [3][-]{subsubsection.5.7.1}{What-why-how}{subsection.5.7}% 42
-\BOOKMARK [2][-]{subsection.5.8}{Season Review FCK}{section.5}% 43
-\BOOKMARK [3][-]{subsubsection.5.8.1}{What-why-how}{subsection.5.8}% 44
-\BOOKMARK [3][-]{subsubsection.5.8.2}{Code}{subsection.5.8}% 45
-\BOOKMARK [2][-]{subsection.5.9}{Fouls Committed over season}{section.5}% 46
-\BOOKMARK [3][-]{subsubsection.5.9.1}{What-why-how}{subsection.5.9}% 47
-\BOOKMARK [3][-]{subsubsection.5.9.2}{Code}{subsection.5.9}% 48
-\BOOKMARK [2][-]{subsection.5.10}{Comparison viz}{section.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.10.1}{What-why-how}{subsection.5.10}% 50
-\BOOKMARK [3][-]{subsubsection.5.10.2}{Code}{subsection.5.10}% 51
-\BOOKMARK [2][-]{subsection.5.11}{Nationality of players}{section.5}% 52
-\BOOKMARK [3][-]{subsubsection.5.11.1}{What-why-how}{subsection.5.11}% 53
-\BOOKMARK [2][-]{subsection.5.12}{Success Rates Animated}{section.5}% 54
-\BOOKMARK [3][-]{subsubsection.5.12.1}{What-why-how}{subsection.5.12}% 55
-\BOOKMARK [2][-]{subsection.5.13}{Custom bubble chart}{section.5}% 56
-\BOOKMARK [3][-]{subsubsection.5.13.1}{What-why-how}{subsection.5.13}% 57
-\BOOKMARK [3][-]{subsubsection.5.13.2}{Code}{subsection.5.13}% 58
-\BOOKMARK [2][-]{subsection.5.14}{Field events in intervals}{section.5}% 59
-\BOOKMARK [3][-]{subsubsection.5.14.1}{What-why-how}{subsection.5.14}% 60
-\BOOKMARK [3][-]{subsubsection.5.14.2}{Code}{subsection.5.14}% 61
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 62
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 63
-\BOOKMARK [1][-]{section.8}{Perspectivation}{}% 64
-\BOOKMARK [1][-]{section.9}{Bibliography}{}% 65
+\BOOKMARK [2][-]{subsection.5.3}{Passes \204 Direction}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.1}{What-why-how}{subsection.5.3}% 29
+\BOOKMARK [2][-]{subsection.5.4}{Passes \204 Length}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.4.1}{What-why-how}{subsection.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.5}{Shots \204 Head vs Foot}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.5.1}{What-why-how}{subsection.5.5}% 33
+\BOOKMARK [2][-]{subsection.5.6}{Shots \204 Inside box vs Outside box}{section.5}% 34
+\BOOKMARK [3][-]{subsubsection.5.6.1}{What-why-how}{subsection.5.6}% 35
+\BOOKMARK [2][-]{subsection.5.7}{Success Rates}{section.5}% 36
+\BOOKMARK [3][-]{subsubsection.5.7.1}{What-why-how}{subsection.5.7}% 37
+\BOOKMARK [2][-]{subsection.5.8}{Season Review FCK}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.8.1}{What-why-how}{subsection.5.8}% 39
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Code}{subsection.5.8}% 40
+\BOOKMARK [2][-]{subsection.5.9}{Fouls Committed over season}{section.5}% 41
+\BOOKMARK [3][-]{subsubsection.5.9.1}{What-why-how}{subsection.5.9}% 42
+\BOOKMARK [3][-]{subsubsection.5.9.2}{Code}{subsection.5.9}% 43
+\BOOKMARK [2][-]{subsection.5.10}{Comparison viz}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.10.1}{What-why-how}{subsection.5.10}% 45
+\BOOKMARK [3][-]{subsubsection.5.10.2}{Code}{subsection.5.10}% 46
+\BOOKMARK [2][-]{subsection.5.11}{Nationality of players}{section.5}% 47
+\BOOKMARK [3][-]{subsubsection.5.11.1}{What-why-how}{subsection.5.11}% 48
+\BOOKMARK [2][-]{subsection.5.12}{Success Rates Animated}{section.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.12.1}{What-why-how}{subsection.5.12}% 50
+\BOOKMARK [2][-]{subsection.5.13}{Custom bubble chart}{section.5}% 51
+\BOOKMARK [3][-]{subsubsection.5.13.1}{What-why-how}{subsection.5.13}% 52
+\BOOKMARK [3][-]{subsubsection.5.13.2}{Code}{subsection.5.13}% 53
+\BOOKMARK [2][-]{subsection.5.14}{Field events in intervals}{section.5}% 54
+\BOOKMARK [3][-]{subsubsection.5.14.1}{What-why-how}{subsection.5.14}% 55
+\BOOKMARK [3][-]{subsubsection.5.14.2}{Code}{subsection.5.14}% 56
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 57
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 58
+\BOOKMARK [1][-]{section.8}{Perspectivation}{}% 59
+\BOOKMARK [1][-]{section.9}{Bibliography}{}% 60
+\BOOKMARK [1][-]{section.10}{Appendix}{}% 61
