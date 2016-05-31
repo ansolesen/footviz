@@ -10,11 +10,15 @@
 \end{figure}
 
 
-\subsubsection{What-why-how}
-Figure \ref{Fig:FOULS} is the result of Exploratory Data Analysis. The hypothesis behind it, was that the closer to the end of a season, teams would get more aggressive. The idea behind splitting home and away matches up, is that a team might be more comfortable when playing home than away, which could influence the results.\\
-The idea was to plot the fouls committed throughout a season and see some sort of trend, one of the things line charts are especially useful for. However, it turned out that no apparent trend could be found from the data available. However, what could be seen, is that the spikes of fouls committed is consistently higher when away. One thing to mention, is that in the dataset plotted, the season is not complete yet, as seen on the chart, a few matches are missing on the home variable.
+\paragraph{What-why-how\\\\}
+Figure \ref{Fig:FOULS} shows fouls committed by SonderjyskE, throughout the season. It is split up in matches playing home, and away. On the x-axis we have the game number, showing how far into the season a game is, and on the y-axis, the number of fouls committed. In blue the number of fouls committed home and in orange the number committed away.\\
 
-\subsubsection{Code}
-The code behind this chart lies in gathering and processing statistics for a team over multiple rounds, then filtering it for everything else than the foul statistics, while still preserving the right order of the matches. After that is done, it is put in D3, with some relatively simple code for a line chart.
+Attempting to confirm or invalidate the hypothesis of a team committing more fouls throughout the season, we chose to use a line chart, as it is an excellent way to give a quick overview, and quickly discover a trend in data if there is one. The matches was split up in home and away, due to the possibility that a team might be more comfortable playing at home than away, which could affect aggressiveness as well.\\
+
+Gathering the data through the API, with the game-by-game statistics for a team, the information about fouls committed was extracted. This was done with a single loop, running through each event in the API response, resulting in complexity $O(n)$, where n is the number of events. Finally, the resulting data was processed in D3, to create the line chart shown in Figure \ref{Fig:FOULS}.
+
+\paragraph{findings\\}
+As seen on Figure \ref{Fig:FOULS}, the fouls committed went up and down a lot, without any apparent trend. Even though there seem to be a spike in fouls committed toward the last few games, it is nothing more than the spikes seen earlier in the season. Worth noting is that the season is not finished at this point, which is why there are a few data points missing for the home matches.
+
 
 \end{document}
