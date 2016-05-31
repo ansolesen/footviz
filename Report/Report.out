@@ -4,38 +4,27 @@
 \BOOKMARK [2][-]{subsection.2.2}{Design}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Data Types and Data Sets}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Idioms}{section.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Marks and Channels}{subsection.2.4}% 7
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Graphs}{subsection.2.4}% 8
-\BOOKMARK [2][-]{subsection.2.5}{Visualization validation}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Four levels of visualization design}{subsection.2.5}% 10
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Visualization validation}{subsection.2.5}% 11
-\BOOKMARK [2][-]{subsection.2.6}{Facets and View Manipulation}{section.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.6.1}{View Manipulation}{subsection.2.6}% 13
-\BOOKMARK [3][-]{subsubsection.2.6.2}{Facet}{subsection.2.6}% 14
-\BOOKMARK [2][-]{subsection.2.7}{Exploratory Data Analysis}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.7.1}{Principal Component Analysis}{subsection.2.7}% 16
-\BOOKMARK [2][-]{subsection.2.8}{Tools and Technologies}{section.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.8.1}{R}{subsection.2.8}% 18
-\BOOKMARK [3][-]{subsubsection.2.8.2}{D3.js}{subsection.2.8}% 19
-\BOOKMARK [1][-]{section.3}{Football Data}{}% 20
-\BOOKMARK [1][-]{section.4}{Data Analysis and Visualizations}{}% 21
-\BOOKMARK [2][-]{subsection.4.1}{Exploratory Data Analysis}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Goal Attempts Box Plot}{subsection.4.1}% 23
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Principal Component Analysis}{subsection.4.1}% 24
-\BOOKMARK [2][-]{subsection.4.2}{Source of Goals}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.3}{Passes \204 Direction}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.4}{Passes \204 Length}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.5}{Shots \204 Head vs Foot}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.6}{Shots \204 Inside box vs Outside box}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.7}{Success Rates}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.8}{Season Review FCK}{section.4}% 31
-\BOOKMARK [2][-]{subsection.4.9}{Fouls Committed over season}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.10}{Comparison viz}{section.4}% 33
-\BOOKMARK [2][-]{subsection.4.11}{Nationality of players}{section.4}% 34
-\BOOKMARK [2][-]{subsection.4.12}{Success Rates Animated}{section.4}% 35
-\BOOKMARK [2][-]{subsection.4.13}{Football Parameter Bubbles}{section.4}% 36
-\BOOKMARK [2][-]{subsection.4.14}{Field events in intervals}{section.4}% 37
-\BOOKMARK [1][-]{section.5}{Discussion}{}% 38
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 39
-\BOOKMARK [1][-]{section.7}{Bibliography}{}% 40
-\BOOKMARK [1][-]{section.8}{Appendix}{}% 41
+\BOOKMARK [2][-]{subsection.2.5}{Visualization Validation}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{Facets and View Manipulation}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.7}{Exploratory Data Analysis}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.8}{Tools and Technologies}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Football Data}{}% 11
+\BOOKMARK [1][-]{section.4}{Data Analysis and Visualizations}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Exploratory Data Analysis}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Source of Goals}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Passes \204 Direction}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Passes \204 Length}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.5}{Shots \204 Head vs Foot}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.6}{Shots \204 Inside box vs Outside box}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.7}{Success Rates}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.8}{Season Review FCK}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.9}{Fouls Committed over season}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.10}{Comparison viz}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.11}{Nationality of players}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.12}{Success Rates Animated}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.13}{Football Parameter Bubbles}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.14}{Field events in intervals}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 27
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.7}{Bibliography}{}% 29
+\BOOKMARK [1][-]{section.8}{Appendix}{}% 30

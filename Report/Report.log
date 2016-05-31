@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:04
 entering extended mode
 **Report.tex
 (Report.tex
@@ -1451,7 +1451,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 
 [4]) (DesignProces.tex
-<./Figures/Iterative.png, id=265, 927.465pt x 575.90157pt>
+<./Figures/Iterative.png, id=210, 927.465pt x 575.90157pt>
 File: ./Figures/Iterative.png Graphic file (type png)
 
 <use ./Figures/Iterative.png>
@@ -1468,21 +1468,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-) (Idioms.tex [7] [8]) (validation.tex
-Overfull \hbox (69.40094pt too wide) in paragraph at lines 17--18
-\T1/cmr/m/n/10.95 iz-a-tion's valid-ity, neatly sum-mar-ized in "Visu-al-iz-a-t
-ion ana-lysis and Design" [[],
- []
-
-) [9] ("Facets and View Manipulation.tex"
-<./Figures/Highlighted.png, id=309, 815.045pt x 527.9725pt>
+) (Idioms.tex [7] [8]) (validation.tex) [9] ("Facets and View Manipulation.tex"
+<./Figures/Highlighted.png, id=258, 815.045pt x 527.9725pt>
 File: ./Figures/Highlighted.png Graphic file (type png)
 
 <use ./Figures/Highlighted.png>
 Package pdftex.def Info: ./Figures/Highlighted.png used on input line 11.
 (pdftex.def)             Requested size: 326.01222pt x 211.18526pt.
  [10]
-<./Figures/"Small multiples".png, id=316, 1042.64531pt x 680.5425pt>
+<./Figures/"Small multiples".png, id=266, 1042.64531pt x 680.5425pt>
 File: ./Figures/"Small multiples".png Graphic file (type png)
 
 <use ./Figures/"Small multiples".png>
@@ -1491,7 +1485,7 @@ Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
 (pdftex.def)             Requested size: 312.796pt x 204.16432pt.
  [11 <./Figures/Highlighted.png>])
 (exploratory_data_analysis.tex
-<"Figures/boxplot".png, id=326, 303.38344pt x 271.76532pt>
+<"Figures/boxplot".png, id=277, 303.38344pt x 271.76532pt>
 File: "Figures/boxplot".png Graphic file (type png)
 
 <use "Figures/boxplot".png>
@@ -1499,7 +1493,7 @@ Package pdftex.def Info: "Figures/boxplot".png used on input line 17.
 (pdftex.def)             Requested size: 303.38269pt x 271.76465pt.
  [12 <./Figures/Small multiples.png>])
 (PCA-theory.tex [13 <./Figures/boxplot.png>]
-<./Figures/Eigenvector.pdf, id=344, 722.7pt x 722.7pt>
+<./Figures/Eigenvector.pdf, id=296, 722.7pt x 722.7pt>
 File: ./Figures/Eigenvector.pdf Graphic file (type pdf)
 
 <use ./Figures/Eigenvector.pdf>
@@ -1510,12 +1504,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[14 <./Figures/Eigenvector.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-
+[14 <./Figures/Eigenvector.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1545,7 +1539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--14
 pdfTeX warning: pdflatex (file ./Figures/goal_attempts_box_plot_with_interval.p
 df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
-<./Figures/"goal_attempts_box_plot_with_interval".pdf, id=375, 597.23125pt x 84
+<./Figures/"goal_attempts_box_plot_with_interval".pdf, id=329, 597.23125pt x 84
 4.15375pt>
 File: ./Figures/"goal_attempts_box_plot_with_interval".pdf Graphic file (type p
 df)
@@ -1555,28 +1549,28 @@ sed on input line 8.
 (pdftex.def)             Requested size: 341.43437pt x 482.6024pt.
  [18]
 [19 <./Figures/goal_attempts_box_plot_with_interval.pdf>]) (PCA.tex
-<./Figures/"scree plot".pdf, id=432, 794.97pt x 614.295pt>
+<./Figures/"scree plot".pdf, id=387, 794.97pt x 614.295pt>
 File: ./Figures/"scree plot".pdf Graphic file (type pdf)
 
 <use ./Figures/"scree plot".pdf>
 Package pdftex.def Info: ./Figures/"scree plot".pdf used on input line 8.
 (pdftex.def)             Requested size: 341.43437pt x 263.84175pt.
- [20 <./Figures/scree plot.pdf>]
-<./Figures/"PC1 Loadings".pdf, id=445, 614.295pt x 794.97pt>
+
+<./Figures/"PC1 Loadings".pdf, id=388, 614.295pt x 794.97pt>
 File: ./Figures/"PC1 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC1 Loadings".pdf>
 Package pdftex.def Info: ./Figures/"PC1 Loadings".pdf used on input line 16.
 (pdftex.def)             Requested size: 298.75264pt x 386.62746pt.
-
-<./Figures/"PC2 Loadings".pdf, id=447, 614.295pt x 794.97pt>
+ [20 <./Figures/scree plot.pdf>]
+<./Figures/"PC2 Loadings".pdf, id=403, 614.295pt x 794.97pt>
 File: ./Figures/"PC2 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC2 Loadings".pdf>
 Package pdftex.def Info: ./Figures/"PC2 Loadings".pdf used on input line 25.
 (pdftex.def)             Requested size: 209.1301pt x 270.638pt.
 
-<./Figures/"PC3 Loadings".pdf, id=448, 614.295pt x 794.97pt>
+<./Figures/"PC3 Loadings".pdf, id=404, 614.295pt x 794.97pt>
 File: ./Figures/"PC3 Loadings".pdf Graphic file (type pdf)
 
 <use ./Figures/"PC3 Loadings".pdf>
@@ -1589,20 +1583,20 @@ art\T1/cmr/m/n/10.95 , \T1/cmtt/m/n/10.95 Sum.of.Goals.With.Right.Foot \T1/cmr/
 m/n/10.95 and 
  []
 
-<./Figures/"PC12".pdf, id=462, 722.7pt x 722.7pt>
+<./Figures/"PC12".pdf, id=418, 722.7pt x 722.7pt>
 File: ./Figures/"PC12".pdf Graphic file (type pdf)
  <use ./Figures/"PC12".pdf>
 Package pdftex.def Info: ./Figures/"PC12".pdf used on input line 40.
 (pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
 
-<./Figures/"PC23".pdf, id=463, 722.7pt x 722.7pt>
+<./Figures/"PC23".pdf, id=419, 722.7pt x 722.7pt>
 File: ./Figures/"PC23".pdf Graphic file (type pdf)
  <use ./Figures/"PC23".pdf>
 Package pdftex.def Info: ./Figures/"PC23".pdf used on input line 45.
 (pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
 
 [22 <./Figures/PC2 Loadings.pdf> <./Figures/PC3 Loadings.pdf>]) (Goals.tex
-<./Figures/"Goal_plot".pdf, id=482, 505.89pt x 505.89pt>
+<./Figures/"Goal_plot".pdf, id=438, 505.89pt x 505.89pt>
 File: ./Figures/"Goal_plot".pdf Graphic file (type pdf)
 
 <use ./Figures/"Goal_plot".pdf>
@@ -1610,28 +1604,28 @@ Package pdftex.def Info: ./Figures/"Goal_plot".pdf used on input line 8.
 (pdftex.def)             Requested size: 424.94469pt x 424.94469pt.
  [23 <./Figures/PC12.pdf> <./Figures/PC23.pdf>]
 [24 <./Figures/Goal_plot.pdf>]) (PassesDirection.tex
-<./Figures/"Pass_Direction".pdf, id=513, 505.89pt x 505.89pt>
+<./Figures/"Pass_Direction".pdf, id=469, 505.89pt x 505.89pt>
 File: ./Figures/"Pass_Direction".pdf Graphic file (type pdf)
 
 <use ./Figures/"Pass_Direction".pdf>
 Package pdftex.def Info: ./Figures/"Pass_Direction".pdf used on input line 9.
 (pdftex.def)             Requested size: 424.94469pt x 424.94469pt.
  [25] [26 <./Figures/Pass_Direction.pdf>])
-(PassesLength.tex <./Figures/"Pass_Length".pdf, id=533, 505.89pt x 505.89pt>
+(PassesLength.tex <./Figures/"Pass_Length".pdf, id=489, 505.89pt x 505.89pt>
 File: ./Figures/"Pass_Length".pdf Graphic file (type pdf)
 
 <use ./Figures/"Pass_Length".pdf>
 Package pdftex.def Info: ./Figures/"Pass_Length".pdf used on input line 6.
 (pdftex.def)             Requested size: 424.94469pt x 424.94469pt.
- [27 <./Figures/Pass_Length.pdf>]) (ShotHF.tex <./Figures/"Shots_hf".pdf, id=54
-8, 505.89pt x 505.89pt>
+ [27 <./Figures/Pass_Length.pdf>]) (ShotHF.tex <./Figures/"Shots_hf".pdf, id=50
+4, 505.89pt x 505.89pt>
 File: ./Figures/"Shots_hf".pdf Graphic file (type pdf)
 
 <use ./Figures/"Shots_hf".pdf>
 Package pdftex.def Info: ./Figures/"Shots_hf".pdf used on input line 6.
 (pdftex.def)             Requested size: 424.94469pt x 424.94469pt.
  [28] [29 <./Figures/Shots_hf.pdf>]) (ShotIO.tex
-<./Figures/"Shots_io".pdf, id=567, 505.89pt x 505.89pt>
+<./Figures/"Shots_io".pdf, id=523, 505.89pt x 505.89pt>
 File: ./Figures/"Shots_io".pdf Graphic file (type pdf)
 
 <use ./Figures/"Shots_io".pdf>
@@ -1639,7 +1633,7 @@ Package pdftex.def Info: ./Figures/"Shots_io".pdf used on input line 6.
 (pdftex.def)             Requested size: 424.94469pt x 424.94469pt.
  [30 <./Figures/Shots_io.pdf>])
 (RadarChartComparison.tex
-<./Figures/"Succes Rates Comparison".pdf, id=582, 846.16125pt x 598.235pt>
+<./Figures/"Succes Rates Comparison".pdf, id=538, 846.16125pt x 598.235pt>
 File: ./Figures/"Succes Rates Comparison".pdf Graphic file (type pdf)
 
 <use ./Figures/"Succes Rates Comparison".pdf>
@@ -1651,21 +1645,21 @@ line 7.
 pdfTeX warning: pdflatex (file ./Figures/Succes Rates Comparison.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
->]) (SeasonRev.tex <./Figures/"FCK1".pdf, id=617, 844.15375pt x 597.23125pt>
+>]) (SeasonRev.tex <./Figures/"FCK1".pdf, id=573, 844.15375pt x 597.23125pt>
 File: ./Figures/"FCK1".pdf Graphic file (type pdf)
 
 <use ./Figures/"FCK1".pdf>
 Package pdftex.def Info: ./Figures/"FCK1".pdf used on input line 8.
 (pdftex.def)             Requested size: 341.43437pt x 241.56749pt.
 
-<./Figures/"FCK2".pdf, id=618, 844.15375pt x 597.23125pt>
+<./Figures/"FCK2".pdf, id=574, 844.15375pt x 597.23125pt>
 File: ./Figures/"FCK2".pdf Graphic file (type pdf)
 
 <use ./Figures/"FCK2".pdf>
 Package pdftex.def Info: ./Figures/"FCK2".pdf used on input line 13.
 (pdftex.def)             Requested size: 341.43437pt x 241.56749pt.
  [32] [33 <./Figures/FCK1.pdf> <./Figures/FCK2.pdf>]) (fouls.tex <Figures/fouls
-.pdf, id=643, 700.6175pt x 368.37625pt>
+.pdf, id=599, 700.6175pt x 368.37625pt>
 File: Figures/fouls.pdf Graphic file (type pdf)
 
 <use Figures/fouls.pdf>
@@ -1687,7 +1681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 [34 <./Figures/fouls.pdf>]) (viz.tex
-<./Figures/"test".png, id=666, 670.9065pt x 569.12625pt>
+<./Figures/"test".png, id=622, 670.9065pt x 569.12625pt>
 File: ./Figures/"test".png Graphic file (type png)
 
 <use ./Figures/"test".png>
@@ -1704,7 +1698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 [36 <./Figures/test.png>]) ("Player Nationality.tex"
-<./Figures/"Nationality of the Players".pdf, id=682, 846.16125pt x 598.235pt>
+<./Figures/"Nationality of the Players".pdf, id=638, 846.16125pt x 598.235pt>
 File: ./Figures/"Nationality of the Players".pdf Graphic file (type pdf)
 
 <use ./Figures/"Nationality of the Players".pdf>
@@ -1717,7 +1711,7 @@ pdfTeX warning: pdflatex (file ./Figures/Nationality of the Players.pdf): PDF i
 nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
 ); ignored.
 >]) (CC.tex
-<./Figures/"Succes Rates Season".pdf, id=746, 1690.315pt x 1195.46625pt>
+<./Figures/"Succes Rates Season".pdf, id=702, 1690.315pt x 1195.46625pt>
 File: ./Figures/"Succes Rates Season".pdf Graphic file (type pdf)
 
 <use ./Figures/"Succes Rates Season".pdf>
@@ -1725,7 +1719,7 @@ Package pdftex.def Info: ./Figures/"Succes Rates Season".pdf used on input line
  7.
 (pdftex.def)             Requested size: 426.79135pt x 146.13089pt.
 ) (custom_bubble_chart_viz.tex
-<"Figures/parameter_bubbles".pdf, id=752, 794.97pt x 1228.59pt>
+<"Figures/parameter_bubbles".pdf, id=708, 794.97pt x 1228.59pt>
 File: "Figures/parameter_bubbles".pdf Graphic file (type pdf)
 
 <use "Figures/parameter_bubbles".pdf>
@@ -1760,14 +1754,14 @@ d.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
  [41]) (field_events_viz.tex
-<./Figures/"GoalAT".pdf, id=814, 794.97pt x 1228.59pt>
+<./Figures/"GoalAT".pdf, id=770, 794.97pt x 1228.59pt>
 File: ./Figures/"GoalAT".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT".pdf>
 Package pdftex.def Info: ./Figures/"GoalAT".pdf used on input line 10.
 (pdftex.def)             Requested size: 298.75264pt x 261.82751pt.
 
-<./Figures/"GoalAT2".pdf, id=816, 794.97pt x 1228.59pt>
+<./Figures/"GoalAT2".pdf, id=772, 794.97pt x 1228.59pt>
 File: ./Figures/"GoalAT2".pdf Graphic file (type pdf)
 
 <use ./Figures/"GoalAT2".pdf>
@@ -1847,22 +1841,22 @@ morris . umn . edu / introstat / history / w98 /$
  []
 
 ) [51] (appendix.tex) [52] ("Proccess Evaluation.tex" [53]) [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 0C5160A3B79098DEF83C6A3AB1761368;2830.
+(rerunfilecheck)             Checksum: 6F6164198E08A3EF6DDDD77CF8FB01DA;1970.
  ) 
 Here is how much of TeX's memory you used:
- 31390 strings out of 493673
- 611207 string characters out of 3143966
+ 31379 strings out of 493673
+ 610888 string characters out of 3143966
  826137 words of memory out of 3000000
- 33926 multiletter control sequences out of 15000+200000
+ 33915 multiletter control sequences out of 15000+200000
  20729 words of font info for 59 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,9n,73p,10375b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,73p,10375b,1426s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
@@ -1878,9 +1872,9 @@ s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX
 /type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
 uper/sftt1095.pfb>
-Output written on Report.pdf (54 pages, 2076914 bytes).
+Output written on Report.pdf (54 pages, 2071519 bytes).
 PDF statistics:
- 2171 PDF objects out of 2487 (max. 8388607)
+ 2127 PDF objects out of 2487 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
- 608 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
