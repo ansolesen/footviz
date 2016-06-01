@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,11 +14,6 @@ Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer.
 Mike Bostock and Jeffrey Heer.
 \newblock Protovis --- a graphical approach to visualization, 2011.
 \newblock URL \url{http://mbostock.github.io/protovis/}.
-
-\bibitem[Bostock et~al.(2016)]{D3W}
-Mike Bostock et~al.
-\newblock D3 - wiki, 2016.
-\newblock URL \url{https://github.com/d3/d3/wiki}.
 
 \bibitem[Bremer(2016)]{Sankey}
 Nadia Bremer.
@@ -56,7 +51,7 @@ Howard Seltman.
 
 \bibitem[Simmering(2013)]{R}
 Jacob Simmering.
-\newblock How slow is r really?, 2013.
+\newblock How slow is {R} really?, 2013.
 \newblock URL \url{http://www.r-bloggers.com/how-slow-is-r-really/}.
 
 \bibitem[Smith(2002)]{PCAtheory}
@@ -67,7 +62,7 @@ Lindsay Smith.
 
 \bibitem[Weimer(2016)]{Weimer}
 Paula Weimer.
-\newblock History of statistics and probability, john wilder tukey, 2016.
+\newblock History of statistics and probability, {John Wilder Tukey}, 2016.
 \newblock URL
   \url{http://mnstats.morris.umn.edu/introstat/history/w98/Tukey.html}.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  1 JUN 2016 14:59
 entering extended mode
 **custom_bubble_chart_viz.tex
 (custom_bubble_chart_viz.tex
@@ -1439,27 +1439,28 @@ File: "Figures/parameter_bubbles".pdf Graphic file (type pdf)
 
 <use "Figures/parameter_bubbles".pdf>
 Package pdftex.def Info: "Figures/parameter_bubbles".pdf used on input line 8.
-(pdftex.def)             Requested size: 341.43437pt x 400.76463pt.
+(pdftex.def)             Requested size: 341.43437pt x 424.20871pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -1472,17 +1473,16 @@ pdfTeX warning: pdflatex (file ./Figures/parameter_bubbles.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
 d.
 >]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
- [2] [3]
+[2] [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
-
-(custom_bubble_chart_viz.aux)
+ (custom_bubble_chart_viz.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `custom_bubble_chart_viz.out' has not changed
@@ -1490,11 +1490,11 @@ Package rerunfilecheck Info: File `custom_bubble_chart_viz.out' has not changed
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30812 strings out of 493673
- 602107 string characters out of 3143966
+ 30814 strings out of 493673
+ 602132 string characters out of 3143966
  823510 words of memory out of 3000000
- 33675 multiletter control sequences out of 15000+200000
- 11681 words of font info for 37 fonts, out of 3000000 for 9000
+ 33676 multiletter control sequences out of 15000+200000
+ 11995 words of font info for 38 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  71i,7n,75p,10416b,1356s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
@@ -1502,10 +1502,11 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sftt1000.pfb>
-Output written on custom_bubble_chart_viz.pdf (3 pages, 201199 bytes).
+ublic/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sftt1095.pfb>
+Output written on custom_bubble_chart_viz.pdf (3 pages, 224960 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

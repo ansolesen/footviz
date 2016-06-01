@@ -1,14 +1,21 @@
 \documentclass[Report.tex]{subfiles}
 \begin{document}
 	
-	When making interactive visualizations, using web--based tools is a very reasonable choice. When working with the programming interface of web-pages, the Document Object Model (\emph{DOM}), the standard is to use a few different languages. To define the content of a page, Hyper Text Markup Language (\emph{HTML}) is used. \emph{HTML} by itself does not provide many options regarding styling, this is where Cascading Style Sheets (\emph{CSS}) comes in. Using \emph{CSS}, \emph{DOM} elements can be styled to one's desire. However, even then, there is still two quite important components for effective visualization missing. Firstly, \emph{HTML} is mostly made for handling text and images, not generating shapes. This is where Scalable Vector Graphics (\emph{SVG}) comes along. \emph{SVG} has some relatively simple shapes built in, such as rectangles and circles, as well as the powerful \texttt{path} tag. Using this tag, very sophisticated shapes can be made. Being a vector graphics format, \emph{SVG} will have sharp edges, and generally look as intended no matter how far it is scaled.\\
-	Even with all that, there is still no interactivity. This is where \emph{JavaScript} comes along. Being a scripting language for the \emph{DOM}, \emph{JavaScript} is a very powerful tool to have, as it provides runtime modification of the \emph{DOM}. \\\emph{JavaScript} has the ability to listen for events on \emph{DOM} elements, such as mouse clicks, which is what allows dynamically changing visualizations based on user interaction.\\
-	Now, just because we have these languages available, does not mean that creating visualizations will be child's play. With plain \emph{JavaScript}, going from data to interactive visualizations would be quite a journey.
-	\\
-	This is where the \emph{JavaScript} library "Data-Driven Documents" (\emph{D3}) turns out to be a powerful and versatile choice.\\ 
-	Before \emph{D3}, the people behind it worked on a visualization framework under the name "Protovis" \cite{Protovis}. Built with the focus of a user being able to pump out visualizations without much effort, the framework wasn't built for letting the user work directly with the standards mentioned earlier. This lead to slow adoption of the framework, and inefficient use. This is described more in-depth in the article "D3: Data-Driven Documents"\cite{D3}.\\
+	When making interactive visualizations, using web--based tools is a very reasonable choice. When working with the programming interface of web-pages, the Document Object Model (\emph{DOM}), the standard is to use a few different languages. To define the content of a page, Hyper Text Markup Language (\emph{HTML}) is used. \emph{HTML} by itself does not provide many options regarding styling, this is where Cascading Style Sheets (\emph{CSS}) comes in. Using \emph{CSS}, \emph{DOM} elements can be styled to one's desire. However, even then, there is still two quite important components for effective visualization missing. Firstly, \emph{HTML} is mostly made for handling text and images, not generating shapes. This is where Scalable Vector Graphics (\emph{SVG}) comes along. \emph{SVG} has some relatively simple shapes built in, such as rectangles and circles, as well as the powerful \texttt{path} tag. Using this tag, very sophisticated shapes can be made. Being a vector graphics format, \emph{SVG} will have sharp edges, and generally look as intended no matter how far it is scaled.
 	
-	The resulting \emph{D3} provides powerful tools for binding data to the \emph{DOM}, while leaving the creation of visualizations to the user of the library. This way the user can utilize the synergy between \emph{HTML}, \emph{SVG}, \emph{CSS} and \emph{JavaScript}.\\
+	Even with all that, there is still no interactivity. This is where \emph{JavaScript} comes along. Being a scripting language for the \emph{DOM}, \emph{JavaScript} is a very powerful tool to have, as it provides runtime modification of the \emph{DOM}. 
+	
+	\emph{JavaScript} has the ability to listen for events on \emph{DOM} elements, such as mouse clicks, which is what allows dynamically changing visualizations based on user interaction.
+	
+	Now, just because we have these languages available, does not mean that creating visualizations will be child's play. With plain \emph{JavaScript}, going from data to interactive visualizations would be quite a journey.
+	
+	This is where the \emph{JavaScript} library "Data-Driven Documents" (\emph{D3}) turns out to be a powerful and versatile choice.
+	
+	Before \emph{D3}, the people behind it worked on a visualization framework under the name "Protovis" \cite{Protovis}. Built with the focus of a user being able to pump out visualizations without much effort, the framework wasn't built for letting the user work directly with the standards mentioned earlier. This lead to slow adoption of the framework, and inefficient use. This is described more in-depth in the article "D3: Data-Driven Documents"\cite{D3}.
+	
+	
+	The resulting \emph{D3} provides powerful tools for binding data to the \emph{DOM}, while leaving the creation of visualizations to the user of the library. This way the user can utilize the synergy between \emph{HTML}, \emph{SVG}, \emph{CSS} and \emph{JavaScript}.
+	
 	
 	
 	While this way of doing visualizations is preferred in a lot of cases due to reusability, and user interactivity, working with large datasets can give unwanted results. 

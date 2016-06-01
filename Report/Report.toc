@@ -18,53 +18,52 @@
 \contentsline {subsection}{\numberline {2.8}Tools and Technologies}{14}{subsection.2.8}
 \contentsline {paragraph}{R\\}{14}{section*.15}
 \contentsline {paragraph}{D3.js\\}{16}{section*.16}
-\contentsline {paragraph}{Delete?\\}{17}{section*.17}
-\contentsline {section}{\numberline {3}Football Data}{18}{section.3}
+\contentsline {section}{\numberline {3}Football Data}{17}{section.3}
 \contentsline {section}{\numberline {4}Data Analysis and Visualizations}{19}{section.4}
 \contentsline {subsection}{\numberline {4.1}Exploratory Data Analysis}{19}{subsection.4.1}
-\contentsline {paragraph}{Goal Attempts Box Plot\\}{19}{figure.caption.19}
-\contentsline {paragraph}{Findings\\}{20}{section*.20}
-\contentsline {paragraph}{Principal Component Analysis\\}{20}{section*.21}
+\contentsline {paragraph}{Goal Attempts Box Plot\\}{19}{figure.caption.18}
+\contentsline {paragraph}{Findings\\}{20}{section*.19}
+\contentsline {paragraph}{Principal Component Analysis\\}{20}{section*.20}
 \contentsline {subsection}{\numberline {4.2}Source of Goals}{24}{subsection.4.2}
-\contentsline {paragraph}{What-why-how\\}{24}{section*.27}
-\contentsline {paragraph}{Findings\\}{25}{section*.28}
+\contentsline {paragraph}{What-why-how\\}{24}{section*.26}
+\contentsline {paragraph}{Findings\\}{25}{section*.27}
 \contentsline {subsection}{\numberline {4.3}Passes --- Direction}{26}{subsection.4.3}
-\contentsline {paragraph}{What-why-how\\}{26}{section*.30}
-\contentsline {paragraph}{Findings\\}{27}{section*.31}
+\contentsline {paragraph}{What-why-how\\}{26}{section*.29}
+\contentsline {paragraph}{Findings\\}{27}{section*.30}
 \contentsline {subsection}{\numberline {4.4}Passes --- Length}{27}{subsection.4.4}
-\contentsline {paragraph}{What-why-how\\}{27}{section*.33}
-\contentsline {paragraph}{Findings\\}{28}{section*.34}
+\contentsline {paragraph}{What-why-how\\}{27}{section*.32}
+\contentsline {paragraph}{Findings\\}{28}{section*.33}
 \contentsline {subsection}{\numberline {4.5}Shots --- Head vs Foot}{29}{subsection.4.5}
-\contentsline {paragraph}{What-why-how\\}{29}{section*.36}
-\contentsline {paragraph}{Findings\\}{30}{section*.37}
+\contentsline {paragraph}{What-why-how\\}{29}{section*.35}
+\contentsline {paragraph}{Findings\\}{30}{section*.36}
 \contentsline {subsection}{\numberline {4.6}Shots --- Inside box vs Outside box}{30}{subsection.4.6}
-\contentsline {paragraph}{What-why-how\\}{30}{section*.39}
-\contentsline {paragraph}{Findings\\}{31}{section*.40}
+\contentsline {paragraph}{What-why-how\\}{30}{section*.38}
+\contentsline {paragraph}{Findings\\}{31}{section*.39}
 \contentsline {subsection}{\numberline {4.7}Success Rates}{31}{subsection.4.7}
-\contentsline {paragraph}{What-why-how\\}{31}{section*.42}
-\contentsline {paragraph}{Findings\\}{32}{section*.43}
+\contentsline {paragraph}{What-why-how\\}{31}{section*.41}
+\contentsline {paragraph}{Findings\\}{32}{section*.42}
 \contentsline {subsection}{\numberline {4.8}Season Review FCK}{33}{subsection.4.8}
-\contentsline {paragraph}{What-why-how\\}{33}{section*.45}
-\contentsline {paragraph}{Findings\\}{34}{section*.46}
+\contentsline {paragraph}{What-why-how\\}{33}{section*.44}
+\contentsline {paragraph}{Findings\\}{34}{section*.45}
 \contentsline {subsection}{\numberline {4.9}Fouls Committed over season}{34}{subsection.4.9}
-\contentsline {paragraph}{What-why-how\\\\}{34}{section*.48}
-\contentsline {paragraph}{Findings\\}{35}{section*.49}
+\contentsline {paragraph}{What-why-how\\\\}{34}{section*.47}
+\contentsline {paragraph}{Findings\\}{35}{section*.48}
 \contentsline {subsection}{\numberline {4.10}Comparison viz}{36}{subsection.4.10}
-\contentsline {paragraph}{What-why-how \\}{36}{section*.51}
-\contentsline {paragraph}{Findings \\}{37}{section*.52}
+\contentsline {paragraph}{What-why-how \\}{36}{section*.50}
+\contentsline {paragraph}{Findings \\}{37}{section*.51}
 \contentsline {subsection}{\numberline {4.11}Nationality of players}{38}{subsection.4.11}
-\contentsline {paragraph}{What-why-how\\}{38}{section*.54}
-\contentsline {paragraph}{Findings\\}{39}{section*.55}
+\contentsline {paragraph}{What-why-how\\}{38}{section*.53}
+\contentsline {paragraph}{Findings\\}{39}{section*.54}
 \contentsline {subsection}{\numberline {4.12}Success Rates Animated}{39}{subsection.4.12}
-\contentsline {paragraph}{What-why-how\\}{39}{section*.57}
-\contentsline {paragraph}{Findings\\}{39}{section*.58}
+\contentsline {paragraph}{What-why-how\\}{39}{section*.56}
+\contentsline {paragraph}{Findings\\}{39}{section*.57}
 \contentsline {subsection}{\numberline {4.13}Football Parameter Bubbles}{40}{subsection.4.13}
-\contentsline {paragraph}{What-why-how\\}{40}{section*.60}
-\contentsline {paragraph}{Findings\\}{42}{section*.62}
-\contentsline {subsection}{\numberline {4.14}Field events in intervals}{44}{subsection.4.14}
-\contentsline {paragraph}{What-why-how\\}{45}{section*.64}
-\contentsline {paragraph}{Findings\\}{47}{section*.66}
-\contentsline {section}{\numberline {5}Discussion}{47}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{49}{section.6}
-\contentsline {section}{\numberline {7}Bibliography}{51}{section.7}
-\contentsline {section}{\numberline {8}Appendix}{52}{section.8}
+\contentsline {paragraph}{What-why-how\\}{40}{section*.59}
+\contentsline {paragraph}{Findings\\}{42}{section*.61}
+\contentsline {subsection}{\numberline {4.14}Field events in intervals}{43}{subsection.4.14}
+\contentsline {paragraph}{What-why-how\\}{43}{section*.63}
+\contentsline {paragraph}{Findings\\}{46}{section*.65}
+\contentsline {section}{\numberline {5}Discussion}{46}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{48}{section.6}
+\contentsline {section}{\numberline {7}Bibliography}{50}{section.7}
+\contentsline {section}{\numberline {8}Appendix}{51}{section.8}
