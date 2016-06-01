@@ -5,24 +5,22 @@
 Our visualizations allowed us to find certain patterns in the data and partly prove or disprove some of our hypotheses. One of the things we intended to look into was how the playing style of a team changed throughout a match, and to this end we saw some tendencies. The first one was the fact that late in a match, it seemed as if teams had more goal attempts than early in the match. We actually found a direct correlation between time passed and how many goal attempts were taken which may imply that the players either become more desperate and shoot more, or the defense-line simply perform worse as the game progresses. Based on the box plot and the visualization of field events in intervals, it seems like players are more likely to make goal attempts closer to the goal towards the end of the match as well as being more grouped. Also, it seemed that teams would actually fail more passes at the start of each half, which may be due to the fact that they have to get "warmed up".
 \\
 
-Another thing that was found was that winning teams would play more horizontally along the sides of the field, but when losing they would play more vertical and closer to the middle instead. Also, the rate at which a top-tier team made bad passes when losing, seemed to be higher than when winning. A possible explanation could be that they are stressing more to get ahead as they are expected to win. However, it may as well simply be due to the fact that they are playing way under their normal level on the given day in the first place, possibly because they expected to win.\\
+Another thing that was found was that winning teams would play more horizontally along the sides of the field, but when losing they would play more vertical and closer to the middle instead. Also, the rate at which a top-tier team made bad passes when losing, seemed to be higher than when winning. A possible explanation could be that they are stressing more to get ahead as they are expected to win. However, it may as well simply be due to the fact that they are playing way under their normal level on the given day in the first place, possibly because they expected to win.\\\
 
 % Winning VS Losing %
 In regards to finding key differences between top-tier and low-tier teams, it turned out rather complicated to find any consistently different attributes. Some of the factors that we focused on, were based on summing general player stats for all teams and comparing them. Possibly counterintuitively, we were not able to find any direct correlation between how the better teams played nor the worse in opposition to one another. This lead to the idea that there may not be a single player attribute which leads to a winning team but rather a combination which is far more complex. Another thing that was investigated, was the distribution of players in terms of their nationality. We were not able to find any correlation between how many foreign players were on a team and their ranking. However, we saw a weak tendency of teams having more foreigners depending on their establishment. Established teams have been in the league for a while and thus have a larger budget, which may explain why they tended to have more foreigners. \\
 
 In regards to a team's evolution throughout a season, we tried to find a correlation between how far in the season a match was, and how many fouls a team committed.
-This was with the mindset that a team would get more aggressive as the end of the season came closer. However, how far into the season a match was, didn't seem to affect how many fouls were committed, instead, it kept jumping up and down throughout the season. This could indicate that the aggressiveness of a team's playing style is more dependent on their opponent, than the position and/or time in the league. There was however a small spike towards the last couple of matches, but nothing bigger than some of the spikes from mid-season. Something else that Figure \ref{Fig:FOULS} did show, was that the spikes in fouls committed in a match was consistently higher when away. This could indicate that a team tend to be more aggressive when away, than home. Another possibility could be that the referees tend to go easier on a home team. However, to validate that even in the slightest, significantly more in-depth analysis would have to take place. \\
+This was with the mindset that a team would get more aggressive as the end of the season came closer. However, how far into the season a match was, didn't seem to affect how many fouls were committed. Instead, it kept jumping up and down throughout the season. This could indicate that the aggressiveness of a team's playing style is more dependent on their opponent, than the position and/or time in the league. There was however a small spike towards the last couple of matches, but nothing bigger than some of the spikes from the mid-season. Something else that Figure \ref{Fig:FOULS} did show, was that the spikes in fouls committed in a match was consistently higher when playing away. This could indicate that a team tend to be more aggressive when away, than home. Another possibility could be that the referees tend to go easier on a home team.
+\\
 
-We dove further into investigating how a team evolves throughout a season by looking at FCK. Here, the biggest takeaway comes when looking at the amount of points FCK has after each round. This visualization helped illustrate the highs and lows of the team’s season, and it showed how the team got off to a relatively slow start, only to get going and never looking back. We assumed that by looking at goal scoring and conceding in the first 10 games and comparing them to the remaining games, we could illustrate the evolution in the team. However, the results are simply far too inconsistent to reach any conclusions of note. 
-
-Despite using PCA and manually testing different variables that would make sense to change throughout a season, there simply weren't enough season-wide data to draw any substantial conclusions regarding how a team evolves throughout a season.
+We dove further into investigating how a team evolves throughout a season by looking at FCK. Here, the biggest takeaway comes when looking at the amount of points FCK had after each round. Figure \ref{Fig:points} and Figure \ref{Fig:fck_goals} helped illustrate the highs and lows of the team’s season, and it showed how the team got off to a relatively slow start, catching up later on. We assumed that by looking at the number of goals scored and conceded in the first 10 games, we could illustrate the evolution of the team. However, the results were simply far too inconsistent to reach any conclusions. 
 % More win vs lose %
 
-In order to try and establish which variables determine the differences between
-winning teams and losing teams, a series of grouped bar charts were created, see
-figures 11-15. Figure\ref{Fig:Goal_plot} shows different types of attacks that lead to a goal,
-in percentages, grouped in teams by ranking order. For instance, Viborg scores
-as often from set plays as on quick attacks.
+In order to establish which variables determine the differences between
+winning and losing teams, a series of grouped bar charts were created, see
+Figures \ref{Fig:Goal_plot}-\ref{Fig:Shots_IO}. Figure\ref{Fig:Goal_plot} shows different types of attacks that lead to a goal,
+in percentages, grouped in teams by ranking order.
 On this chart, it is hard to notice any obvious tendencies between the higher
 ranked teams to the lowest, but there are a couple of interesting things to
 point out. FC Midtjylland, which is one of the top-tier teams in the league, is
@@ -33,12 +31,12 @@ variables, we see them spread out across the teams, disregarding the ranking
 somewhat. FC Midtjylland scores more on quick attacks than AGF, so one is left
 to wonder if it is the combination of set plays and quick attacks that is more
 effective, or if other variables come into play, which is probably the most
-likely. 
+likely scenario.
 
 It does seem like there is a slight tendency towards better teams scoring less
 from possession based attacks, although there are some strong outliers, namely
-AaB, OB and FC Nordsjaelland, who all score more than 60 \% of their
-goals from possession based attacks, but these outliers all lie somewhat in the
+AaB, OB and FC Nordsjaelland, who all scored more than 60 \% of their
+goals from possession based attacks. These outliers all lie somewhat in the
 middle of the league, with FC Nordsjaelland scoring much less on set plays
 compared to the other two teams. 
 
