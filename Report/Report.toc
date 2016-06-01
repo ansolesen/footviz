@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.3}Design}{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Idioms}{7}{subsection.2.4}
 \contentsline {paragraph}{Marks and Channels\\}{7}{section*.4}
-\contentsline {paragraph}{Graphs\\}{8}{section*.5}
+\contentsline {paragraph}{Graphs}{8}{section*.5}
 \contentsline {subsection}{\numberline {2.5}Visualization Validation}{9}{subsection.2.5}
 \contentsline {paragraph}{Four levels of visualization design\\}{9}{section*.6}
 \contentsline {paragraph}{Visualization validation\\}{9}{section*.7}
