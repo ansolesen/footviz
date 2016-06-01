@@ -7,18 +7,20 @@
 \begin{subfigure}[b]{0.8\textwidth}
 \includegraphics[width=\textwidth]{"FCK1".pdf}
 \caption{A line chart illustrating the amount of points FCK has after each round}
+\label{Fig:points}
 \end{subfigure}
 
 \begin{subfigure}[b]{0.8\textwidth}
 \includegraphics[width=\textwidth]{"FCK2".pdf}
 \caption{A line chart illustrating how many goals FCK scores and concedes in every round}
+\label{Fig:fck_goals}
 \end{subfigure}
 \caption{FCK's Season Review visualization}
 \end{figure}
 
 
 \paragraph{What-why-how\\}
-This visualization (Figure 17) is a combination of two line graphs. It visualizes the amount of points the Danish football team F.C. Copenhagen has accumulated throughout the season and the amount of goals scored and conceded throughout the season.\\
+This visualization (Figure \ref{Fig:points} \& Figure \ref{Fig:fck_goals}) is a combination of two line graphs. It visualizes the amount of points the Danish football team F.C. Copenhagen has accumulated throughout the season and the amount of goals scored and conceded throughout the season.\\
 Why this visualization? For this particular visualization the goal is to illustrate a team’s overall evolution throughout a season. Each of these visualizations take a table as an input. The reason these visualizations are being made is to discover a trend or certain outliers. For the points graph, the data is ordered. It shows the progression of the team’s point total throughout the season. For the goals graph, the two different lines are separated to illustrate the success of the team offense and defence. The colours in this graph are chosen based on human perception, as green is perceived as a positive colour, hence representing the positive event of scoring a goal, and red is perceived as a negative colour. The raw data is also reduced, as the visualization only shows the data from F.C. Copenhagen’s season.\\
 These charts are created using only R. First, the data file is loaded into R. Second, we use the functions in R to create a plot, and to create a line in the plot.
 \paragraph{Findings\\}
