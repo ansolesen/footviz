@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Design Process}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Design}{6}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Data Types and Data Sets}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Idioms}{7}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Idioms}{8}{subsection.2.4}
 \contentsline {paragraph}{Marks and Channels\\}{8}{section*.4}
 \contentsline {paragraph}{Graphs\\}{8}{section*.5}
 \contentsline {subsection}{\numberline {2.5}Visualization Validation}{9}{subsection.2.5}

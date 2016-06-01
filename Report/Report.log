@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  31 MAY 2016 14:56
 entering extended mode
 **Report.tex
 (Report.tex
@@ -1443,27 +1443,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2] (Report.toc)
 \tf@toc=\write8
 [3] (Introduction.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+[4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-
-[4]) (DesignProces.tex
-<./Figures/Iterative.png, id=210, 927.465pt x 575.90157pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+) (DesignProces.tex <./Figures/Iterative.png, id=209, 927.465pt x 575.90157pt>
 File: ./Figures/Iterative.png Graphic file (type png)
 
 <use ./Figures/Iterative.png>
 Package pdftex.def Info: ./Figures/Iterative.png used on input line 9.
 (pdftex.def)             Requested size: 370.97943pt x 230.35654pt.
- [5 <./Figures/Iterative.png>]) (Design.tex)
-(Datatypes.tex
+ [5 <./Figures/Iterative.png>]) (Design.tex
+[6]) (Datatypes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1475,16 +1488,15 @@ File: ./Figures/Highlighted.png Graphic file (type png)
 <use ./Figures/Highlighted.png>
 Package pdftex.def Info: ./Figures/Highlighted.png used on input line 11.
 (pdftex.def)             Requested size: 326.01222pt x 211.18526pt.
- [10]
-<./Figures/"Small multiples".png, id=266, 1042.64531pt x 680.5425pt>
+ [10] [11 <./Figures/Highlighted.png>]
+<./Figures/"Small multiples".png, id=272, 1042.64531pt x 680.5425pt>
 File: ./Figures/"Small multiples".png Graphic file (type png)
 
 <use ./Figures/"Small multiples".png>
 Package pdftex.def Info: ./Figures/"Small multiples".png used on input line 25.
 
 (pdftex.def)             Requested size: 312.796pt x 204.16432pt.
- [11 <./Figures/Highlighted.png>])
-(exploratory_data_analysis.tex
+) (exploratory_data_analysis.tex
 <"Figures/boxplot".png, id=277, 303.38344pt x 271.76532pt>
 File: "Figures/boxplot".png Graphic file (type png)
 
@@ -1875,7 +1887,7 @@ s/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX
 /type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
 uper/sftt1095.pfb>
-Output written on Report.pdf (54 pages, 2131536 bytes).
+Output written on Report.pdf (54 pages, 2132405 bytes).
 PDF statistics:
  2181 PDF objects out of 2487 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
